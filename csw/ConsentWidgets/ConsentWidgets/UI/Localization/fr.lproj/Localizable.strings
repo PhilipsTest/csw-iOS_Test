@@ -1,0 +1,66 @@
+/*
+ * Localizable.strings 
+ */
+
+/*
+ * Copyright (c) Koninklijke Philips N.V., 2018
+ * All rights are reserved. Reproduction or dissemination
+ * in whole or in part is prohibited without the prior written
+ * consent of the copyright holder.
+ */
+
+"CATK_NO_INTERNET_CONNECTION_KEY" = "Vous semblez être hors ligne. Vérifiez vos paramètres Internet.";
+"CATK_PROBLEM_OCCURED" = "Une erreur s'est produite. Veuillez réessayer.";
+"MYA_Visit_Website" = "[fr]Visit our website";
+"csw_consent_help_label" = "Qu'est-ce que cela signifie ?";
+"csw_generic_network_error" = "Connexion au serveur impossible.\nVérifiez votre connexion Internet et réessayez.";
+"csw_invalid_access_token_error_message" = "Un problème est survenu lors de la connexion au serveur. Vérifiez que la date/heure de l'appareil est correctement configurée. Si le problème persiste, veuillez vous déconnecter et vous reconnecter.";
+"csw_offline_message" = "Votre connexion Internet semble ne pas fonctionner. Vérifiez et réessayez.";
+"csw_offline_title" = "Vous êtes hors ligne";
+"csw_ok" = "OK";
+"csw_privacy_notice" = "[fr]Privacy Notice";
+"csw_privacy_notice_message" = "Contrôlez votre confidentialité. Lisez la {politique de confidentialité} pour en savoir plus.";
+"csw_privacy_settings" = "Confidentialité";
+"csw_privacy_settings_desc" = "Contrôlez votre confidentialité. Lisez la {politique de confidentialité} pour en savoir plus.";
+"csw_problem_occurred_error_message" = "Un problème est survenu (erreur %1$d). Veuillez réessayer.";
+"csw_problem_occurred_error_title" = "Un problème est survenu";
+"csw_user_session_expired" = "Votre session n'est pas valide. Déconnectez-vous et reconnectez-vous.";
+"mya_Account_settings" = "Paramètres du compte";
+"mya_Address" = "Adresse";
+"mya_Cancel" = "Annuler";
+"mya_Consent_Help_Label" = "Qu'est-ce que cela signifie ?";
+"mya_Country" = "Pays";
+"mya_Date_of_birth" = "Date de naissance";
+"mya_Email_Validation_message" = "Adresse e-mail non confirmée";
+"mya_Email_address" = "Adresse e-mail";
+"mya_Gender" = "Sexe";
+"mya_Info" = "Voulez-vous modifier votre ID de connexion ou le mot de passe ? Visitez notre site Web.";
+"mya_Invalid_Access_Token_Error_Message" = "Un problème est survenu lors de la connexion au serveur. Vérifiez que la date/heure de l'appareil est correctement configurée. Si le problème persiste, veuillez vous déconnecter et vous reconnecter.";
+"mya_Login_details" = "Infos de connexion";
+"mya_Logout" = "Déconnexion";
+"mya_Mobile_number" = "Numéro de tél. mobile";
+"mya_My_account" = "Mon compte";
+"mya_My_details" = "Mes informations";
+"mya_My_orders" = "Mes commandes";
+"mya_My_products" = "Mes produits";
+"mya_My_subscriptions" = "Mes abonnements";
+"mya_Name" = "Nom";
+"mya_Not_Available" = "Non disponible";
+"mya_Notifications" = "Notifications";
+"mya_Offline_message" = "Votre connexion Internet semble ne pas fonctionner. Vérifiez et réessayez.";
+"mya_Offline_title" = "Vous êtes hors ligne";
+"mya_Ok" = "OK";
+"mya_Personal_details" = "Données personnelles";
+"mya_Privacy_Settings" = "Confidentialité";
+"mya_Privacy_Settings_Desc" = "Contrôlez votre confidentialité. Lisez la {politique de confidentialité} pour en savoir plus.";
+"mya_Problem_Occurred_Error_Message" = "Un problème est survenu (erreur %d). Veuillez réessayer.";
+"mya_Problem_Occurred_Error_Title" = "Un problème est survenu";
+"mya_Profile" = "Profil";
+"mya_Settings" = "Réglages";
+"mya_change_country" = "Déconnexion pour changer de pays";
+"mya_change_country_message" = "Déconnectez-vous pour changer de pays de résidence. Cela nous permet d'adapter la garantie et d'autres informations en fonction de l'endroit où vous vous trouvez.";
+"mya_csw_consent_revoked_confirm_btn_cancel" = "Annuler";
+"mya_csw_consent_revoked_confirm_btn_ok" = "OK";
+"mya_csw_consent_revoked_confirm_descr" = "[fr]By revoking consent your data will be deleted from our servers.";
+"mya_logout_message" = "Vous serez déconnecté de l'application. Lorsque vous vous déconnectez, vous pouvez toujours vous reconnecter.";
+"mya_logout_title" = "Êtes-vous sûr de vouloir vous déconnecter ?";

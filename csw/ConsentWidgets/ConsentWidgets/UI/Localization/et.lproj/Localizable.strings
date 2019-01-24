@@ -1,0 +1,66 @@
+/*
+ * Localizable.strings 
+ */
+
+/*
+ * Copyright (c) Koninklijke Philips N.V., 2018
+ * All rights are reserved. Reproduction or dissemination
+ * in whole or in part is prohibited without the prior written
+ * consent of the copyright holder.
+ */
+
+"CATK_NO_INTERNET_CONNECTION_KEY" = "Näib, et võrguühendust ei ole. Kontrollige oma internetiseadeid.";
+"CATK_PROBLEM_OCCURED" = "Vabandage, midagi läks valesti. Palun proovige uuesti.";
+"MYA_Visit_Website" = "[et]Visit our website";
+"csw_consent_help_label" = "Mida see tähendab?";
+"csw_generic_network_error" = "Serveriga ei saa ühendust luua.\nKontrollige internetiühendust ja proovige uuesti.";
+"csw_invalid_access_token_error_message" = "Esines probleem serveriga ühenduse loomisel. Veenduge, et seadme kuupäev/kellaaeg oleks õigesti seadistatud. Probleemi püsimise korral logige välja ja seejärel uuesti sisse.";
+"csw_offline_message" = "Tundub, et viga on teie internetiühenduses. Kontrollige ja proovige uuesti";
+"csw_offline_title" = "Olete võrgust väljas";
+"csw_ok" = "OK";
+"csw_privacy_notice" = "[et]Privacy Notice";
+"csw_privacy_notice_message" = "Kontrollige privaatsusseadeid. Lisateabe saamiseks lugege {privaatsusavaldust}.";
+"csw_privacy_settings" = "Privaatsussätted";
+"csw_privacy_settings_desc" = "Kontrollige privaatsusseadeid. Lisateabe saamiseks lugege {privaatsusavaldust}.";
+"csw_problem_occurred_error_message" = "Esines probleem (viga %1$d). Palun proovige uuesti.";
+"csw_problem_occurred_error_title" = "Esines probleem";
+"csw_user_session_expired" = "Teie seanss on aegunud. Logige välja ja seejärel uuesti sisse.";
+"mya_Account_settings" = "Konto seaded";
+"mya_Address" = "Aadress";
+"mya_Cancel" = "Tühista";
+"mya_Consent_Help_Label" = "Mida see tähendab?";
+"mya_Country" = "Riik";
+"mya_Date_of_birth" = "Sünniaeg";
+"mya_Email_Validation_message" = "E-posti aadress kinnitamata";
+"mya_Email_address" = "E-posti aadress";
+"mya_Gender" = "Sugu";
+"mya_Info" = "Kas soovite oma kasutajanime või parooli muuta? Külastage meie veebisaiti.";
+"mya_Invalid_Access_Token_Error_Message" = "Esines probleem serveriga ühenduse loomisel. Veenduge, et seadme kuupäev/kellaaeg oleks õigesti seadistatud. Probleemi püsimise korral logige välja ja seejärel uuesti sisse.";
+"mya_Login_details" = "Sisselogimise andmed";
+"mya_Logout" = "Logi välja";
+"mya_Mobile_number" = "Mobiilinumber";
+"mya_My_account" = "Minu konto";
+"mya_My_details" = "Minu andmed";
+"mya_My_orders" = "Minu arved";
+"mya_My_products" = "Minu tooted";
+"mya_My_subscriptions" = "Minu tellimused";
+"mya_Name" = "Nimi";
+"mya_Not_Available" = "Pole saadaval";
+"mya_Notifications" = "Teated";
+"mya_Offline_message" = "Tundub, et viga on teie internetiühenduses. Kontrollige ja proovige uuesti";
+"mya_Offline_title" = "Olete võrgust väljas";
+"mya_Ok" = "OK";
+"mya_Personal_details" = "Isikuandmed";
+"mya_Privacy_Settings" = "Privaatsussätted";
+"mya_Privacy_Settings_Desc" = "Kontrollige privaatsusseadeid. Lisateabe saamiseks lugege {privaatsusavaldust}.";
+"mya_Problem_Occurred_Error_Message" = "Esines probleem (viga %d). Palun proovige uuesti.";
+"mya_Problem_Occurred_Error_Title" = "Esines probleem";
+"mya_Profile" = "Profiil";
+"mya_Settings" = "Seadistused";
+"mya_change_country" = "Riigi muutmiseks logige välja";
+"mya_change_country_message" = "Elukohariigi muutmiseks logige välja. See võimaldab meil garantiitingimusi ja muud teavet olenevalt teie asukohast kohandada.";
+"mya_csw_consent_revoked_confirm_btn_cancel" = "Tühista";
+"mya_csw_consent_revoked_confirm_btn_ok" = "OK";
+"mya_csw_consent_revoked_confirm_descr" = "[et]By revoking consent your data will be deleted from our servers.";
+"mya_logout_message" = "Teid logitakse rakendusest välja. Pärast väljalogimist saate alati uuesti sisse logida.";
+"mya_logout_title" = "Kas olete kindel, et soovite välja logida?";

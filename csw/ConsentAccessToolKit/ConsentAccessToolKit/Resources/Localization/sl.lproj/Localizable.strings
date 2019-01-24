@@ -1,0 +1,13 @@
+/*
+ * Localizable.strings
+ */
+
+/*
+ * Copyright (c) Koninklijke Philips N.V., 2018
+ * All rights are reserved. Reproduction or dissemination
+ * in whole or in part is prohibited without the prior written
+ * consent of the copyright holder.
+ */
+
+"CATK_PROBLEM_OCCURED" = "Žal je šlo nekaj narobe. Poskusite znova pozneje.";
+"CATK_NO_INTERNET_CONNECTION_KEY" = "Videti je, da niste povezani z internetom. Preverite internetne nastavitve.";

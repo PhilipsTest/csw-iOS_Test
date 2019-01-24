@@ -1,0 +1,13 @@
+/*
+ * Localizable.strings
+ */
+
+/*
+ * Copyright (c) Koninklijke Philips N.V., 2018
+ * All rights are reserved. Reproduction or dissemination
+ * in whole or in part is prohibited without the prior written
+ * consent of the copyright holder.
+ */
+
+"CATK_PROBLEM_OCCURED" = "Rất tiếc, có gì đó không ổn. Vui lòng thử lại sau.";
+"CATK_NO_INTERNET_CONNECTION_KEY" = "Có vẻ như bạn đang ngoại tuyến. Vui lòng kiểm tra cài đặt internet của bạn.";

@@ -1,0 +1,66 @@
+/*
+ * Localizable.strings 
+ */
+
+/*
+ * Copyright (c) Koninklijke Philips N.V., 2018
+ * All rights are reserved. Reproduction or dissemination
+ * in whole or in part is prohibited without the prior written
+ * consent of the copyright holder.
+ */
+
+"CATK_NO_INTERNET_CONNECTION_KEY" = "You seem to be offline. Please check your internet settings.";
+"CATK_PROBLEM_OCCURED" = "Sorry, something went wrong. Please try again.";
+"MYA_Visit_Website" = "Visit our website";
+"csw_consent_help_label" = "What does this mean?";
+"csw_generic_network_error" = "Cannot connect to server.\nPlease check your internet connection and try again.";
+"csw_invalid_access_token_error_message" = "There was a problem connecting to the server. Make sure the date/time on your device is set correctly. If the problem persists, please logout and login.";
+"csw_offline_message" = "Your internet connection does not seem to be working. Please check and try again";
+"csw_offline_title" = "You are offline";
+"csw_ok" = "OK";
+"csw_privacy_notice" = "Privacy Notice";
+"csw_privacy_notice_message" = "Control your privacy. Read the {privacy notice} for more information.";
+"csw_privacy_settings" = "Privacy settings";
+"csw_privacy_settings_desc" = "Control your privacy. Read the {privacy notice} for more information.";
+"csw_problem_occurred_error_message" = "There was a problem (error %1$d). Please try again.";
+"csw_problem_occurred_error_title" = "A problem occurred";
+"csw_user_session_expired" = "Your session is invalid, please log out and log in again";
+"mya_Account_settings" = "Account settings";
+"mya_Address" = "Address";
+"mya_Cancel" = "Cancel";
+"mya_Consent_Help_Label" = "What does this mean?";
+"mya_Country" = "Country";
+"mya_Date_of_birth" = "Date of birth";
+"mya_Email_Validation_message" = "Email address not confirmed";
+"mya_Email_address" = "Email address";
+"mya_Gender" = "Gender";
+"mya_Info" = "Do you want to change your login ID or password?";
+"mya_Invalid_Access_Token_Error_Message" = "There was a problem connecting to the server. Make sure the date/time on your device is set correctly. If the problem persists, please logout and login.";
+"mya_Login_details" = "Login details";
+"mya_Logout" = "Log out";
+"mya_Mobile_number" = "Mobile number";
+"mya_My_account" = "My account";
+"mya_My_details" = "My details";
+"mya_My_orders" = "My orders";
+"mya_My_products" = "My products";
+"mya_My_subscriptions" = "My subscriptions";
+"mya_Name" = "Name";
+"mya_Not_Available" = "Not available";
+"mya_Notifications" = "Notifications";
+"mya_Offline_message" = "Your internet connection does not seem to be working. Please check and try again";
+"mya_Offline_title" = "You are offline";
+"mya_Ok" = "OK";
+"mya_Personal_details" = "Personal details";
+"mya_Privacy_Settings" = "Privacy settings";
+"mya_Privacy_Settings_Desc" = "Control your privacy. Read the {privacy notice} for more information.";
+"mya_Problem_Occurred_Error_Message" = "There was a problem (error %d). Please try again.";
+"mya_Problem_Occurred_Error_Title" = "A problem occurred";
+"mya_Profile" = "Profile";
+"mya_Settings" = "Settings";
+"mya_change_country" = "Logout to change country";
+"mya_change_country_message" = "Please logout to change the country you live in. This will lets us tailor the warranty and other information to your location";
+"mya_csw_consent_revoked_confirm_btn_cancel" = "Cancel";
+"mya_csw_consent_revoked_confirm_btn_ok" = "OK";
+"mya_csw_consent_revoked_confirm_descr" = "By revoking consent your data will be deleted from our servers.";
+"mya_logout_message" = "You will be logged out of the application. After you log out, you can always login again.";
+"mya_logout_title" = "Are you sure you want to log out?";

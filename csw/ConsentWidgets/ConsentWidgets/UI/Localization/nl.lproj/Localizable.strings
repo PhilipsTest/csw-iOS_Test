@@ -1,0 +1,66 @@
+/*
+ * Localizable.strings 
+ */
+
+/*
+ * Copyright (c) Koninklijke Philips N.V., 2018
+ * All rights are reserved. Reproduction or dissemination
+ * in whole or in part is prohibited without the prior written
+ * consent of the copyright holder.
+ */
+
+"CATK_NO_INTERNET_CONNECTION_KEY" = "U lijkt offline te zijn. Controleer uw internetinstellingen.";
+"CATK_PROBLEM_OCCURED" = "Er is iets fout gegaan. Probeer het opnieuw.";
+"MYA_Visit_Website" = "[nl]Visit our website";
+"csw_consent_help_label" = "Wat betekent dit?";
+"csw_generic_network_error" = "Kan geen verbinding maken met de server.\nControleer uw internetverbinding en probeer het opnieuw.";
+"csw_invalid_access_token_error_message" = "Er kan geen verbinding worden gemaakt met de server. Zorg dat u de juiste datum/tijd hebt ingesteld op uw apparaat. Als het probleem aanhoudt, probeert u zich af te melden en weer aan te melden.";
+"csw_offline_message" = "Uw internetverbinding lijkt niet te werken. Controleer deze en probeer het opnieuw";
+"csw_offline_title" = "U bent offline";
+"csw_ok" = "OK";
+"csw_privacy_notice" = "[nl]Privacy Notice";
+"csw_privacy_notice_message" = "Beheer uw privacy. Lees onze {privacyverklaring} voor meer informatie.";
+"csw_privacy_settings" = "Privacyinstellingen";
+"csw_privacy_settings_desc" = "Beheer uw privacy. Lees onze {privacyverklaring} voor meer informatie.";
+"csw_problem_occurred_error_message" = "Er is een probleem opgetreden (error %1$d). Probeer het opnieuw.";
+"csw_problem_occurred_error_title" = "Probleem opgetreden";
+"csw_user_session_expired" = "Uw sessie is ongeldig. Meld u af en weer aan";
+"mya_Account_settings" = "Accountinstellingen";
+"mya_Address" = "Adres";
+"mya_Cancel" = "Annuleren";
+"mya_Consent_Help_Label" = "Wat betekent dit?";
+"mya_Country" = "Land";
+"mya_Date_of_birth" = "Geboortedatum";
+"mya_Email_Validation_message" = "E-mailadres niet bevestigd";
+"mya_Email_address" = "E-mailadres";
+"mya_Gender" = "Geslacht";
+"mya_Info" = "Wilt u uw aanmeldings-ID of wachtwoord wijzigen? Ga naar onze website.";
+"mya_Invalid_Access_Token_Error_Message" = "Er kan geen verbinding worden gemaakt met de server. Zorg dat u de juiste datum/tijd hebt ingesteld op uw apparaat. Als het probleem aanhoudt, probeert u zich af te melden en weer aan te melden.";
+"mya_Login_details" = "Aanmeldingsgegevens";
+"mya_Logout" = "Afmelden";
+"mya_Mobile_number" = "Mobiele nummer";
+"mya_My_account" = "Mijn account";
+"mya_My_details" = "Mijn details";
+"mya_My_orders" = "Mijn bestellingen";
+"mya_My_products" = "Mijn producten";
+"mya_My_subscriptions" = "Mijn abonnementen";
+"mya_Name" = "Naam";
+"mya_Not_Available" = "Niet beschikbaar";
+"mya_Notifications" = "Kennisgevingen";
+"mya_Offline_message" = "Uw internetverbinding lijkt niet te werken. Controleer deze en probeer het opnieuw";
+"mya_Offline_title" = "U bent offline";
+"mya_Ok" = "OK";
+"mya_Personal_details" = "Persoonlijke gegevens";
+"mya_Privacy_Settings" = "Privacyinstellingen";
+"mya_Privacy_Settings_Desc" = "Beheer uw privacy. Lees onze {privacyverklaring} voor meer informatie.";
+"mya_Problem_Occurred_Error_Message" = "Er is een probleem opgetreden (error %d). Probeer het opnieuw.";
+"mya_Problem_Occurred_Error_Title" = "Probleem opgetreden";
+"mya_Profile" = "Profiel";
+"mya_Settings" = "Instellingen";
+"mya_change_country" = "Meld u af om uw land te wijzigen";
+"mya_change_country_message" = "Meld u af en wijzig het land waar u woont. Zo kunnen we de garantie en andere informatie op uw locatie afstemmen.";
+"mya_csw_consent_revoked_confirm_btn_cancel" = "Annuleren";
+"mya_csw_consent_revoked_confirm_btn_ok" = "OK";
+"mya_csw_consent_revoked_confirm_descr" = "[nl]By revoking consent your data will be deleted from our servers.";
+"mya_logout_message" = "U wordt afgemeld bij de app. Nadat u zich hebt afgemeld, kunt u zich altijd weer aanmelden.";
+"mya_logout_title" = "Weet u zeker dat u zich wilt afmelden?";

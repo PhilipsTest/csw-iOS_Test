@@ -1,0 +1,66 @@
+/*
+ * Localizable.strings 
+ */
+
+/*
+ * Copyright (c) Koninklijke Philips N.V., 2018
+ * All rights are reserved. Reproduction or dissemination
+ * in whole or in part is prohibited without the prior written
+ * consent of the copyright holder.
+ */
+
+"CATK_NO_INTERNET_CONNECTION_KEY" = "Videti je, da niste povezani z internetom. Preverite internetne nastavitve.";
+"CATK_PROBLEM_OCCURED" = "Žal je šlo nekaj narobe. Poskusite znova pozneje.";
+"MYA_Visit_Website" = "[sl]Visit our website";
+"csw_consent_help_label" = "Kaj to pomeni?";
+"csw_generic_network_error" = "Povezave s strežnikom ni mogoče vzpostaviti.\nPreverite internetno povezavo in poskusite znova.";
+"csw_invalid_access_token_error_message" = "Pri vzpostavljanju povezave s strežnikom je prišlo do težave. Zagotovite, da sta datum in čas v napravi pravilno nastavljena. Če težave ne odpravite, se odjavite in znova prijavite.";
+"csw_offline_message" = "Videti je, da vaša internetna povezava ne deluje. Preverite povezavo in poskusite znova.";
+"csw_offline_title" = "Nimate vzpostavljene povezave";
+"csw_ok" = "V REDU";
+"csw_privacy_notice" = "[sl]Privacy Notice";
+"csw_privacy_notice_message" = "Nadzorujte svojo zasebnost. Za več informacij preberite {obvestilo o zasebnosti}.";
+"csw_privacy_settings" = "Nastavitve zasebnosti";
+"csw_privacy_settings_desc" = "Nadzorujte svojo zasebnost. Za več informacij preberite {obvestilo o zasebnosti}.";
+"csw_problem_occurred_error_message" = "Prišlo je do težave (napaka %1$d). Poskusite znova.";
+"csw_problem_occurred_error_title" = "Prišlo je do težave";
+"csw_user_session_expired" = "Vaša seja je neveljavna, odjavite se in se znova prijavite";
+"mya_Account_settings" = "Nastavitve računa";
+"mya_Address" = "Naslov";
+"mya_Cancel" = "Prekliči";
+"mya_Consent_Help_Label" = "Kaj to pomeni?";
+"mya_Country" = "Država";
+"mya_Date_of_birth" = "Datum rojstva";
+"mya_Email_Validation_message" = "E-poštni naslov ni potrjen";
+"mya_Email_address" = "E-poštni naslov";
+"mya_Gender" = "Spol";
+"mya_Info" = "Ali želite spremeniti ID za prijavo ali geslo? Obiščite naše spletno mesto.";
+"mya_Invalid_Access_Token_Error_Message" = "Pri vzpostavljanju povezave s strežnikom je prišlo do težave. Zagotovite, da sta datum in čas v napravi pravilno nastavljena. Če težave ne odpravite, se odjavite in znova prijavite.";
+"mya_Login_details" = "Podrobnosti prijave";
+"mya_Logout" = "Odjavi";
+"mya_Mobile_number" = "Številka mobilnega telefona";
+"mya_My_account" = "Moj račun";
+"mya_My_details" = "Moji podatki";
+"mya_My_orders" = "Naročila";
+"mya_My_products" = "Moji izdelki";
+"mya_My_subscriptions" = "Moje naročnine";
+"mya_Name" = "Ime";
+"mya_Not_Available" = "Ni na voljo";
+"mya_Notifications" = "Obvestila";
+"mya_Offline_message" = "Videti je, da vaša internetna povezava ne deluje. Preverite povezavo in poskusite znova.";
+"mya_Offline_title" = "Nimate vzpostavljene povezave";
+"mya_Ok" = "V REDU";
+"mya_Personal_details" = "Osebni podatki";
+"mya_Privacy_Settings" = "Nastavitve zasebnosti";
+"mya_Privacy_Settings_Desc" = "Nadzorujte svojo zasebnost. Za več informacij preberite {obvestilo o zasebnosti}.";
+"mya_Problem_Occurred_Error_Message" = "Prišlo je do težave (napaka %d). Poskusite znova.";
+"mya_Problem_Occurred_Error_Title" = "Prišlo je do težave";
+"mya_Profile" = "Profil";
+"mya_Settings" = "Nastavitve";
+"mya_change_country" = "Odjava za spremembo države";
+"mya_change_country_message" = "Odjavite se, da spremenite državo prebivališča. Tako lahko garancijo in druge informacije prilagodimo glede na vašo lokacijo.";
+"mya_csw_consent_revoked_confirm_btn_cancel" = "Prekliči";
+"mya_csw_consent_revoked_confirm_btn_ok" = "V REDU";
+"mya_csw_consent_revoked_confirm_descr" = "[sl]By revoking consent your data will be deleted from our servers.";
+"mya_logout_message" = "Odjavili se boste iz aplikacije. Ko se odjavite, se lahko kadar koli znova prijavite.";
+"mya_logout_title" = "Ste prepričani, da se želite odjaviti?";

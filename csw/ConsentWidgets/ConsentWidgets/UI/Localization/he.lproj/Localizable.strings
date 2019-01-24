@@ -1,0 +1,66 @@
+/*
+ * Localizable.strings 
+ */
+
+/*
+ * Copyright (c) Koninklijke Philips N.V., 2018
+ * All rights are reserved. Reproduction or dissemination
+ * in whole or in part is prohibited without the prior written
+ * consent of the copyright holder.
+ */
+
+"CATK_NO_INTERNET_CONNECTION_KEY" = "נראה שאתה במצב לא מקוון. בדוק את הגדרות האינטרנט שלך.";
+"CATK_PROBLEM_OCCURED" = "אפס! משהו השתבש. נסה שוב מאוחר יותר.";
+"MYA_Visit_Website" = "[he]Visit our website";
+"csw_consent_help_label" = "מה זה אומר?";
+"csw_generic_network_error" = "אין אפשרות להתחבר לשרת.\nבדוק את חיבור האינטרנט ונסה שוב.";
+"csw_invalid_access_token_error_message" = "אירעה בעיה בהתחברות לשרת. ודא שהתאריך/שעה במכשיר שברשותך נכונים. אם הבעיה נמשכת, נסה לצאת מהמערכת ולהיכנס מחדש.";
+"csw_offline_message" = "נראה שחיבור האינטרנט שלך אינו פועל. בדוק ונסה שוב";
+"csw_offline_title" = "אתה במצב לא מקוון";
+"csw_ok" = "אישור";
+"csw_privacy_notice" = "[he]Privacy Notice";
+"csw_privacy_notice_message" = "שלוט בפרטיות שלך. למידע נוסף, קרא את {הודעת הפרטיות}.";
+"csw_privacy_settings" = "הגדרות פרטיות";
+"csw_privacy_settings_desc" = "שלוט בפרטיות שלך. למידע נוסף, קרא את {הודעת הפרטיות}.";
+"csw_problem_occurred_error_message" = "אירעה בעיה (שגיאה %1$d). אנא נסה שוב.";
+"csw_problem_occurred_error_title" = "אירעה בעיה.";
+"csw_user_session_expired" = "ההפעלה שלך אינה תקפה. התנתק והתחבר שוב.";
+"mya_Account_settings" = "הגדרות חשבון";
+"mya_Address" = "כתובת";
+"mya_Cancel" = "ביטול";
+"mya_Consent_Help_Label" = "מה זה אומר?";
+"mya_Country" = "מדינה";
+"mya_Date_of_birth" = "תאריך לידה";
+"mya_Email_Validation_message" = "כתובת הדוא\"ל לא אושרה";
+"mya_Email_address" = "כתובת דוא\"ל";
+"mya_Gender" = "מין";
+"mya_Info" = "האם ברצונך לשנות את מזהה הכניסה או את הסיסמה שלך? בקר באתר האינטרנט שלנו.";
+"mya_Invalid_Access_Token_Error_Message" = "אירעה בעיה בהתחברות לשרת. ודא שהתאריך/שעה במכשיר שברשותך נכונים. אם הבעיה נמשכת, נסה לצאת מהמערכת ולהיכנס מחדש.";
+"mya_Login_details" = "פרטי כניסה";
+"mya_Logout" = "התנתק";
+"mya_Mobile_number" = "מספר הנייד";
+"mya_My_account" = "החשבון שלי";
+"mya_My_details" = "הפרטים שלי";
+"mya_My_orders" = "ההזמנות שלי";
+"mya_My_products" = "המוצרים שלי";
+"mya_My_subscriptions" = "המנויים שלי";
+"mya_Name" = "שם";
+"mya_Not_Available" = "לא זמין";
+"mya_Notifications" = "הודעות";
+"mya_Offline_message" = "נראה שחיבור האינטרנט שלך אינו פועל. בדוק ונסה שוב";
+"mya_Offline_title" = "אתה במצב לא מקוון";
+"mya_Ok" = "אישור";
+"mya_Personal_details" = "פרטים אישיים";
+"mya_Privacy_Settings" = "הגדרות פרטיות";
+"mya_Privacy_Settings_Desc" = "שלוט בפרטיות שלך. למידע נוסף, קרא את {הודעת הפרטיות}.";
+"mya_Problem_Occurred_Error_Message" = "אירעה בעיה (שגיאה %d). אנא נסה שוב.";
+"mya_Problem_Occurred_Error_Title" = "אירעה בעיה.";
+"mya_Profile" = "פרופיל";
+"mya_Settings" = "הגדרות";
+"mya_change_country" = "כדי להחליף מדינה, צא מהמערכת";
+"mya_change_country_message" = "כדי להחליף את מדינת מגוריך, צא מהמערכת. באופן זה נוכל להתאים את האחריות ומידע נוסף למיקום שלך.";
+"mya_csw_consent_revoked_confirm_btn_cancel" = "ביטול";
+"mya_csw_consent_revoked_confirm_btn_ok" = "אישור";
+"mya_csw_consent_revoked_confirm_descr" = "[he]By revoking consent your data will be deleted from our servers.";
+"mya_logout_message" = "כעת תנותק מהאפליקציה. לאחר היציאה, תמיד תוכל להיכנס מחדש.";
+"mya_logout_title" = "אתה בטוח שברצונך לצאת מהמערכת?";

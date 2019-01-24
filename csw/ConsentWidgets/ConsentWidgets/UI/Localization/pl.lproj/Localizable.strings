@@ -1,0 +1,66 @@
+/*
+ * Localizable.strings 
+ */
+
+/*
+ * Copyright (c) Koninklijke Philips N.V., 2018
+ * All rights are reserved. Reproduction or dissemination
+ * in whole or in part is prohibited without the prior written
+ * consent of the copyright holder.
+ */
+
+"CATK_NO_INTERNET_CONNECTION_KEY" = "Brak połączenia z Internetem. Sprawdź ustawienia internetowe.";
+"CATK_PROBLEM_OCCURED" = "Przepraszamy, coś poszło nie tak. Spróbuj ponownie.";
+"MYA_Visit_Website" = "[pl]Visit our website";
+"csw_consent_help_label" = "Co to oznacza?";
+"csw_generic_network_error" = "Nie można połączyć z serwerem.\nSprawdź połączenie z Internetem i spróbuj ponownie.";
+"csw_invalid_access_token_error_message" = "Wystąpił problem z połączeniem z serwerem. Upewnij się, że ustawienie daty/godziny w telefonie jest poprawne. Jeśli problem nie ustąpi, wyloguj się i zaloguj się ponownie.";
+"csw_offline_message" = "Połączenie internetowe prawdopodobnie nie działa. Sprawdź i spróbuj ponownie";
+"csw_offline_title" = "Nie masz połączenia z Internetem";
+"csw_ok" = "OK";
+"csw_privacy_notice" = "[pl]Privacy Notice";
+"csw_privacy_notice_message" = "Dbaj o swoją prywatność. Więcej informacji znajdziesz w {oświadczeniu o prywatności}.";
+"csw_privacy_settings" = "Ustawienia prywatności";
+"csw_privacy_settings_desc" = "Dbaj o swoją prywatność. Więcej informacji znajdziesz w {oświadczeniu o prywatności}.";
+"csw_problem_occurred_error_message" = "Wystąpił problem (błąd %1$d). Spróbuj ponownie.";
+"csw_problem_occurred_error_title" = "Wystąpił problem";
+"csw_user_session_expired" = "Sesja jest nieprawidłowa, wyloguj się, a następnie zaloguj się ponownie.";
+"mya_Account_settings" = "Ustawienia konta";
+"mya_Address" = "Adres";
+"mya_Cancel" = "Anuluj";
+"mya_Consent_Help_Label" = "Co to oznacza?";
+"mya_Country" = "Kraj";
+"mya_Date_of_birth" = "Data urodzenia";
+"mya_Email_Validation_message" = "Niepotwierdzony adres e-mail";
+"mya_Email_address" = "Adres e-mail";
+"mya_Gender" = "Płeć";
+"mya_Info" = "Chcesz zmienić identyfikator logowania lub hasło? Odwiedź naszą stronę internetową.";
+"mya_Invalid_Access_Token_Error_Message" = "Wystąpił problem z połączeniem z serwerem. Upewnij się, że ustawienie daty/godziny w telefonie jest poprawne. Jeśli problem nie ustąpi, wyloguj się i zaloguj się ponownie.";
+"mya_Login_details" = "Dane logowania";
+"mya_Logout" = "Wyloguj";
+"mya_Mobile_number" = "Numer telefonu komórkowego";
+"mya_My_account" = "Moje konto";
+"mya_My_details" = "Moje szczegóły";
+"mya_My_orders" = "Moje zamówienia";
+"mya_My_products" = "Moje produkty";
+"mya_My_subscriptions" = "Moje subskrypcje";
+"mya_Name" = "Imię i nazwisko";
+"mya_Not_Available" = "Niedostępne";
+"mya_Notifications" = "Powiadomienia";
+"mya_Offline_message" = "Połączenie internetowe prawdopodobnie nie działa. Sprawdź i spróbuj ponownie";
+"mya_Offline_title" = "Nie masz połączenia z Internetem";
+"mya_Ok" = "OK";
+"mya_Personal_details" = "Dane osobowe";
+"mya_Privacy_Settings" = "Ustawienia prywatności";
+"mya_Privacy_Settings_Desc" = "Dbaj o swoją prywatność. Więcej informacji znajdziesz w {oświadczeniu o prywatności}.";
+"mya_Problem_Occurred_Error_Message" = "Wystąpił problem (błąd %d). Spróbuj ponownie.";
+"mya_Problem_Occurred_Error_Title" = "Wystąpił problem";
+"mya_Profile" = "Profil";
+"mya_Settings" = "Ustawienia";
+"mya_change_country" = "Wyloguj się, aby zmienić kraj";
+"mya_change_country_message" = "Wyloguj się, aby zmienić ustawienie kraju. Pozwoli nam to dostosować warunki gwarancji i inne informacje do Twojej lokalizacji";
+"mya_csw_consent_revoked_confirm_btn_cancel" = "Anuluj";
+"mya_csw_consent_revoked_confirm_btn_ok" = "OK";
+"mya_csw_consent_revoked_confirm_descr" = "[pl]By revoking consent your data will be deleted from our servers.";
+"mya_logout_message" = "Nastąpi wylogowanie z aplikacji. Po wylogowaniu zawsze możesz zalogować się ponownie.";
+"mya_logout_title" = "Czy na pewno chcesz się wylogować?";

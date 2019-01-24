@@ -1,0 +1,66 @@
+/*
+ * Localizable.strings 
+ */
+
+/*
+ * Copyright (c) Koninklijke Philips N.V., 2018
+ * All rights are reserved. Reproduction or dissemination
+ * in whole or in part is prohibited without the prior written
+ * consent of the copyright holder.
+ */
+
+"CATK_NO_INTERNET_CONNECTION_KEY" = "Φαίνεστε offline. Ελέγξτε τις ρυθμίσεις internet.";
+"CATK_PROBLEM_OCCURED" = "Λυπούμαστε, αλλά κάτι πήγε στραβά. Δοκιμάστε ξανά αργότερα.";
+"MYA_Visit_Website" = "[el]Visit our website";
+"csw_consent_help_label" = "Τι σημαίνει αυτό;";
+"csw_generic_network_error" = "Αδύνατη η σύνδεση με τον διακομιστή.\nΕλέγξτε τη σύνδεση στο internet και δοκιμάστε πάλι.";
+"csw_invalid_access_token_error_message" = "Προέκυψε πρόβλημα κατά τη σύνδεση στο διακομιστή. Βεβαιωθείτε ότι η ημερομηνία/ώρα έχουν ρυθμιστεί σωστά στη συσκευή σας. Αν το πρόβλημα παραμένει, αποσυνδεθείτε και συνδεθείτε ξανά.";
+"csw_offline_message" = "Η σύνδεσή σας στο Internet πιθανόν να μην λειτουργεί. Ελέγξτε τη και δοκιμάστε ξανά";
+"csw_offline_title" = "Βρίσκεστε εκτός σύνδεσης";
+"csw_ok" = "ΟΚ";
+"csw_privacy_notice" = "[el]Privacy Notice";
+"csw_privacy_notice_message" = "Ελέγξτε το απόρρητό σας. Διαβάστε τη {δήλωση απορρήτου} για περισσότερες πληροφορίες.";
+"csw_privacy_settings" = "Ρυθμίσεις απορρήτου";
+"csw_privacy_settings_desc" = "Ελέγξτε το απόρρητό σας. Διαβάστε τη {δήλωση απορρήτου} για περισσότερες πληροφορίες.";
+"csw_problem_occurred_error_message" = "Προέκυψε πρόβλημα (σφάλμα %1$d). Δοκιμάστε ξανά.";
+"csw_problem_occurred_error_title" = "Προέκυψε πρόβλημα";
+"csw_user_session_expired" = "Η περίοδος σύνδεσης έληξε. Αποσυνδεθείτε και συνδεθείτε ξανά.";
+"mya_Account_settings" = "Ρυθμίσεις λογαριασμού";
+"mya_Address" = "Διεύθυνση";
+"mya_Cancel" = "Άκυρο";
+"mya_Consent_Help_Label" = "Τι σημαίνει αυτό;";
+"mya_Country" = "Χώρα";
+"mya_Date_of_birth" = "Ημερομηνία γέννησης";
+"mya_Email_Validation_message" = "Η διεύθυνση email δεν επιβεβαιώθηκε";
+"mya_Email_address" = "Διεύθυνση email";
+"mya_Gender" = "Φύλο";
+"mya_Info" = "Αλλαγή ID σύνδεσης ή κωδικού πρόσβασης; Επισκεφθείτε τον ιστότοπό μας.";
+"mya_Invalid_Access_Token_Error_Message" = "Προέκυψε πρόβλημα κατά τη σύνδεση στο διακομιστή. Βεβαιωθείτε ότι η ημερομηνία/ώρα έχουν ρυθμιστεί σωστά στη συσκευή σας. Αν το πρόβλημα παραμένει, αποσυνδεθείτε και συνδεθείτε ξανά.";
+"mya_Login_details" = "Στοιχεία σύνδεσης";
+"mya_Logout" = "Έξοδος";
+"mya_Mobile_number" = "Κινητό";
+"mya_My_account" = "Ο λογαριασμός μου";
+"mya_My_details" = "Στοιχεία";
+"mya_My_orders" = "Παραγγελίες";
+"mya_My_products" = "Τα προϊόντα μου";
+"mya_My_subscriptions" = "Οι συνδρομές μου";
+"mya_Name" = "Όνομα";
+"mya_Not_Available" = "Δεν διατίθεται";
+"mya_Notifications" = "Ειδοποιήσεις";
+"mya_Offline_message" = "Η σύνδεσή σας στο Internet πιθανόν να μην λειτουργεί. Ελέγξτε τη και δοκιμάστε ξανά";
+"mya_Offline_title" = "Βρίσκεστε εκτός σύνδεσης";
+"mya_Ok" = "ΟΚ";
+"mya_Personal_details" = "Προσωπικά στοιχεία";
+"mya_Privacy_Settings" = "Ρυθμίσεις απορρήτου";
+"mya_Privacy_Settings_Desc" = "Ελέγξτε το απόρρητό σας. Διαβάστε τη {δήλωση απορρήτου} για περισσότερες πληροφορίες.";
+"mya_Problem_Occurred_Error_Message" = "Προέκυψε πρόβλημα (σφάλμα %d). Δοκιμάστε ξανά.";
+"mya_Problem_Occurred_Error_Title" = "Προέκυψε πρόβλημα";
+"mya_Profile" = "Προφίλ";
+"mya_Settings" = "Ρυθμίσεις";
+"mya_change_country" = "Κάντε έξοδο για αλλαγή χώρας";
+"mya_change_country_message" = "Αποσυνδεθείτε για να αλλάξετε τη χώρα στην οποία κατοικείτε. Έτσι, θα μπορούμε να προσαρμόσουμε την εγγύηση και άλλες πληροφορίες ανάλογα με την τοποθεσία σας.";
+"mya_csw_consent_revoked_confirm_btn_cancel" = "Άκυρο";
+"mya_csw_consent_revoked_confirm_btn_ok" = "ΟΚ";
+"mya_csw_consent_revoked_confirm_descr" = "[el]By revoking consent your data will be deleted from our servers.";
+"mya_logout_message" = "Θα αποσυνδεθείτε από την εφαρμογή. Μετά την αποσύνδεση, μπορείτε να συνδεθείτε ξανά.";
+"mya_logout_title" = "Θέλετε σίγουρα να αποσυνδεθείτε;";

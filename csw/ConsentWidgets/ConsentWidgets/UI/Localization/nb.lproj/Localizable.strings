@@ -1,0 +1,66 @@
+/*
+ * Localizable.strings 
+ */
+
+/*
+ * Copyright (c) Koninklijke Philips N.V., 2018
+ * All rights are reserved. Reproduction or dissemination
+ * in whole or in part is prohibited without the prior written
+ * consent of the copyright holder.
+ */
+
+"CATK_NO_INTERNET_CONNECTION_KEY" = "Det virker som at du er frakoblet. Sjekk Internett-innstillingene.";
+"CATK_PROBLEM_OCCURED" = "Beklager, noe gikk galt. Prøv på nytt.";
+"MYA_Visit_Website" = "[nb]Visit our website";
+"csw_consent_help_label" = "Hva betyr dette?";
+"csw_generic_network_error" = "Kan ikke koble til serveren.\nKontroller Internett-tilkoblingen, og prøv på nytt.";
+"csw_invalid_access_token_error_message" = "Det oppstod et problem under tilkobling til serveren. Pass på at dato/klokkeslett er riktig stilt inn på enheten. Hvis problemet vedvarer, må du logge deg av og på igjen.";
+"csw_offline_message" = "Det ser ikke ut til at Internett-tilkoblingen din fungerer. Kontroller den og prøv på nytt";
+"csw_offline_title" = "Du er frakoblet";
+"csw_ok" = "Ok";
+"csw_privacy_notice" = "[nb]Privacy Notice";
+"csw_privacy_notice_message" = "Ta kontroll over personvernet ditt. Les {merknaden om personvern} for mer informasjon.";
+"csw_privacy_settings" = "Innstillinger for privatliv";
+"csw_privacy_settings_desc" = "Ta kontroll over personvernet ditt. Les {merknaden om personvern} for mer informasjon.";
+"csw_problem_occurred_error_message" = "Det oppstod et problem (feil %1$d). Prøv på nytt.";
+"csw_problem_occurred_error_title" = "Det oppstod et problem";
+"csw_user_session_expired" = "Økten er ugyldig. Logg av og deretter på igjen";
+"mya_Account_settings" = "Kontoinnstillinger";
+"mya_Address" = "Adresse";
+"mya_Cancel" = "Avbryt";
+"mya_Consent_Help_Label" = "Hva betyr dette?";
+"mya_Country" = "Land";
+"mya_Date_of_birth" = "Fødselsdato";
+"mya_Email_Validation_message" = "E-postadressen er ikke bekreftet";
+"mya_Email_address" = "E-postadresse";
+"mya_Gender" = "Kjønn";
+"mya_Info" = "Vil du endre påloggings-ID eller passord? Gå til nettstedet vårt.";
+"mya_Invalid_Access_Token_Error_Message" = "Det oppstod et problem under tilkobling til serveren. Pass på at dato/klokkeslett er riktig stilt inn på enheten. Hvis problemet vedvarer, må du logge deg av og på igjen.";
+"mya_Login_details" = "Påloggingsdetaljer";
+"mya_Logout" = "Logg av";
+"mya_Mobile_number" = "Mobilnummer";
+"mya_My_account" = "Min konto";
+"mya_My_details" = "Mine detaljer";
+"mya_My_orders" = "Mine bestillinger";
+"mya_My_products" = "Produktene mine";
+"mya_My_subscriptions" = "Mine abonnementer";
+"mya_Name" = "Navn";
+"mya_Not_Available" = "Ikke tilgjengelig";
+"mya_Notifications" = "Varslinger";
+"mya_Offline_message" = "Det ser ikke ut til at Internett-tilkoblingen din fungerer. Kontroller den og prøv på nytt";
+"mya_Offline_title" = "Du er frakoblet";
+"mya_Ok" = "Ok";
+"mya_Personal_details" = "Personlige opplysninger";
+"mya_Privacy_Settings" = "Innstillinger for privatliv";
+"mya_Privacy_Settings_Desc" = "Ta kontroll over personvernet ditt. Les {merknaden om personvern} for mer informasjon.";
+"mya_Problem_Occurred_Error_Message" = "Det oppstod et problem (feil %d). Prøv på nytt.";
+"mya_Problem_Occurred_Error_Title" = "Det oppstod et problem";
+"mya_Profile" = "Profil";
+"mya_Settings" = "Innstillinger";
+"mya_change_country" = "Logg av for å endre land";
+"mya_change_country_message" = "Logg deg av for å endre landet du bor i. Da kan vi tilpasse garantien og annen informasjon etter plasseringen din";
+"mya_csw_consent_revoked_confirm_btn_cancel" = "Avbryt";
+"mya_csw_consent_revoked_confirm_btn_ok" = "Ok";
+"mya_csw_consent_revoked_confirm_descr" = "[nb]By revoking consent your data will be deleted from our servers.";
+"mya_logout_message" = "Du logges av programmet. Etter avloggingen kan du selvfølgelig logge deg på igjen.";
+"mya_logout_title" = "Er du sikker på at du vil logge deg av?";

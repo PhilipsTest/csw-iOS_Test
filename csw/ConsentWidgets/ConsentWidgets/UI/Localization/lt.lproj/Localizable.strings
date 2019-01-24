@@ -1,0 +1,66 @@
+/*
+ * Localizable.strings 
+ */
+
+/*
+ * Copyright (c) Koninklijke Philips N.V., 2018
+ * All rights are reserved. Reproduction or dissemination
+ * in whole or in part is prohibited without the prior written
+ * consent of the copyright holder.
+ */
+
+"CATK_NO_INTERNET_CONNECTION_KEY" = "Esate neprisijungęs prie interneto. Patikrinkite interneto ryšio nustatymus.";
+"CATK_PROBLEM_OCCURED" = "Atsiprašome, įvyko klaida. Bandykite dar kartą.";
+"MYA_Visit_Website" = "[lt]Visit our website";
+"csw_consent_help_label" = "Ką tai reiškia?";
+"csw_generic_network_error" = "Negalima prisijungti prie serverio.\nPatikrinkite interneto ryšį ir bandykite dar kartą.";
+"csw_invalid_access_token_error_message" = "Atsirado problema jungiantis prie serverio. Patikrinkite, ar jūsų prietaise teisingai nustatyta data / laikas. Jei problema išlieka, atsijunkite ir prisijunkite.";
+"csw_offline_message" = "Panašu, kad neveikia jūsų interneto ryšys. Patikrinkite ir bandykite dar kartą";
+"csw_offline_title" = "Jūs esate atsijungęs";
+"csw_ok" = "Gerai";
+"csw_privacy_notice" = "[lt]Privacy Notice";
+"csw_privacy_notice_message" = "Valdykite privatumą. Norėdami sužinoti daugiau informacijos, žr. {privatumo pranešimą}.";
+"csw_privacy_settings" = "Privatumo nustatymai";
+"csw_privacy_settings_desc" = "Valdykite privatumą. Norėdami sužinoti daugiau informacijos, žr. {privatumo pranešimą}.";
+"csw_problem_occurred_error_message" = "Atsirado problema (error %1$d). Bandykite dar kartą.";
+"csw_problem_occurred_error_title" = "Atsirado problema";
+"csw_user_session_expired" = "Jūsų seansas yra negaliojantis. Atsijunkite ir vėl prisijunkite";
+"mya_Account_settings" = "Paskyros nustatymai";
+"mya_Address" = "Adresas";
+"mya_Cancel" = "Atšaukti";
+"mya_Consent_Help_Label" = "Ką tai reiškia?";
+"mya_Country" = "Šalis";
+"mya_Date_of_birth" = "Gimimo data";
+"mya_Email_Validation_message" = "El. pašto adresas nepatvirtintas";
+"mya_Email_address" = "El. pašto adresas";
+"mya_Gender" = "Lytis";
+"mya_Info" = "Ar norite pakeisti prisijungimo ID arba slaptažodį? Apsilankykite mūsų svetainėje.";
+"mya_Invalid_Access_Token_Error_Message" = "Atsirado problema jungiantis prie serverio. Patikrinkite, ar jūsų prietaise teisingai nustatyta data / laikas. Jei problema išlieka, atsijunkite ir prisijunkite.";
+"mya_Login_details" = "Prisijungimo informacija";
+"mya_Logout" = "Išsiregistruoti";
+"mya_Mobile_number" = "Mob. tel. nr.";
+"mya_My_account" = "Mano paskyra";
+"mya_My_details" = "Informacija";
+"mya_My_orders" = "Užsakymai";
+"mya_My_products" = "Mano gaminiai";
+"mya_My_subscriptions" = "Mano prenumeratos";
+"mya_Name" = "Pavadinimas:";
+"mya_Not_Available" = "Nėra";
+"mya_Notifications" = "Pranešimai";
+"mya_Offline_message" = "Panašu, kad neveikia jūsų interneto ryšys. Patikrinkite ir bandykite dar kartą";
+"mya_Offline_title" = "Jūs esate atsijungęs";
+"mya_Ok" = "Gerai";
+"mya_Personal_details" = "Asmens duomenys";
+"mya_Privacy_Settings" = "Privatumo nustatymai";
+"mya_Privacy_Settings_Desc" = "Valdykite privatumą. Norėdami sužinoti daugiau informacijos, žr. {privatumo pranešimą}.";
+"mya_Problem_Occurred_Error_Message" = "Atsirado problema (error %d). Bandykite dar kartą.";
+"mya_Problem_Occurred_Error_Title" = "Atsirado problema";
+"mya_Profile" = "Profilis";
+"mya_Settings" = "nustatymais";
+"mya_change_country" = "Atsijunkite ir pakeiskite šalį";
+"mya_change_country_message" = "Atsijunkite, norėdami pakeisti šalį, kurioje gyvenate. Pritaikysime jums garantiją ir kitą informaciją pagal buvimo vietą.";
+"mya_csw_consent_revoked_confirm_btn_cancel" = "Atšaukti";
+"mya_csw_consent_revoked_confirm_btn_ok" = "Gerai";
+"mya_csw_consent_revoked_confirm_descr" = "[lt]By revoking consent your data will be deleted from our servers.";
+"mya_logout_message" = "Jūs atsijungsite nuo programos. Atsijungę visada galėsite vėl prisijungti.";
+"mya_logout_title" = "Ar tikrai norite atsijungti?";

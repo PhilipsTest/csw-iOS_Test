@@ -1,0 +1,60 @@
+{
+    "UR": {
+        
+        "Development": "ad7nn99y2mv5berw5jxewzagazafbyhu",
+        "Testing": "xru56jcnu3rpf8q7cgnkr7xtf9sh8pp7",
+        "Evaluation": "4r36zdbeycca933nufcknn2hnpsz6gxu",
+        "Staging": "f2stykcygm7enbwfw2u9fbg6h6syb8yd",
+        "Production": "mz6tg5rqrg4hjj3wfxfd92kjapsrdhy3",
+        "Dictionary": {"key1":"value1"}
+        
+    },
+    "AI": {
+        "MicrositeID": 77000,
+        "RegistrationEnvironment": "Staging",
+        "NL": ["googleplus", "facebook"  ],
+        "US": ["facebook","googleplus" ]
+    },
+    "appinfra":{
+        "appidentity.micrositeId": 77000,
+        "appidentity.sector": "b2c",
+        "appidentity.appState": "development",
+        "appidentity.serviceDiscoveryEnvironment": "production",
+        "restclient.cacheSizeInKB": 51200,
+        "tagging.sensitiveData" : [],
+		"abtest.precache":["test1","philipsmobileappabtest1content","geoColors"],
+        "contentLoader.limitSize":100,
+        "servicediscovery.platformMicrositeId":77000,
+        "servicediscovery.platformEnvironment":"production",
+        "appconfig.cloudServiceId":"",
+        "languagePack.serviceId":"appinfra.languagepack",
+        "servicediscovery.propositionEnabled":true,
+        "appUpdate.serviceId": "appinfra.appupdate",
+        "servicediscovery.countryMapping":{"LU":"BE","MO":"HK"},
+        "appUpdate.autoRefresh": false,
+        "logging.releaseConfig": {
+            "fileName": "AppInfraLog",
+            "numberOfFiles": 5,
+            "fileSizeInBytes": 50000,
+            "logLevel": "Off",
+            "fileLogEnabled": false,
+            "consoleLogEnabled": false,
+            "componentLevelLogEnabled": false,
+            "componentIds": ["ail", "component1"]
+        },
+        "logging.debugConfig": {
+            "fileName": "AppInfraLog",
+            "numberOfFiles": 5,
+            "fileSizeInBytes": 50000,
+            "logLevel": "All",
+            "fileLogEnabled": true,
+            "consoleLogEnabled": true,
+            "componentLevelLogEnabled": false,
+            "componentIds": ["ail", "component1"]
+        },
+        "abtest.mapping":{
+            "ai.componentTestname":"actualTestName"
+        },
+        "tagging.enableAdobeLogs":true
+    }
+}

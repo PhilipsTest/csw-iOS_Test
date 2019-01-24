@@ -1,0 +1,66 @@
+/*
+ * Localizable.strings 
+ */
+
+/*
+ * Copyright (c) Koninklijke Philips N.V., 2018
+ * All rights are reserved. Reproduction or dissemination
+ * in whole or in part is prohibited without the prior written
+ * consent of the copyright holder.
+ */
+
+"CATK_NO_INTERNET_CONNECTION_KEY" = "Šķiet, ka neatrodaties tiešsaistē. Lūdzu, pārbaudiet interneta iestatījumus.";
+"CATK_PROBLEM_OCCURED" = "Radās neparedzēta kļūda. Lūdzu, mēģiniet vēlreiz.";
+"MYA_Visit_Website" = "[lv]Visit our website";
+"csw_consent_help_label" = "Ko tas nozīmē?";
+"csw_generic_network_error" = "Neizdodas savienoties ar serveri.\nLūdzu, pārbaudiet savu interneta savienojumu un mēģiniet vēlreiz.";
+"csw_invalid_access_token_error_message" = "Radās problēma, veidojot savienojumu ar serveri. Pārliecinieties, vai jūsu ierīcē ir pareizi iestatīts datums/laiks. Ja problēma joprojām pastāv, lūdzu, atsakieties un piesakieties vēlreiz.";
+"csw_offline_message" = "Iespējams, nedarbojas jūsu interneta savienojums. Lūdzu, pārbaudiet un mēģiniet vēlreiz.";
+"csw_offline_title" = "Jūs esat bezsaistē";
+"csw_ok" = "Labi";
+"csw_privacy_notice" = "[lv]Privacy Notice";
+"csw_privacy_notice_message" = "Kontrolējiet savu privātumu. Informācijai izlasiet {paziņojums par konfidencialitāti}.";
+"csw_privacy_settings" = "Privātuma iestatījumi";
+"csw_privacy_settings_desc" = "Kontrolējiet savu privātumu. Informācijai izlasiet {paziņojums par konfidencialitāti}.";
+"csw_problem_occurred_error_message" = "Ir radusies problēma (error %1$d). Lūdzu, mēģiniet vēlreiz.";
+"csw_problem_occurred_error_title" = "Radās problēma";
+"csw_user_session_expired" = "Jūsu sesija ir nederīga. Lūdzu, izejiet un piesakieties vēlreiz";
+"mya_Account_settings" = "Konta iestatījumi";
+"mya_Address" = "Adrese";
+"mya_Cancel" = "Atcelt";
+"mya_Consent_Help_Label" = "Ko tas nozīmē?";
+"mya_Country" = "Valsts";
+"mya_Date_of_birth" = "Dzimšanas datums";
+"mya_Email_Validation_message" = "E-pasta adrese nav apstiprināta";
+"mya_Email_address" = "E-pasta adrese";
+"mya_Gender" = "Dzimums";
+"mya_Info" = "Vai vēlaties mainīt savu pieteikšanās ID vai paroli? Apmeklējiet mūsu tīmekļa vietni.";
+"mya_Invalid_Access_Token_Error_Message" = "Radās problēma, veidojot savienojumu ar serveri. Pārliecinieties, vai jūsu ierīcē ir pareizi iestatīts datums/laiks. Ja problēma joprojām pastāv, lūdzu, atsakieties un piesakieties vēlreiz.";
+"mya_Login_details" = "Pieteikšanās detaļas";
+"mya_Logout" = "Atteikties";
+"mya_Mobile_number" = "Mob. tālruņa numurs";
+"mya_My_account" = "Mans konts";
+"mya_My_details" = "Mana informācija";
+"mya_My_orders" = "Mani pasūtījumi";
+"mya_My_products" = "Mani produkti";
+"mya_My_subscriptions" = "Mani abonementi";
+"mya_Name" = "Vārds";
+"mya_Not_Available" = "Nav pieejams";
+"mya_Notifications" = "Paziņojumi";
+"mya_Offline_message" = "Iespējams, nedarbojas jūsu interneta savienojums. Lūdzu, pārbaudiet un mēģiniet vēlreiz.";
+"mya_Offline_title" = "Jūs esat bezsaistē";
+"mya_Ok" = "Labi";
+"mya_Personal_details" = "Personas informācija";
+"mya_Privacy_Settings" = "Privātuma iestatījumi";
+"mya_Privacy_Settings_Desc" = "Kontrolējiet savu privātumu. Informācijai izlasiet {paziņojums par konfidencialitāti}.";
+"mya_Problem_Occurred_Error_Message" = "Ir radusies problēma (error %d). Lūdzu, mēģiniet vēlreiz.";
+"mya_Problem_Occurred_Error_Title" = "Radās problēma";
+"mya_Profile" = "Profils";
+"mya_Settings" = "Iestatījumi";
+"mya_change_country" = "Atteikties, lai mainītu valsti";
+"mya_change_country_message" = "Lūdzu, izejiet, lai mainītu valsti, kurā dzīvojat. Tādējādi mēs varēsim pielāgot garantiju un citu informāciju jūsu atrašanās vietai.";
+"mya_csw_consent_revoked_confirm_btn_cancel" = "Atcelt";
+"mya_csw_consent_revoked_confirm_btn_ok" = "Labi";
+"mya_csw_consent_revoked_confirm_descr" = "[lv]By revoking consent your data will be deleted from our servers.";
+"mya_logout_message" = "Tiks veikta jūsu atteikšanās lietotnē. Pēc atteikšanās jūs jebkurā laikā varat pieteikties vēlreiz.";
+"mya_logout_title" = "Vai tiešām vēlaties atteikties?";

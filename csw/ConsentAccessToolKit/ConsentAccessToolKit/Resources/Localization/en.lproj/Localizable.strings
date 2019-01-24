@@ -1,0 +1,13 @@
+/*
+ * Localizable.strings
+ */
+
+/*
+ * Copyright (c) Koninklijke Philips N.V., 2018
+ * All rights are reserved. Reproduction or dissemination
+ * in whole or in part is prohibited without the prior written
+ * consent of the copyright holder.
+ */
+
+"CATK_PROBLEM_OCCURED" = "Sorry, something went wrong. Please try again";
+"CATK_NO_INTERNET_CONNECTION_KEY" = "You seem to be offline. Please check your internet settings.";

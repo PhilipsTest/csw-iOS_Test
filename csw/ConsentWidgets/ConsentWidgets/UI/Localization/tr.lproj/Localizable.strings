@@ -1,0 +1,66 @@
+/*
+ * Localizable.strings 
+ */
+
+/*
+ * Copyright (c) Koninklijke Philips N.V., 2018
+ * All rights are reserved. Reproduction or dissemination
+ * in whole or in part is prohibited without the prior written
+ * consent of the copyright holder.
+ */
+
+"CATK_NO_INTERNET_CONNECTION_KEY" = "Çevrimdışı görünüyorsunuz. Lütfen internet ayarlarınızı kontrol edin.";
+"CATK_PROBLEM_OCCURED" = "Üzgünüz, bir sorun oluştu. Lütfen tekrar deneyin.";
+"MYA_Visit_Website" = "[tr]Visit our website";
+"csw_consent_help_label" = "Bu ne anlama geliyor?";
+"csw_generic_network_error" = "Sunucuya bağlanılamıyor.\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin.";
+"csw_invalid_access_token_error_message" = "Sunucuya bağlanılırken bir sorun oluştu. Cihazındaki tarih/zaman ayarlarının doğru olduğundan emin olun. Sorun devam ederse lütfen oturumunuzu kapatıp yeniden açın.";
+"csw_offline_message" = "İnternet bağlantınız çalışmıyor gibi görünüyor. Lütfen kontrol edip yeniden deneyin";
+"csw_offline_title" = "Çevrimdışısınız";
+"csw_ok" = "OK";
+"csw_privacy_notice" = "[tr]Privacy Notice";
+"csw_privacy_notice_message" = "Gizlilik ayarlarınızı kontrol edin. Daha fazla bilgi için {gizlilik bildirimini} okuyun.";
+"csw_privacy_settings" = "Gizlilik ayarları";
+"csw_privacy_settings_desc" = "Gizlilik ayarlarınızı kontrol edin. Daha fazla bilgi için {gizlilik bildirimini} okuyun.";
+"csw_problem_occurred_error_message" = "Bir sorun oluştu (hata %1$d). Lütfen tekrar deneyin.";
+"csw_problem_occurred_error_title" = "Bir sorun oluştu";
+"csw_user_session_expired" = "Oturumunuz geçersiz. Lütfen oturumu kapatıp tekrar açın";
+"mya_Account_settings" = "Hesap ayarları";
+"mya_Address" = "Adres";
+"mya_Cancel" = "İptal";
+"mya_Consent_Help_Label" = "Bu ne anlama geliyor?";
+"mya_Country" = "Ülke";
+"mya_Date_of_birth" = "Doğum tarihi";
+"mya_Email_Validation_message" = "E-posta adresi doğrulanmadı";
+"mya_Email_address" = "E-posta adresi";
+"mya_Gender" = "Cinsiyet";
+"mya_Info" = "Oturum açma kimliği veya parolanızı değiştirmek mi istiyorsunuz? Web sitemize gidin.";
+"mya_Invalid_Access_Token_Error_Message" = "Sunucuya bağlanılırken bir sorun oluştu. Cihazındaki tarih/zaman ayarlarının doğru olduğundan emin olun. Sorun devam ederse lütfen oturumunuzu kapatıp yeniden açın.";
+"mya_Login_details" = "Oturum açma bilgileri";
+"mya_Logout" = "Oturumu kapat";
+"mya_Mobile_number" = "Cep telefonu";
+"mya_My_account" = "Hesabım";
+"mya_My_details" = "Bilgilerim";
+"mya_My_orders" = "Siparişlerim";
+"mya_My_products" = "Ürünlerim";
+"mya_My_subscriptions" = "Aboneliklerim";
+"mya_Name" = "Adı";
+"mya_Not_Available" = "Kullanılmıyor";
+"mya_Notifications" = "Bildirimler";
+"mya_Offline_message" = "İnternet bağlantınız çalışmıyor gibi görünüyor. Lütfen kontrol edip yeniden deneyin";
+"mya_Offline_title" = "Çevrimdışısınız";
+"mya_Ok" = "OK";
+"mya_Personal_details" = "Kişisel bilgiler";
+"mya_Privacy_Settings" = "Gizlilik ayarları";
+"mya_Privacy_Settings_Desc" = "Gizlilik ayarlarınızı kontrol edin. Daha fazla bilgi için {gizlilik bildirimini} okuyun.";
+"mya_Problem_Occurred_Error_Message" = "Bir sorun oluştu (hata %d). Lütfen tekrar deneyin.";
+"mya_Problem_Occurred_Error_Title" = "Bir sorun oluştu";
+"mya_Profile" = "Profil";
+"mya_Settings" = "Ayarlar";
+"mya_change_country" = "Ülkeyi değiştirmek için oturumu kapatın";
+"mya_change_country_message" = "Lütfen yaşadığınız ülkeyi değiştirmek için oturumunuzu kapatın. Böylece garantiyi ve diğer bilgileri konumunuza göre güncelleyebiliriz";
+"mya_csw_consent_revoked_confirm_btn_cancel" = "İptal";
+"mya_csw_consent_revoked_confirm_btn_ok" = "OK";
+"mya_csw_consent_revoked_confirm_descr" = "[tr]By revoking consent your data will be deleted from our servers.";
+"mya_logout_message" = "Bu uygulamada oturumunuz kapatılacaktır. Oturum kapatıldıktan sonra dilediğiniz zaman yeniden oturumu açabilirsiniz.";
+"mya_logout_title" = "Oturumu kapatmak mı istiyorsunuz?";

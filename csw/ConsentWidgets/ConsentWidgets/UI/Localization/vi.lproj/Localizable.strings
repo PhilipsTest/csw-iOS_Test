@@ -1,0 +1,66 @@
+/*
+ * Localizable.strings 
+ */
+
+/*
+ * Copyright (c) Koninklijke Philips N.V., 2018
+ * All rights are reserved. Reproduction or dissemination
+ * in whole or in part is prohibited without the prior written
+ * consent of the copyright holder.
+ */
+
+"CATK_NO_INTERNET_CONNECTION_KEY" = "Có vẻ như bạn đang ngoại tuyến. Vui lòng kiểm tra cài đặt internet của bạn.";
+"CATK_PROBLEM_OCCURED" = "Rất tiếc, có gì đó không ổn. Vui lòng thử lại sau.";
+"MYA_Visit_Website" = "[vi]Visit our website";
+"csw_consent_help_label" = "Điều này nghĩa là gì?";
+"csw_generic_network_error" = "Không thể kết nối với máy chủ.\nVui lòng kiểm tra kết nối internet của bạn và thử lại.";
+"csw_invalid_access_token_error_message" = "Đã xảy ra vấn đề khi kết nối với máy chủ. Đảm bảo đã thiết lập đúng ngày/giờ trên thiết bị của bạn. Nếu vấn đề vẫn tiếp diễn, hãy đăng xuất và đăng nhập lại.";
+"csw_offline_message" = "Kết nối internet của bạn có vẻ như không hiệu quả. Vui lòng kiểm tra và thử lại";
+"csw_offline_title" = "Bạn đang ngoại tuyến";
+"csw_ok" = "OK";
+"csw_privacy_notice" = "[vi]Privacy Notice";
+"csw_privacy_notice_message" = "Kiểm soát quyền riêng tư của bạn. Hãy đọc {thông báo về quyền riêng tư} để biết thêm thông tin.";
+"csw_privacy_settings" = "Cài đặt quyền riêng tư";
+"csw_privacy_settings_desc" = "Kiểm soát quyền riêng tư của bạn. Hãy đọc {thông báo về quyền riêng tư} để biết thêm thông tin.";
+"csw_problem_occurred_error_message" = "Đã xảy ra vấn đề (lỗi %1$d). Vui lòng thử lại.";
+"csw_problem_occurred_error_title" = "Đã xảy ra lỗi";
+"csw_user_session_expired" = "Phiên của bạn không hợp lệ. Vui lòng đăng xuất và đăng nhập lại";
+"mya_Account_settings" = "Thiết đặt tài khoản";
+"mya_Address" = "Địa chỉ";
+"mya_Cancel" = "Hủy";
+"mya_Consent_Help_Label" = "Điều này nghĩa là gì?";
+"mya_Country" = "Quốc gia";
+"mya_Date_of_birth" = "Ngày sinh";
+"mya_Email_Validation_message" = "Địa chỉ email không được xác nhận";
+"mya_Email_address" = "Địa chỉ email";
+"mya_Gender" = "Giới tính";
+"mya_Info" = "Bạn có muốn thay đổi ID đăng nhập hoặc mật khẩu của bạn không? Hãy truy cập trang web của chúng tôi.";
+"mya_Invalid_Access_Token_Error_Message" = "Đã xảy ra vấn đề khi kết nối với máy chủ. Đảm bảo đã thiết lập đúng ngày/giờ trên thiết bị của bạn. Nếu vấn đề vẫn tiếp diễn, hãy đăng xuất và đăng nhập lại.";
+"mya_Login_details" = "Chi tiết đăng nhập";
+"mya_Logout" = "Đăng xuất";
+"mya_Mobile_number" = "Số điện thoại di động";
+"mya_My_account" = "Tài khoản của tôi";
+"mya_My_details" = "Thông tin chi tiết";
+"mya_My_orders" = "Đơn hàng của tôi";
+"mya_My_products" = "Sản phẩm của tôi";
+"mya_My_subscriptions" = "Gói đăng ký của tôi";
+"mya_Name" = "Tên";
+"mya_Not_Available" = "Không có sẵn";
+"mya_Notifications" = "Thông báo";
+"mya_Offline_message" = "Kết nối internet của bạn có vẻ như không hiệu quả. Vui lòng kiểm tra và thử lại";
+"mya_Offline_title" = "Bạn đang ngoại tuyến";
+"mya_Ok" = "OK";
+"mya_Personal_details" = "Chi tiết cá nhân";
+"mya_Privacy_Settings" = "Cài đặt quyền riêng tư";
+"mya_Privacy_Settings_Desc" = "Kiểm soát quyền riêng tư của bạn. Hãy đọc {thông báo về quyền riêng tư} để biết thêm thông tin.";
+"mya_Problem_Occurred_Error_Message" = "Đã xảy ra vấn đề (lỗi %d). Vui lòng thử lại.";
+"mya_Problem_Occurred_Error_Title" = "Đã xảy ra lỗi";
+"mya_Profile" = "Hồ sơ";
+"mya_Settings" = "Cài đặt";
+"mya_change_country" = "Đăng xuất để thay đổi quốc gia";
+"mya_change_country_message" = "Vui lòng đăng xuất để thay đổi quốc gia nơi bạn sinh sống. Việc này sẽ cho phép chúng tôi điều chỉnh bảo hành và thông tin khác thích hợp với khu vực của bạn hơn";
+"mya_csw_consent_revoked_confirm_btn_cancel" = "Hủy";
+"mya_csw_consent_revoked_confirm_btn_ok" = "OK";
+"mya_csw_consent_revoked_confirm_descr" = "[vi]By revoking consent your data will be deleted from our servers.";
+"mya_logout_message" = "Bạn sẽ được đăng xuất khỏi ứng dụng. Sau khi đăng xuất, bạn vẫn luôn có thể đăng nhập lại.";
+"mya_logout_title" = "Bạn có chắc chắn muốn đăng xuất không?";

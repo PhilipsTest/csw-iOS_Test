@@ -1,0 +1,66 @@
+/*
+ * Localizable.strings 
+ */
+
+/*
+ * Copyright (c) Koninklijke Philips N.V., 2018
+ * All rights are reserved. Reproduction or dissemination
+ * in whole or in part is prohibited without the prior written
+ * consent of the copyright holder.
+ */
+
+"CATK_NO_INTERNET_CONNECTION_KEY" = "你似乎已离线。请检查您的网络设置。";
+"CATK_PROBLEM_OCCURED" = "抱歉，发生错误。请重试。";
+"MYA_Visit_Website" = "[zh-CN]Visit our website";
+"csw_consent_help_label" = "这意味着什么？";
+"csw_generic_network_error" = "无法连接到服务器。\n请检查您的网络连接，然后重试。";
+"csw_invalid_access_token_error_message" = "连接到服务器过程中出错。请确保您设备上的日期/时间设置正确。如果问题仍存在，请退出并重新登录。";
+"csw_offline_message" = "您的互联网似乎无法正常连接。请检查并重试";
+"csw_offline_title" = "您处于脱机状态";
+"csw_ok" = "确定";
+"csw_privacy_notice" = "[zh-CN]Privacy Notice";
+"csw_privacy_notice_message" = "管控您的个人隐私。有关详细信息，请阅读 { 隐私声明 }。";
+"csw_privacy_settings" = "隐私设置";
+"csw_privacy_settings_desc" = "管控您的个人隐私。有关详细信息，请阅读 { 隐私声明 }。";
+"csw_problem_occurred_error_message" = "出现了一个问题（错误 %1$d）。请重试。";
+"csw_problem_occurred_error_title" = "出现了一个问题";
+"csw_user_session_expired" = "您的会话无效，请退出并重新登录";
+"mya_Account_settings" = "帐户设置";
+"mya_Address" = "地址";
+"mya_Cancel" = "取消";
+"mya_Consent_Help_Label" = "这意味着什么？";
+"mya_Country" = "国家/地区";
+"mya_Date_of_birth" = "出生日期";
+"mya_Email_Validation_message" = "电子邮件地址未确认";
+"mya_Email_address" = "电子邮件地址";
+"mya_Gender" = "性别";
+"mya_Info" = "是否要更改您的登录 ID 或密码？请访问我们的网站。";
+"mya_Invalid_Access_Token_Error_Message" = "连接到服务器过程中出错。请确保您设备上的日期/时间设置正确。如果问题仍存在，请退出并重新登录。";
+"mya_Login_details" = "登录详情";
+"mya_Logout" = "注销";
+"mya_Mobile_number" = "手机号码";
+"mya_My_account" = "我的账户";
+"mya_My_details" = "我的详细信息";
+"mya_My_orders" = "我的订单";
+"mya_My_products" = "我的产品";
+"mya_My_subscriptions" = "我的订阅";
+"mya_Name" = "姓名";
+"mya_Not_Available" = "不可用";
+"mya_Notifications" = "通知";
+"mya_Offline_message" = "您的互联网似乎无法正常连接。请检查并重试";
+"mya_Offline_title" = "您处于脱机状态";
+"mya_Ok" = "确定";
+"mya_Personal_details" = "个人详细信息";
+"mya_Privacy_Settings" = "隐私设置";
+"mya_Privacy_Settings_Desc" = "管控您的个人隐私。有关详细信息，请阅读 { 隐私声明 }。";
+"mya_Problem_Occurred_Error_Message" = "出现了一个问题（错误 %d）。请重试。";
+"mya_Problem_Occurred_Error_Title" = "出现了一个问题";
+"mya_Profile" = "个人资料";
+"mya_Settings" = "设置";
+"mya_change_country" = "退出以更改国家/地区";
+"mya_change_country_message" = "请退出以更改您所居住的国家/地区。这可让我们根据您的所在地的提供保修和其他信息";
+"mya_csw_consent_revoked_confirm_btn_cancel" = "取消";
+"mya_csw_consent_revoked_confirm_btn_ok" = "确定";
+"mya_csw_consent_revoked_confirm_descr" = "[zh-CN]By revoking consent your data will be deleted from our servers.";
+"mya_logout_message" = "您将退出应用程序。退出后，您始终可以再次登录。";
+"mya_logout_title" = "确定要退出？";

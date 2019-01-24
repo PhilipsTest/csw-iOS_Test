@@ -1,0 +1,66 @@
+/*
+ * Localizable.strings 
+ */
+
+/*
+ * Copyright (c) Koninklijke Philips N.V., 2018
+ * All rights are reserved. Reproduction or dissemination
+ * in whole or in part is prohibited without the prior written
+ * consent of the copyright holder.
+ */
+
+"CATK_NO_INTERNET_CONNECTION_KEY" = "Du verkar vara offline. Kontrollera dina internetinställningar.";
+"CATK_PROBLEM_OCCURED" = "Något gick fel. Försök igen.";
+"MYA_Visit_Website" = "[sv]Visit our website";
+"csw_consent_help_label" = "Vad betyder det?";
+"csw_generic_network_error" = "Det går inte att ansluta till servern. Kontrollera din internetanslutning och försök igen. ";
+"csw_invalid_access_token_error_message" = "Det uppstod ett problem vid anslutning till servern. Se till att datum/tid på enheten är korrekt inställda. Om problemet kvarstår loggar du ut och sedan in igen.";
+"csw_offline_message" = "Internetanslutningen verkar inte fungera. Kontrollera och försök igen";
+"csw_offline_title" = "Du är offline";
+"csw_ok" = "OK";
+"csw_privacy_notice" = "[sv]Privacy Notice";
+"csw_privacy_notice_message" = "Kontrollera din sekretess. Läs {sekretessmeddelandet}för mer information.";
+"csw_privacy_settings" = "Sekretessinställningar";
+"csw_privacy_settings_desc" = "Kontrollera din sekretess. Läs {sekretessmeddelandet}för mer information.";
+"csw_problem_occurred_error_message" = "Ett fel inträffade (fel %1$d). Försök igen.";
+"csw_problem_occurred_error_title" = "Ett problem uppstod";
+"csw_user_session_expired" = "Sessionen är ogiltig, logga ut och logga in igen";
+"mya_Account_settings" = "Kontoinställningar";
+"mya_Address" = "Adress";
+"mya_Cancel" = "Avbryt";
+"mya_Consent_Help_Label" = "Vad betyder det?";
+"mya_Country" = "Land";
+"mya_Date_of_birth" = "Födelsedatum";
+"mya_Email_Validation_message" = "E-postadress ej bekräftad";
+"mya_Email_address" = "E-postadress";
+"mya_Gender" = "Kön";
+"mya_Info" = "Vill du ändra ditt inloggnings-ID eller lösenord? Besök vår webbplats.";
+"mya_Invalid_Access_Token_Error_Message" = "Det uppstod ett problem vid anslutning till servern. Se till att datum/tid på enheten är korrekt inställda. Om problemet kvarstår loggar du ut och sedan in igen.";
+"mya_Login_details" = "Inloggningsuppgifter";
+"mya_Logout" = "Logga ut";
+"mya_Mobile_number" = "Mobilnummer";
+"mya_My_account" = "Mitt konto";
+"mya_My_details" = "Mina uppgifter";
+"mya_My_orders" = "Mina beställningar";
+"mya_My_products" = "Mina produkter";
+"mya_My_subscriptions" = "Mina prenumerationer";
+"mya_Name" = "Namn";
+"mya_Not_Available" = "Inte tillgänglig";
+"mya_Notifications" = "Meddelanden";
+"mya_Offline_message" = "Internetanslutningen verkar inte fungera. Kontrollera och försök igen";
+"mya_Offline_title" = "Du är offline";
+"mya_Ok" = "OK";
+"mya_Personal_details" = "Personuppgifter";
+"mya_Privacy_Settings" = "Sekretessinställningar";
+"mya_Privacy_Settings_Desc" = "Kontrollera din sekretess. Läs {sekretessmeddelandet}för mer information.";
+"mya_Problem_Occurred_Error_Message" = "Ett fel inträffade (fel %d). Försök igen.";
+"mya_Problem_Occurred_Error_Title" = "Ett problem uppstod";
+"mya_Profile" = "Profil";
+"mya_Settings" = "Inställningar";
+"mya_change_country" = "Logga ut för att byta land";
+"mya_change_country_message" = "Logga ut för att byta landet du bor i. Det gör att vi kan anpassa garantier och annan information beroende på var du befinner dig.";
+"mya_csw_consent_revoked_confirm_btn_cancel" = "Avbryt";
+"mya_csw_consent_revoked_confirm_btn_ok" = "OK";
+"mya_csw_consent_revoked_confirm_descr" = "[sv]By revoking consent your data will be deleted from our servers.";
+"mya_logout_message" = "Du loggas ut från programmet. När du har loggat ut kan du alltid logga in igen.";
+"mya_logout_title" = "Är du säker på att du vill logga ut?";

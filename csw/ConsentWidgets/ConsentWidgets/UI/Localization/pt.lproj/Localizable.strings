@@ -1,0 +1,66 @@
+/*
+ * Localizable.strings 
+ */
+
+/*
+ * Copyright (c) Koninklijke Philips N.V., 2018
+ * All rights are reserved. Reproduction or dissemination
+ * in whole or in part is prohibited without the prior written
+ * consent of the copyright holder.
+ */
+
+"CATK_NO_INTERNET_CONNECTION_KEY" = "Parece estar offline. Verifique as suas definições de Internet.";
+"CATK_PROBLEM_OCCURED" = "Lamentamos, mas ocorreu um erro. Tente novamente.";
+"MYA_Visit_Website" = "[pt]Visit our website";
+"csw_consent_help_label" = "O que significa isto?";
+"csw_generic_network_error" = "Não é possível ligar ao servidor.\nVerifique a sua ligação à Internet e tente novamente.";
+"csw_invalid_access_token_error_message" = "Ocorreu um problema ao ligar ao servidor. Certifique-se de que a data/hora no dispositivo está correta. Se o problema persistir, termine a sessão e inicie-a novamente.";
+"csw_offline_message" = "A sua ligação à Internet parece não estar a funcionar. Verifique e tente novamente";
+"csw_offline_title" = "Está offline";
+"csw_ok" = "OK";
+"csw_privacy_notice" = "[pt]Privacy Notice";
+"csw_privacy_notice_message" = "Controle a sua privacidade. Leia a {declaração de privacidade} para mais informações.";
+"csw_privacy_settings" = "Definições de privacidade";
+"csw_privacy_settings_desc" = "Controle a sua privacidade. Leia a {declaração de privacidade} para mais informações.";
+"csw_problem_occurred_error_message" = "Ocorreu um problema (error %1$d). Tente novamente.";
+"csw_problem_occurred_error_title" = "Ocorreu um problema";
+"csw_user_session_expired" = "A sua sessão é inválida. Termine a sessão e reinicie-a";
+"mya_Account_settings" = "Definições da conta";
+"mya_Address" = "Morada";
+"mya_Cancel" = "Cancelar";
+"mya_Consent_Help_Label" = "O que significa isto?";
+"mya_Country" = "País";
+"mya_Date_of_birth" = "Data de nascimento";
+"mya_Email_Validation_message" = "Endereço de email não confirmado";
+"mya_Email_address" = "Endereço de correio electrónico";
+"mya_Gender" = "Género";
+"mya_Info" = "Pretende alterar o seu ID ou palavra-passe de início de sessão? Visite o nosso website.";
+"mya_Invalid_Access_Token_Error_Message" = "Ocorreu um problema ao ligar ao servidor. Certifique-se de que a data/hora no dispositivo está correta. Se o problema persistir, termine a sessão e inicie-a novamente.";
+"mya_Login_details" = "Detalhes de início de sessão";
+"mya_Logout" = "Terminar sessão";
+"mya_Mobile_number" = "Número de telemóvel";
+"mya_My_account" = "A minha conta";
+"mya_My_details" = "Os meus detalhes";
+"mya_My_orders" = "As minhas encomendas";
+"mya_My_products" = "Os meus produtos";
+"mya_My_subscriptions" = "As minhas subscrições";
+"mya_Name" = "Nome";
+"mya_Not_Available" = "Indisponível";
+"mya_Notifications" = "Notificações";
+"mya_Offline_message" = "A sua ligação à Internet parece não estar a funcionar. Verifique e tente novamente";
+"mya_Offline_title" = "Está offline";
+"mya_Ok" = "OK";
+"mya_Personal_details" = "Detalhes pessoais";
+"mya_Privacy_Settings" = "Definições de privacidade";
+"mya_Privacy_Settings_Desc" = "Controle a sua privacidade. Leia a {declaração de privacidade} para mais informações.";
+"mya_Problem_Occurred_Error_Message" = "Ocorreu um problema (error %d). Tente novamente.";
+"mya_Problem_Occurred_Error_Title" = "Ocorreu um problema";
+"mya_Profile" = "Perfil";
+"mya_Settings" = "Definições";
+"mya_change_country" = "Termine sessão para mudar o país";
+"mya_change_country_message" = "Termine a sessão para mudar o país onde reside. Isto permite-nos adaptar a garantia e outras informações à sua localização";
+"mya_csw_consent_revoked_confirm_btn_cancel" = "Cancelar";
+"mya_csw_consent_revoked_confirm_btn_ok" = "OK";
+"mya_csw_consent_revoked_confirm_descr" = "[pt]By revoking consent your data will be deleted from our servers.";
+"mya_logout_message" = "Irá terminar a sessão na aplicação. Depois de terminar a sessão, pode sempre voltar a iniciar a sessão.";
+"mya_logout_title" = "Tem a certeza que deseja terminar a sessão?";

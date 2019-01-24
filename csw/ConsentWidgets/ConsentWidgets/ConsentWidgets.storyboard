@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="XFF-Ci-y7g">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="CentraleSans-Book.ttf">
+            <string>CentraleSansBook</string>
+        </array>
+        <array key="CentraleSansBold.ttf">
+            <string>CentraleSansBold</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Consent Widgets View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="ConsentWidgetsViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" customClass="ConsentWidgetsViewController" customModule="ConsentWidgets" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC" customClass="UIDView" customModule="PhilipsUIKitDLS">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="hPy-qw-qbd">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="680" id="7uZ-ss-Yot"/>
+                                </constraints>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="ConsentWidgetsPrivacyCell" rowHeight="100" id="Bwo-sq-ei0" customClass="ConsentWidgetsTableViewCell" customModule="ConsentWidgets" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="414" height="100"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Bwo-sq-ei0" id="fmD-9Q-GEe">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="100"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OtA-8C-wxd" customClass="UIDView" customModule="PhilipsUIKitDLS">
+                                                    <rect key="frame" x="0.0" y="0.0" width="414" height="100"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Label" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1fQ-y4-rk3" customClass="UIDHyperLinkLabel" customModule="PhilipsUIKitDLS">
+                                                            <rect key="frame" x="16" y="16" width="382" height="68"/>
+                                                            <fontDescription key="fontDescription" name="CentraleSansBook" family="CentraleSans" pointSize="16"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                            <userDefinedRuntimeAttributes>
+                                                                <userDefinedRuntimeAttribute type="number" keyPath="labelType">
+                                                                    <integer key="value" value="1"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                                <userDefinedRuntimeAttribute type="boolean" keyPath="customFont" value="YES"/>
+                                                            </userDefinedRuntimeAttributes>
+                                                        </label>
+                                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RYu-A0-5tj" customClass="UIDSeparator" customModule="PhilipsUIKitDLS">
+                                                            <rect key="frame" x="0.0" y="99" width="414" height="1"/>
+                                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="height" constant="1" id="QtE-OP-Cub"/>
+                                                                <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="1" id="twT-9s-tGB"/>
+                                                            </constraints>
+                                                        </view>
+                                                    </subviews>
+                                                    <constraints>
+                                                        <constraint firstItem="1fQ-y4-rk3" firstAttribute="leading" secondItem="OtA-8C-wxd" secondAttribute="leading" constant="16" id="8D3-mJ-i9b"/>
+                                                        <constraint firstItem="RYu-A0-5tj" firstAttribute="top" secondItem="1fQ-y4-rk3" secondAttribute="bottom" constant="15" id="H8A-64-hWM"/>
+                                                        <constraint firstAttribute="bottom" secondItem="RYu-A0-5tj" secondAttribute="bottom" id="SYv-Ez-EaO"/>
+                                                        <constraint firstItem="1fQ-y4-rk3" firstAttribute="top" secondItem="OtA-8C-wxd" secondAttribute="top" constant="16" id="TAL-Nq-ppy"/>
+                                                        <constraint firstAttribute="trailing" secondItem="1fQ-y4-rk3" secondAttribute="trailing" constant="16" id="gOh-yA-PTM"/>
+                                                        <constraint firstAttribute="trailing" secondItem="RYu-A0-5tj" secondAttribute="trailing" id="iX4-Ls-1MY"/>
+                                                        <constraint firstItem="RYu-A0-5tj" firstAttribute="leading" secondItem="OtA-8C-wxd" secondAttribute="leading" id="so8-hN-H1Y"/>
+                                                    </constraints>
+                                                </view>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                            <constraints>
+                                                <constraint firstItem="OtA-8C-wxd" firstAttribute="top" secondItem="fmD-9Q-GEe" secondAttribute="top" id="7WY-m3-My2"/>
+                                                <constraint firstAttribute="bottom" secondItem="OtA-8C-wxd" secondAttribute="bottom" id="RAh-bo-Bwy"/>
+                                                <constraint firstAttribute="trailing" secondItem="OtA-8C-wxd" secondAttribute="trailing" id="T6g-9W-eQb"/>
+                                                <constraint firstItem="OtA-8C-wxd" firstAttribute="leading" secondItem="fmD-9Q-GEe" secondAttribute="leading" id="yIU-zT-A2K"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <outlet property="lblConsentMeaning" destination="1fQ-y4-rk3" id="awQ-Z5-Zbp"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="ConsentWidgetsCell" rowHeight="100" id="Ewk-d9-7hA" customClass="ConsentWidgetsTableViewCell" customModule="ConsentWidgets" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="128" width="414" height="100"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Ewk-d9-7hA" id="DcE-CX-q0V">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="100"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NGx-dL-tyW" customClass="UIDView" customModule="PhilipsUIKitDLS">
+                                                    <rect key="frame" x="0.0" y="0.0" width="414" height="100"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="245" text="Label" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="miT-0f-Dcw" customClass="UIDLabel" customModule="PhilipsUIKitDLS">
+                                                            <rect key="frame" x="16" y="24" width="316" height="16"/>
+                                                            <fontDescription key="fontDescription" name="CentraleSansBook" family="CentraleSans" pointSize="16"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                            <userDefinedRuntimeAttributes>
+                                                                <userDefinedRuntimeAttribute type="number" keyPath="labelType">
+                                                                    <integer key="value" value="1"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                                <userDefinedRuntimeAttribute type="boolean" keyPath="customFont" value="YES"/>
+                                                            </userDefinedRuntimeAttributes>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" verticalCompressionResistancePriority="751" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5YQ-Qi-4hI" customClass="UIDHyperLinkLabel" customModule="PhilipsUIKitDLS">
+                                                            <rect key="frame" x="16" y="48" width="316" height="16"/>
+                                                            <fontDescription key="fontDescription" name="CentraleSansBook" family="CentraleSans" pointSize="16"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                            <userDefinedRuntimeAttributes>
+                                                                <userDefinedRuntimeAttribute type="number" keyPath="labelType">
+                                                                    <integer key="value" value="1"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                                <userDefinedRuntimeAttribute type="boolean" keyPath="customFont" value="YES"/>
+                                                            </userDefinedRuntimeAttributes>
+                                                        </label>
+                                                        <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Eqw-kP-BVR" customClass="UIDSwitch" customModule="PhilipsUIKitDLS">
+                                                            <rect key="frame" x="348" y="38" width="50" height="24"/>
+                                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="width" constant="50" id="tqk-bU-eDD"/>
+                                                            </constraints>
+                                                            <connections>
+                                                                <action selector="consentSwitchAction:" destination="Ewk-d9-7hA" eventType="valueChanged" id="K3g-pE-HuI"/>
+                                                            </connections>
+                                                        </view>
+                                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OAU-uo-5ak" customClass="UIDSeparator" customModule="PhilipsUIKitDLS">
+                                                            <rect key="frame" x="0.0" y="99" width="414" height="1"/>
+                                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="height" constant="1" id="mQE-vR-QjO"/>
+                                                            </constraints>
+                                                        </view>
+                                                    </subviews>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <constraints>
+                                                        <constraint firstItem="Eqw-kP-BVR" firstAttribute="centerY" secondItem="NGx-dL-tyW" secondAttribute="centerY" id="AdJ-Qn-aXf"/>
+                                                        <constraint firstItem="5YQ-Qi-4hI" firstAttribute="trailing" secondItem="miT-0f-Dcw" secondAttribute="trailing" id="BCo-sH-3cF"/>
+                                                        <constraint firstAttribute="trailing" secondItem="OAU-uo-5ak" secondAttribute="trailing" id="IJ2-gy-6P3"/>
+                                                        <constraint firstAttribute="bottom" secondItem="OAU-uo-5ak" secondAttribute="bottom" id="LiZ-QB-0QA"/>
+                                                        <constraint firstItem="OAU-uo-5ak" firstAttribute="leading" secondItem="NGx-dL-tyW" secondAttribute="leading" id="Lt5-rk-e62"/>
+                                                        <constraint firstItem="Eqw-kP-BVR" firstAttribute="leading" secondItem="miT-0f-Dcw" secondAttribute="trailing" constant="16" id="PhO-Nh-gaP"/>
+                                                        <constraint firstItem="OAU-uo-5ak" firstAttribute="top" relation="greaterThanOrEqual" secondItem="5YQ-Qi-4hI" secondAttribute="bottom" priority="750" constant="16" id="Rhd-ll-aFA"/>
+                                                        <constraint firstItem="5YQ-Qi-4hI" firstAttribute="leading" secondItem="miT-0f-Dcw" secondAttribute="leading" id="VDX-uT-wJj"/>
+                                                        <constraint firstItem="miT-0f-Dcw" firstAttribute="top" secondItem="NGx-dL-tyW" secondAttribute="top" constant="24" id="bFh-g9-6eO"/>
+                                                        <constraint firstItem="miT-0f-Dcw" firstAttribute="leading" secondItem="NGx-dL-tyW" secondAttribute="leading" constant="16" id="cOg-7Z-mX1"/>
+                                                        <constraint firstItem="5YQ-Qi-4hI" firstAttribute="top" secondItem="miT-0f-Dcw" secondAttribute="bottom" constant="8" id="cqR-O4-le2"/>
+                                                        <constraint firstAttribute="trailing" secondItem="Eqw-kP-BVR" secondAttribute="trailing" constant="16" id="wzA-WN-TDE"/>
+                                                    </constraints>
+                                                </view>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                            <constraints>
+                                                <constraint firstItem="NGx-dL-tyW" firstAttribute="top" secondItem="DcE-CX-q0V" secondAttribute="top" id="Jxz-Oh-XdY"/>
+                                                <constraint firstAttribute="trailing" secondItem="NGx-dL-tyW" secondAttribute="trailing" id="Vev-8U-jYQ"/>
+                                                <constraint firstAttribute="bottom" secondItem="NGx-dL-tyW" secondAttribute="bottom" id="mHR-Cb-IIY"/>
+                                                <constraint firstItem="NGx-dL-tyW" firstAttribute="leading" secondItem="DcE-CX-q0V" secondAttribute="leading" id="wQZ-qb-mms"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <outlet property="consentSwitch" destination="Eqw-kP-BVR" id="diL-Ys-jqX"/>
+                                            <outlet property="lblConsentMeaning" destination="5YQ-Qi-4hI" id="DxG-sm-Puc"/>
+                                            <outlet property="lblConsentType" destination="miT-0f-Dcw" id="HdU-BO-aYD"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="7uZ-ss-Yot"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=regular">
+                                    <mask key="constraints">
+                                        <include reference="7uZ-ss-Yot"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="5iN-Qe-EfC"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="Q3e-Vs-H8N"/>
+                                </connections>
+                            </tableView>
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DA1-aj-HFh" customClass="UIDProgressIndicator" customModule="PhilipsUIKitDLS">
+                                <rect key="frame" x="183" y="344" width="48" height="48"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="progressIndicatorStyle">
+                                        <integer key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="hidesWhenStopped" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="circularProgressIndicatorSize">
+                                        <integer key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="hPy-qw-qbd" secondAttribute="trailing" priority="999" id="BED-Wl-jhu"/>
+                            <constraint firstItem="DA1-aj-HFh" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="JGz-e5-Rbd"/>
+                            <constraint firstItem="hPy-qw-qbd" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" priority="999" id="UMd-bW-m0O"/>
+                            <constraint firstItem="DA1-aj-HFh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="apH-BU-GQZ"/>
+                            <constraint firstItem="hPy-qw-qbd" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="eF2-hj-cAK"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="hPy-qw-qbd" secondAttribute="bottom" id="utq-fb-OGk"/>
+                            <constraint firstItem="hPy-qw-qbd" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ywF-yG-KJd"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="4my-Nl-1wc"/>
+                    <connections>
+                        <outlet property="concentWidgetsTableView" destination="hPy-qw-qbd" id="ED9-KE-ZVu"/>
+                        <outlet property="progressIndicator" destination="DA1-aj-HFh" id="kNC-NR-Im9"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2756.521739130435" y="128.80434782608697"/>
+        </scene>
+        <!--Help Text View Controller-->
+        <scene sceneID="4wq-Br-Nrf">
+            <objects>
+                <viewController storyboardIdentifier="HelpTextViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="kqh-Oh-guG" customClass="HelpTextViewController" customModule="ConsentWidgets" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="V1Q-v1-g5n"/>
+                        <viewControllerLayoutGuide type="bottom" id="4Ue-Zv-ZAx"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="7ek-QU-3vI" customClass="UIDView" customModule="PhilipsUIKitDLS">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W3F-yg-Brn">
+                                <rect key="frame" x="16" y="20" width="382" height="716"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="WgY-QQ-eGf">
+                                        <rect key="frame" x="0.0" y="0.0" width="382" height="329.33333333333331"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tit-Cw-K0O" customClass="UIDLabel" customModule="PhilipsUIKitDLS">
+                                                <rect key="frame" x="0.0" y="0.0" width="382" height="24"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mFr-uZ-SiL" customClass="UIDTextView" customModule="PhilipsUIKitDLS">
+                                                <rect key="frame" x="0.0" y="34" width="382" height="295.33333333333331"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isBordered" value="NO"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </textView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="WgY-QQ-eGf" secondAttribute="bottom" constant="16" id="5gq-F1-DpP"/>
+                                    <constraint firstItem="WgY-QQ-eGf" firstAttribute="top" secondItem="W3F-yg-Brn" secondAttribute="top" id="L40-xA-kXS"/>
+                                    <constraint firstAttribute="trailing" secondItem="WgY-QQ-eGf" secondAttribute="trailing" id="QWJ-bQ-h9j"/>
+                                    <constraint firstItem="WgY-QQ-eGf" firstAttribute="leading" secondItem="W3F-yg-Brn" secondAttribute="leading" id="qgf-W0-oap"/>
+                                    <constraint firstItem="WgY-QQ-eGf" firstAttribute="width" secondItem="W3F-yg-Brn" secondAttribute="width" id="ugl-Xa-U6I"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="W3F-yg-Brn" secondAttribute="bottom" id="0MB-JC-K1P"/>
+                            <constraint firstAttribute="trailing" secondItem="W3F-yg-Brn" secondAttribute="trailing" constant="16" id="6sz-49-jLl"/>
+                            <constraint firstItem="W3F-yg-Brn" firstAttribute="leading" secondItem="7ek-QU-3vI" secondAttribute="leading" constant="16" id="A7k-s5-cbU"/>
+                            <constraint firstItem="W3F-yg-Brn" firstAttribute="top" secondItem="7ek-QU-3vI" secondAttribute="top" constant="20" id="sXe-0J-4YZ"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="helpTextTitle" destination="Tit-Cw-K0O" id="4I0-7H-0iA"/>
+                        <outlet property="helpTextView" destination="mFr-uZ-SiL" id="c2i-Xy-9Tk"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PHn-mf-0TV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4019" y="129"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="OPu-qW-qrh">
+            <objects>
+                <navigationController id="XFF-Ci-y7g" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="IJ0-jh-25Q">
+                        <rect key="frame" x="0.0" y="20" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="nin-Yf-Mgm"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WT9-mw-omG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2012" y="129"/>
+        </scene>
+        <!--Just In Time Consent View Controller-->
+        <scene sceneID="exe-A1-lUK">
+            <objects>
+                <viewController storyboardIdentifier="justInTimeConsentWidget" id="im6-bJ-YzT" customClass="JustInTimeConsentViewController" customModule="ConsentWidgets" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="4cs-t9-wdP" customClass="UIDView" customModule="PhilipsUIKitDLS">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="uju-Lq-69q">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                            </imageView>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LDb-aX-RI3">
+                                <rect key="frame" x="0.0" y="20" width="414" height="716"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aZP-ne-LMC" userLabel="Background View">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="10200.333333333334"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wjd-1n-JYH">
+                                                <rect key="frame" x="16" y="0.0" width="382" height="10200.333333333334"/>
+                                                <subviews>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="24" translatesAutoresizingMaskIntoConstraints="NO" id="EJn-a2-tEU">
+                                                        <rect key="frame" x="0.0" y="0.0" width="382" height="10184.333333333334"/>
+                                                        <subviews>
+                                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Ipd-vg-o6v">
+                                                                <rect key="frame" x="0.0" y="24" width="382" height="10060.333333333334"/>
+                                                                <subviews>
+                                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="3dY-PM-wNN">
+                                                                        <rect key="frame" x="0.0" y="0.0" width="382" height="40.333333333333336"/>
+                                                                        <subviews>
+                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Confirm your email" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C7Y-aV-uPW" userLabel="OptIn Header" customClass="UIDLabel" customModule="PhilipsUIKitDLS">
+                                                                                <rect key="frame" x="0.0" y="0.0" width="382" height="24.333333333333332"/>
+                                                                                <accessibility key="accessibilityConfiguration" identifier="csw_justInTimeToolbar_consentToolbarTitle_textView"/>
+                                                                                <fontDescription key="fontDescription" name="CentraleSansBold" family="CentraleSans" pointSize="20"/>
+                                                                                <nil key="textColor"/>
+                                                                                <nil key="highlightedColor"/>
+                                                                                <userDefinedRuntimeAttributes>
+                                                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="customFont" value="YES"/>
+                                                                                    <userDefinedRuntimeAttribute type="number" keyPath="labelType">
+                                                                                        <integer key="value" value="1"/>
+                                                                                    </userDefinedRuntimeAttribute>
+                                                                                </userDefinedRuntimeAttributes>
+                                                                            </label>
+                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lsf-g7-0F2" userLabel="Special offers label" customClass="UIDLabel" customModule="PhilipsUIKitDLS">
+                                                                                <rect key="frame" x="0.0" y="40.333333333333329" width="382" height="0.0"/>
+                                                                                <accessibility key="accessibilityConfiguration" identifier="csw_justInTimeView_consentUserBenefitsDescription_label"/>
+                                                                                <fontDescription key="fontDescription" name="CentraleSansBook" family="CentraleSans" pointSize="16"/>
+                                                                                <nil key="textColor"/>
+                                                                                <nil key="highlightedColor"/>
+                                                                                <userDefinedRuntimeAttributes>
+                                                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="customFont" value="YES"/>
+                                                                                    <userDefinedRuntimeAttribute type="number" keyPath="labelType">
+                                                                                        <integer key="value" value="0"/>
+                                                                                    </userDefinedRuntimeAttribute>
+                                                                                </userDefinedRuntimeAttributes>
+                                                                            </label>
+                                                                        </subviews>
+                                                                        <edgeInsets key="layoutMargins" top="0.0" left="0.0" bottom="0.0" right="0.0"/>
+                                                                    </stackView>
+                                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="b7N-jy-eAX" userLabel="Dialogs" customClass="UIDView">
+                                                                        <rect key="frame" x="0.0" y="60.33333333333303" width="382" height="10000"/>
+                                                                        <subviews>
+                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0kk-To-74S" userLabel="Consent description" customClass="UIDLabel" customModule="PhilipsUIKitDLS">
+                                                                                <rect key="frame" x="16" y="16" width="350" height="0.0"/>
+                                                                                <accessibility key="accessibilityConfiguration" identifier="csw_justInTimeView_consentDescription_label"/>
+                                                                                <fontDescription key="fontDescription" name="CentraleSansBook" family="CentraleSans" pointSize="12"/>
+                                                                                <nil key="textColor"/>
+                                                                                <nil key="highlightedColor"/>
+                                                                                <userDefinedRuntimeAttributes>
+                                                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="customFont" value="YES"/>
+                                                                                    <userDefinedRuntimeAttribute type="number" keyPath="labelType">
+                                                                                        <integer key="value" value="1"/>
+                                                                                    </userDefinedRuntimeAttribute>
+                                                                                </userDefinedRuntimeAttributes>
+                                                                            </label>
+                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HKS-Dp-Fk9" userLabel="What does it mean" customClass="UIDHyperLinkLabel" customModule="PhilipsUIKitDLS">
+                                                                                <rect key="frame" x="16" y="28" width="350" height="9956"/>
+                                                                                <accessibility key="accessibilityConfiguration" identifier="csw_justInTimeView_consentHelplink_button"/>
+                                                                                <fontDescription key="fontDescription" name="CentraleSansBook" family="CentraleSans" pointSize="12"/>
+                                                                                <nil key="textColor"/>
+                                                                                <nil key="highlightedColor"/>
+                                                                                <userDefinedRuntimeAttributes>
+                                                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="customFont" value="YES"/>
+                                                                                    <userDefinedRuntimeAttribute type="number" keyPath="labelType">
+                                                                                        <integer key="value" value="1"/>
+                                                                                    </userDefinedRuntimeAttribute>
+                                                                                </userDefinedRuntimeAttributes>
+                                                                            </label>
+                                                                        </subviews>
+                                                                        <color key="backgroundColor" red="0.93224197626113892" green="0.96867984533309937" blue="0.97707682847976685" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                        <constraints>
+                                                                            <constraint firstAttribute="bottom" secondItem="HKS-Dp-Fk9" secondAttribute="bottom" constant="16" id="752-3O-NG8"/>
+                                                                            <constraint firstItem="0kk-To-74S" firstAttribute="leading" secondItem="b7N-jy-eAX" secondAttribute="leading" constant="16" id="A7O-dv-hnm"/>
+                                                                            <constraint firstItem="0kk-To-74S" firstAttribute="top" secondItem="b7N-jy-eAX" secondAttribute="top" constant="16" id="Cmg-IJ-zs6"/>
+                                                                            <constraint firstItem="HKS-Dp-Fk9" firstAttribute="top" secondItem="0kk-To-74S" secondAttribute="bottom" constant="12" id="Cs0-c0-VIr"/>
+                                                                            <constraint firstItem="HKS-Dp-Fk9" firstAttribute="leading" secondItem="0kk-To-74S" secondAttribute="leading" id="LFL-Lz-y6T"/>
+                                                                            <constraint firstItem="HKS-Dp-Fk9" firstAttribute="trailing" secondItem="0kk-To-74S" secondAttribute="trailing" id="Pfz-cr-xG2"/>
+                                                                            <constraint firstAttribute="trailing" secondItem="0kk-To-74S" secondAttribute="trailing" constant="16" id="vVz-dm-Muh"/>
+                                                                        </constraints>
+                                                                    </view>
+                                                                </subviews>
+                                                                <edgeInsets key="layoutMargins" top="0.0" left="0.0" bottom="0.0" right="0.0"/>
+                                                            </stackView>
+                                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="9jW-HX-UxS">
+                                                                <rect key="frame" x="0.0" y="10108.333333333334" width="382" height="76"/>
+                                                                <subviews>
+                                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jRF-6p-QNY" customClass="UIDProgressButton" customModule="PhilipsUIKitDLS">
+                                                                        <rect key="frame" x="0.0" y="0.0" width="382" height="34"/>
+                                                                        <accessibility key="accessibilityConfiguration" identifier="csw_justInTimeView_consentOk_button"/>
+                                                                        <state key="normal" title="Ok, Count me in">
+                                                                            <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                                        </state>
+                                                                        <userDefinedRuntimeAttributes>
+                                                                            <userDefinedRuntimeAttribute type="number" keyPath="philipsType">
+                                                                                <integer key="value" value="0"/>
+                                                                            </userDefinedRuntimeAttribute>
+                                                                            <userDefinedRuntimeAttribute type="number" keyPath="progressIndicatorStyle">
+                                                                                <integer key="value" value="1"/>
+                                                                            </userDefinedRuntimeAttribute>
+                                                                        </userDefinedRuntimeAttributes>
+                                                                        <connections>
+                                                                            <action selector="acceptButtonTapped:" destination="im6-bJ-YzT" eventType="touchUpInside" id="vVc-yf-QEs"/>
+                                                                        </connections>
+                                                                    </button>
+                                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l0u-m6-dyR" customClass="UIDProgressButton" customModule="PhilipsUIKitDLS">
+                                                                        <rect key="frame" x="0.0" y="42" width="382" height="34"/>
+                                                                        <accessibility key="accessibilityConfiguration" identifier="csw_justInTimeView_consentLater_label"/>
+                                                                        <state key="normal" title="Maybe later">
+                                                                            <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                                        </state>
+                                                                        <userDefinedRuntimeAttributes>
+                                                                            <userDefinedRuntimeAttribute type="number" keyPath="philipsType">
+                                                                                <integer key="value" value="1"/>
+                                                                            </userDefinedRuntimeAttribute>
+                                                                            <userDefinedRuntimeAttribute type="number" keyPath="progressIndicatorStyle">
+                                                                                <integer key="value" value="1"/>
+                                                                            </userDefinedRuntimeAttribute>
+                                                                        </userDefinedRuntimeAttributes>
+                                                                        <connections>
+                                                                            <action selector="cancelButtonTapped:" destination="im6-bJ-YzT" eventType="touchUpInside" id="7DL-k0-E3P"/>
+                                                                        </connections>
+                                                                    </button>
+                                                                </subviews>
+                                                            </stackView>
+                                                        </subviews>
+                                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                        <edgeInsets key="layoutMargins" top="24" left="0.0" bottom="0.0" right="0.0"/>
+                                                    </stackView>
+                                                </subviews>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="trailing" secondItem="EJn-a2-tEU" secondAttribute="trailing" id="HmO-cd-GjC"/>
+                                                    <constraint firstAttribute="width" constant="648" id="eQz-A0-y7u"/>
+                                                    <constraint firstAttribute="bottom" secondItem="EJn-a2-tEU" secondAttribute="bottom" constant="16" id="gUg-hQ-gts"/>
+                                                    <constraint firstItem="EJn-a2-tEU" firstAttribute="leading" secondItem="wjd-1n-JYH" secondAttribute="leading" id="kmZ-mC-Rqm"/>
+                                                    <constraint firstItem="EJn-a2-tEU" firstAttribute="top" secondItem="wjd-1n-JYH" secondAttribute="top" id="qLk-8M-rTR"/>
+                                                </constraints>
+                                                <variation key="default">
+                                                    <mask key="constraints">
+                                                        <exclude reference="eQz-A0-y7u"/>
+                                                    </mask>
+                                                </variation>
+                                                <variation key="widthClass=regular">
+                                                    <mask key="constraints">
+                                                        <include reference="eQz-A0-y7u"/>
+                                                    </mask>
+                                                </variation>
+                                            </view>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="wjd-1n-JYH" secondAttribute="trailing" constant="16" id="AHs-Tb-kGJ"/>
+                                            <constraint firstAttribute="bottom" secondItem="wjd-1n-JYH" secondAttribute="bottom" id="H5r-Qa-aQY"/>
+                                            <constraint firstItem="wjd-1n-JYH" firstAttribute="centerX" secondItem="aZP-ne-LMC" secondAttribute="centerX" id="buM-7J-ZIz"/>
+                                            <constraint firstItem="wjd-1n-JYH" firstAttribute="top" secondItem="aZP-ne-LMC" secondAttribute="top" id="eEk-nS-p3O"/>
+                                            <constraint firstItem="wjd-1n-JYH" firstAttribute="leading" secondItem="aZP-ne-LMC" secondAttribute="leading" constant="16" id="k1n-wz-yhP"/>
+                                        </constraints>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="AHs-Tb-kGJ"/>
+                                                <exclude reference="buM-7J-ZIz"/>
+                                                <exclude reference="k1n-wz-yhP"/>
+                                            </mask>
+                                        </variation>
+                                        <variation key="widthClass=compact">
+                                            <mask key="constraints">
+                                                <include reference="AHs-Tb-kGJ"/>
+                                                <include reference="k1n-wz-yhP"/>
+                                            </mask>
+                                        </variation>
+                                        <variation key="widthClass=regular">
+                                            <mask key="constraints">
+                                                <include reference="buM-7J-ZIz"/>
+                                            </mask>
+                                        </variation>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="aZP-ne-LMC" firstAttribute="leading" secondItem="LDb-aX-RI3" secondAttribute="leading" id="150-mv-mtV"/>
+                                    <constraint firstAttribute="bottom" secondItem="aZP-ne-LMC" secondAttribute="bottom" id="4JC-zM-xkd"/>
+                                    <constraint firstAttribute="trailing" secondItem="aZP-ne-LMC" secondAttribute="trailing" id="Umh-to-g18"/>
+                                    <constraint firstItem="aZP-ne-LMC" firstAttribute="top" secondItem="LDb-aX-RI3" secondAttribute="top" id="px3-CU-INb"/>
+                                </constraints>
+                            </scrollView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5yI-A6-0LN" customClass="UIDProgressIndicator" customModule="PhilipsUIKitDLS">
+                                <rect key="frame" x="185" y="356" width="44" height="44"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="6QM-3W-UF0"/>
+                                    <constraint firstAttribute="width" constant="44" id="p3r-OJ-uAo"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="5yI-A6-0LN" firstAttribute="centerX" secondItem="lkB-6w-KVW" secondAttribute="centerX" id="9Pj-Gx-h2u"/>
+                            <constraint firstAttribute="bottom" secondItem="uju-Lq-69q" secondAttribute="bottom" id="F6W-Ne-zqH"/>
+                            <constraint firstItem="LDb-aX-RI3" firstAttribute="top" secondItem="lkB-6w-KVW" secondAttribute="top" id="Jr9-WB-A5f"/>
+                            <constraint firstItem="lkB-6w-KVW" firstAttribute="trailing" secondItem="uju-Lq-69q" secondAttribute="trailing" id="KrY-6h-EKy"/>
+                            <constraint firstItem="LDb-aX-RI3" firstAttribute="leading" secondItem="lkB-6w-KVW" secondAttribute="leading" id="VNJ-4z-Hzv"/>
+                            <constraint firstItem="5yI-A6-0LN" firstAttribute="centerY" secondItem="lkB-6w-KVW" secondAttribute="centerY" id="Vt7-fX-DgC"/>
+                            <constraint firstItem="uju-Lq-69q" firstAttribute="leading" secondItem="lkB-6w-KVW" secondAttribute="leading" id="qXK-ma-K5T"/>
+                            <constraint firstItem="uju-Lq-69q" firstAttribute="top" secondItem="4cs-t9-wdP" secondAttribute="top" id="wXz-gH-sq4"/>
+                            <constraint firstItem="aZP-ne-LMC" firstAttribute="width" secondItem="lkB-6w-KVW" secondAttribute="width" id="xAl-2X-oR6"/>
+                            <constraint firstItem="lkB-6w-KVW" firstAttribute="bottom" secondItem="LDb-aX-RI3" secondAttribute="bottom" id="xQA-im-rgL"/>
+                            <constraint firstItem="lkB-6w-KVW" firstAttribute="trailing" secondItem="LDb-aX-RI3" secondAttribute="trailing" id="yDr-m6-K3i"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="lkB-6w-KVW"/>
+                    </view>
+                    <connections>
+                        <outlet property="acceptButton" destination="jRF-6p-QNY" id="Yn4-EO-Wgu"/>
+                        <outlet property="cancelButton" destination="l0u-m6-dyR" id="GNX-lr-157"/>
+                        <outlet property="consentDescription" destination="0kk-To-74S" id="oFb-rQ-DsF"/>
+                        <outlet property="dialogContainerView" destination="b7N-jy-eAX" id="Wnv-By-CVe"/>
+                        <outlet property="progressIndicator" destination="5yI-A6-0LN" id="wfY-zc-afT"/>
+                        <outlet property="specialOffersLabel" destination="Lsf-g7-0F2" id="vMy-py-hfT"/>
+                        <outlet property="titleLable" destination="C7Y-aV-uPW" id="Zvb-YG-N49"/>
+                        <outlet property="whatDoesThisMean" destination="HKS-Dp-Fk9" id="sWz-yh-dIT"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lqI-5c-jj1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1470" y="1036"/>
+        </scene>
+    </scenes>
+</document>

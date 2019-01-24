@@ -1,0 +1,66 @@
+/*
+ * Localizable.strings 
+ */
+
+/*
+ * Copyright (c) Koninklijke Philips N.V., 2018
+ * All rights are reserved. Reproduction or dissemination
+ * in whole or in part is prohibited without the prior written
+ * consent of the copyright holder.
+ */
+
+"CATK_NO_INTERNET_CONNECTION_KEY" = "คุณดูเหมือนว่าจะออฟไลน์ โปรดตรวจสอบการตั้งค่าอินเตอร์เน็ตของคุณ";
+"CATK_PROBLEM_OCCURED" = "ขออภัย เกิดข้อผิดพลาดบางประการ โปรดลองอีกครั้ง";
+"MYA_Visit_Website" = "[th]Visit our website";
+"csw_consent_help_label" = "หมายความว่าอย่างไร";
+"csw_generic_network_error" = "ไม่สามารถเชื่อมต่อเซิร์ฟเวอร์ได้ \nโปรดตรวจสอบการเชื่อมต่ออินเตอร์เน็ตของคุณ และลองอีกครั้ง ";
+"csw_invalid_access_token_error_message" = "มีปัญหาในการเชื่อมต่อกับเซิร์ฟเวอร์ ตรวจสอบให้แน่ใจว่าตั้งวัน/เวลาบนอุปกรณ์ของคุณถูกต้องแล้ว หากปัญหายังคงอยู่ โปรดล็อกเอาท์และล็อกอิน";
+"csw_offline_message" = "ดูเหมือนว่าการเชื่อมต่ออินเตอร์เน็ตของคุณไม่ทำงาน โปรดตรวจสอบและลองอีกครั้ง";
+"csw_offline_title" = "คุณอยู่ในสถานะออฟไลน์";
+"csw_ok" = "ตกลง";
+"csw_privacy_notice" = "[th]Privacy Notice";
+"csw_privacy_notice_message" = "ควบคุมความเป็นส่วนตัวของคุณ สำหรับข้อมูลเพิ่มเติม อ่าน {ประกาศเกี่ยวกับความเป็นส่วนตัว}";
+"csw_privacy_settings" = "ค่าความเป็นส่วนตัว";
+"csw_privacy_settings_desc" = "ควบคุมความเป็นส่วนตัวของคุณ สำหรับข้อมูลเพิ่มเติม อ่าน {ประกาศเกี่ยวกับความเป็นส่วนตัว}";
+"csw_problem_occurred_error_message" = "มีปัญหาใน (error %1$d) โปรดลองอีกครั้ง";
+"csw_problem_occurred_error_title" = "เกิดปัญหาขึ้น";
+"csw_user_session_expired" = "เซสซันของคุณไม่ถูกต้อง โปรดล็อกเอาท์และล็อกอินอีกครั้ง";
+"mya_Account_settings" = "การตั้งค่าบัญชี";
+"mya_Address" = "ที่อยู่";
+"mya_Cancel" = "ยกเลิก";
+"mya_Consent_Help_Label" = "หมายความว่าอย่างไร";
+"mya_Country" = "ประเทศ";
+"mya_Date_of_birth" = "วันเกิด";
+"mya_Email_Validation_message" = "อีเมล์แอดเดรสไม่ได้รับการยืนยัน";
+"mya_Email_address" = "อีเมล์แอดเดรส";
+"mya_Gender" = "เพศ";
+"mya_Info" = "คุณต้องการเปลี่ยน ID ล็อกอินหรือรหัสผ่านหรือไม่ เข้าชมเว็บไซต์ของเรา";
+"mya_Invalid_Access_Token_Error_Message" = "มีปัญหาในการเชื่อมต่อกับเซิร์ฟเวอร์ ตรวจสอบให้แน่ใจว่าตั้งวัน/เวลาบนอุปกรณ์ของคุณถูกต้องแล้ว หากปัญหายังคงอยู่ โปรดล็อกเอาท์และล็อกอิน";
+"mya_Login_details" = "รายละเอียดการล็อกอิน";
+"mya_Logout" = "ล็อกเอาต์";
+"mya_Mobile_number" = "หมายเลขโทรศัพท์มือถือ";
+"mya_My_account" = "แอคเคาท์ของฉัน";
+"mya_My_details" = "ข้อมูลของฉัน";
+"mya_My_orders" = "คำสั่งซื้อ";
+"mya_My_products" = "ผลิตภัณฑ์";
+"mya_My_subscriptions" = "ความเป็นสมาชิกของฉัน";
+"mya_Name" = "ชื่อ";
+"mya_Not_Available" = "ไม่มี";
+"mya_Notifications" = "การแจ้งเตือน";
+"mya_Offline_message" = "ดูเหมือนว่าการเชื่อมต่ออินเตอร์เน็ตของคุณไม่ทำงาน โปรดตรวจสอบและลองอีกครั้ง";
+"mya_Offline_title" = "คุณอยู่ในสถานะออฟไลน์";
+"mya_Ok" = "ตกลง";
+"mya_Personal_details" = "รายละเอียดส่วนตัว";
+"mya_Privacy_Settings" = "ค่าความเป็นส่วนตัว";
+"mya_Privacy_Settings_Desc" = "ควบคุมความเป็นส่วนตัวของคุณ สำหรับข้อมูลเพิ่มเติม อ่าน {ประกาศเกี่ยวกับความเป็นส่วนตัว}";
+"mya_Problem_Occurred_Error_Message" = "มีปัญหาใน (error %d) โปรดลองอีกครั้ง";
+"mya_Problem_Occurred_Error_Title" = "เกิดปัญหาขึ้น";
+"mya_Profile" = "โปรไฟล์";
+"mya_Settings" = "การตั้งค่า";
+"mya_change_country" = "ล็อกเอาท์เพื่อเปลี่ยนประเทศ";
+"mya_change_country_message" = "โปรดล็อกเอาท์เพื่อเปลี่ยนประเทศที่คุณอาศัยอยู่ ซึ่งจะช่วยให้เราสามารถปรับแต่งการรับประกันและข้อมูลอื่นๆ ให้เข้ากับตำแหน่งของคุณ";
+"mya_csw_consent_revoked_confirm_btn_cancel" = "ยกเลิก";
+"mya_csw_consent_revoked_confirm_btn_ok" = "ตกลง";
+"mya_csw_consent_revoked_confirm_descr" = "[th]By revoking consent your data will be deleted from our servers.";
+"mya_logout_message" = "คุณจะออกจากแอปพลิเคชัน หลังจากคุณล็อกเอาท์แล้ว คุณสามารถล็อกอินใหม่ได้เสมอ";
+"mya_logout_title" = "คุณแน่ใจว่าต้องการออกจากระบบหรือไม่";

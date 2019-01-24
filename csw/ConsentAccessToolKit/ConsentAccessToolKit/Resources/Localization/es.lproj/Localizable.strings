@@ -1,0 +1,13 @@
+/*
+ * Localizable.strings
+ */
+
+/*
+ * Copyright (c) Koninklijke Philips N.V., 2018
+ * All rights are reserved. Reproduction or dissemination
+ * in whole or in part is prohibited without the prior written
+ * consent of the copyright holder.
+ */
+
+"CATK_PROBLEM_OCCURED" = "Se ha producido un error. Inténtalo de nuevo.";
+"CATK_NO_INTERNET_CONNECTION_KEY" = "Parece que te encuentras fuera de línea. Comprueba la configuración de Internet.";

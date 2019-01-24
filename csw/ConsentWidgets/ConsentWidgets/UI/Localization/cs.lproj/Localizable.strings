@@ -1,0 +1,66 @@
+/*
+ * Localizable.strings 
+ */
+
+/*
+ * Copyright (c) Koninklijke Philips N.V., 2018
+ * All rights are reserved. Reproduction or dissemination
+ * in whole or in part is prohibited without the prior written
+ * consent of the copyright holder.
+ */
+
+"CATK_NO_INTERNET_CONNECTION_KEY" = "Vypadá to, že jste offline. Zkontrolujte nastavení připojení.";
+"CATK_PROBLEM_OCCURED" = "Je nám líto, ale něco se pokazilo. Zkuste to znovu.";
+"MYA_Visit_Website" = "[cs]Visit our website";
+"csw_consent_help_label" = "Co to znamená?";
+"csw_generic_network_error" = "Nepodařilo se připojit k serveru\nZkontrolujte své internetové připojení a zkuste to znovu.";
+"csw_invalid_access_token_error_message" = "Při připojování k serveru došlo k problému. Zkontrolujte, že datum a čas na zařízení jsou nastaveny správně. Pokud problém přetrvává, zkuste se odhlásit a znovu přihlásit.";
+"csw_offline_message" = "Připojení k internetu zřejmě nefunguje. Zkontrolujte a zopakujte akci";
+"csw_offline_title" = "Jste offline";
+"csw_ok" = "OK";
+"csw_privacy_notice" = "[cs]Privacy Notice";
+"csw_privacy_notice_message" = "Spravujte své soukromí. Více informací najdete v {zásadách ochrany osobních údajů}.";
+"mya_Info" = "Искате ли да промените вашия ИД или парола за вписване? Посетете сайта ни.";
+"csw_privacy_settings" = "Nastavení soukromí";
+"csw_privacy_settings_desc" = "Spravujte své soukromí. Více informací najdete v zásadách ochrany osobních údajů.";
+"csw_problem_occurred_error_message" = "Došlo k problému (chyba %d). Zkuste to znovu.";
+"csw_problem_occurred_error_title" = "Došlo k problému";
+"csw_user_session_expired" = "Vaše relace je neplatná. Odhlaste se a znovu se přihlaste";
+"mya_Account_settings" = "Nastavení účtu";
+"mya_Address" = "Adresa";
+"mya_Cancel" = "Zrušit";
+"mya_Consent_Help_Label" = "Co to znamená?";
+"mya_Country" = "Země";
+"mya_Date_of_birth" = "Datum narození";
+"mya_Email_Validation_message" = "E-mailová adresa není potvrzená";
+"mya_Email_address" = "E-mailová adresa";
+"mya_Gender" = "Pohlaví";
+"mya_Invalid_Access_Token_Error_Message" = "Při připojování k serveru došlo k problému. Zkontrolujte, že datum a čas na zařízení jsou nastaveny správně. Pokud problém přetrvává, zkuste se odhlásit a znovu přihlásit.";
+"mya_Login_details" = "Údaje přihlášení";
+"mya_Logout" = "Odhlásit";
+"mya_Mobile_number" = "Telefonní číslo";
+"mya_My_account" = "Můj účet";
+"mya_My_details" = "Moje údaje";
+"mya_My_orders" = "Objednávky";
+"mya_My_products" = "Moje výrobky";
+"mya_My_subscriptions" = "Má předplatná";
+"mya_Name" = "Jméno";
+"mya_Not_Available" = "Není k dispozici";
+"mya_Notifications" = "Upozornění";
+"mya_Offline_message" = "Připojení k internetu zřejmě nefunguje. Zkontrolujte a zopakujte akci";
+"mya_Offline_title" = "Jste offline";
+"mya_Ok" = "OK";
+"mya_Personal_details" = "Osobní údaje";
+"mya_Privacy_Settings" = "Nastavení soukromí";
+"mya_Privacy_Settings_Desc" = "Spravujte své soukromí. Více informací najdete v zásadách ochrany osobních údajů.";
+"mya_Problem_Occurred_Error_Message" = "Došlo k problému (chyba %d). Zkuste to znovu.";
+"mya_Problem_Occurred_Error_Title" = "Došlo k problému";
+"mya_Profile" = "Profil";
+"mya_Settings" = "Nastavení";
+"mya_change_country" = "Pro změnu země se odhlaste";
+"mya_change_country_message" = "Pro změnu země, ve které žijete, se odhlaste. Díky tomu budeme moci přizpůsobit záruční a další informace vaší poloze";
+"mya_csw_consent_revoked_confirm_btn_cancel" = "Zrušit";
+"mya_csw_consent_revoked_confirm_btn_ok" = "OK";
+"mya_csw_consent_revoked_confirm_descr" = "[cs]By revoking consent your data will be deleted from our servers.";
+"mya_logout_message" = "Budete odhlášeni z aplikace. Po odhlášení se můžete kdykoli znovu přihlásit.";
+"mya_logout_title" = "Určitě se chcete odhlásit?";
