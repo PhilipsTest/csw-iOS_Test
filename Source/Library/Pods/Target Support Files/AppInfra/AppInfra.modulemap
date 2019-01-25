@@ -1,0 +1,6 @@
+framework module AppInfra {
+  umbrella header "AppInfra-umbrella.h"
+
+  export *
+  module * { export * }
+}

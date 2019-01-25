@@ -1,0 +1,6 @@
+framework module UAPPFramework {
+  umbrella header "UAPPFramework-umbrella.h"
+
+  export *
+  module * { export * }
+}
