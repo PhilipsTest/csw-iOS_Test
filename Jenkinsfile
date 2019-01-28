@@ -1,18 +1,20 @@
 #!/usr/bin/env groovy
 // please look at: https://jenkins.io/doc/book/pipeline/syntax/
 BranchName = env.BRANCH_NAME
-String param_string_cron = BranchName == "develop" ? "H H(20-21) * * * %buildType=PSRA \n H H(22-23) * * * %GenerateAPIDocs=true" : ""
+//String cron_string = BranchName == "develop" ? "H H(20-21) * * * %buildType=PSRA \n H H(21-22) * * * %GenerateAPIDocs=true" : ""
 
-def MailRecipient = 'DL_CDP2_Callisto@philips.com'
+def MailRecipient = 'dl_iet_amaron@philips.com'
 def LogLevel = env.Verbose
 def updatedComponents = []
 
 pipeline {
+
     agent {
         node {
             label 'xcode && 10.0'
         }
     }
+
     parameters {
         booleanParam(name: 'RemoveWorkspace', defaultValue: false, description: 'Remove Workspace')
         booleanParam(name: 'Verbose', defaultValue: false, description: 'Verbose logging')
@@ -20,13 +22,20 @@ pipeline {
         booleanParam(name: 'RunAllTests', defaultValue: false, description: 'Build and run all unit tests')
         choice(choices: 'Normal\nPSRA', description: 'What type of build to build?', name: 'buildType')
     }
+
+    // triggers {
+    //     cron(cron_string)
+    // }
+
     environment {
         BUILD_FROM_ARTIFACTORY = 'false'
     }
+
     options {
         timestamps()
         buildDiscarder(logRotator(numToKeepStr: '24'))
     }
+
     stages {
 
         stage('Initialize') {
