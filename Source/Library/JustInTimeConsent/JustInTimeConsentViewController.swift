@@ -9,6 +9,7 @@
 import UIKit
 import PhilipsUIKitDLS
 import PlatformInterfaces
+import PhilipsIconFontDLS
 import AppInfra
 
 struct JITConstants {
@@ -46,7 +47,7 @@ class JustInTimeConsentViewController: UIViewController {
             self?.moveToWhatDoesThisMeanController()
         }
         if navigationController?.navigationBar.backItem == nil {
-            let btnDone = UIBarButtonItem(title: "✕", style: .done, target: self, action: #selector(crossButtonTapped))
+            let btnDone = self.closeBarButton()
             self.navigationItem.leftBarButtonItem = btnDone
         }
     }
@@ -164,6 +165,19 @@ extension JustInTimeConsentViewController {
             self.progressIndicator.stopAnimating()
         }
     }
+    
+    fileprivate func closeBarButton() -> UIBarButtonItem {
+        let crossString = PhilipsDLSIcon.unicode(iconType: .cross)
+        let crossButton = UIButton(type: .custom)
+        crossButton.titleLabel?.font = UIFont.iconFont(size: 24)
+        crossButton.setTitle(crossString, for: .normal)
+        crossButton.setTitleColor(UIColor.lightGray, for: .selected)
+        crossButton.setTitleColor(UIColor.lightGray, for: .highlighted)
+        crossButton.sizeToFit()
+        crossButton.addTarget(self, action: #selector(crossButtonTapped), for: .touchUpInside)
+        return UIBarButtonItem(customView: crossButton)
+    }
+
 }
 
 
