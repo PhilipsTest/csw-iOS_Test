@@ -251,7 +251,7 @@ def runTestsWith(Boolean isWorkspace, String testSchemeName, String frameworkNam
         export LC_CTYPE=en_US.UTF-8
 
         xcodebuild test \
-                -workspace ${"PLF-IOS-WORKSPACE.xcworkspace"} \
+                -workspace ${"ConsentWidgets.xcworkspace"} \
                 -scheme ${testSchemeName} CLANG_WARN_DOCUMENTATION_COMMENTS='NO'\
                 -destination \'platform=iOS Simulator,name=iPhone 8,OS=latest\' \
                 -resultBundlePath ${resultBundlePath} \
