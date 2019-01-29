@@ -1,11 +1,9 @@
 #!/usr/bin/env groovy
 // please look at: https://jenkins.io/doc/book/pipeline/syntax/
 BranchName = env.BRANCH_NAME
-//String cron_string = BranchName == "develop" ? "H H(20-21) * * * %buildType=PSRA \n H H(21-22) * * * %GenerateAPIDocs=true" : ""
 
 def MailRecipient = 'dl_iet_amaron@philips.com'
 def LogLevel = env.Verbose
-def updatedComponents = []
 
 pipeline {
 
@@ -20,12 +18,8 @@ pipeline {
         booleanParam(name: 'Verbose', defaultValue: false, description: 'Verbose logging')
         booleanParam(name: 'GenerateAPIDocs', defaultValue: false, description: 'Generate API Documentation')
         booleanParam(name: 'RunAllTests', defaultValue: false, description: 'Build and run all unit tests')
-        choice(choices: 'Normal\nPSRA', description: 'What type of build to build?', name: 'buildType')
     }
 
-    // triggers {
-    //     cron(cron_string)
-    // }
 
     environment {
         BUILD_FROM_ARTIFACTORY = 'false'
@@ -56,13 +50,9 @@ pipeline {
                 }
                 InitialiseBuild()
                 script {
-                    fetchCommand = "git fetch origin " + BranchName + " --depth=100 --no-tags"
-                    sh fetchCommand
                     sh '''#!/bin/bash -l
                         ./ci-build-support/update_version.sh
                     '''
-                    updatedComponents = getUpdatedComponents()
-                    echo "changed components: " + updatedComponents
                 }
                 updatePods("Source/Library",LogLevel)
             }
@@ -113,7 +103,7 @@ pipeline {
                     releaseBranchPattern = "release/platform_*"
                     developBranchPattern = "develop"
 
-                    if (BranchName =~ /${releaseBranchPattern}/ || BranchName == developBranchPattern || params.RunAllTests) {
+                    if (BranchName =~ /${releaseBranchPattern}/ || BranchName == developBranchPattern) {
                         shouldForceUnitTests = true
                     }
                     runTestsWith(true, "ConsentWidgetsDev", "CSW Test Report")
@@ -141,7 +131,7 @@ pipeline {
                         fi
 
                         export ZIPFOLDER="Zips"
-                        export ARTIFACTORY_URL="https://artifactory-ehv.ta.philips.com/artifactory/${ARTIFACTORY_REPO}/com/philips/platform/Zip_Sources"
+                        export ARTIFACTORY_URL="https://artifactory-ehv.ta.philips.com/artifactory/${ARTIFACTORY_REPO}/com/philips/innerSource/Zip_Sources"
                         cd Source
                         echo "Upload started"
                         cd ${ZIPFOLDER}
@@ -197,47 +187,16 @@ def InitialiseBuild() {
     currentBuild.description = "Submitter: " + committerName + ";Node: ${env.NODE_NAME}"
     echo currentBuild.description
 
-    if (params.buildType == 'PSRA') {
-        currentBuild.displayName = "${env.BUILD_NUMBER}-PSRA"
-    }
-
     echo currentBuild.displayName
 }
 
 
-def getUpdatedComponents() {
-    releaseBranchPattern = "release/platform_*"
-    developBranchPattern = "develop"
-
-    commit_to_compare_with = "${env.GIT_PREVIOUS_SUCCESSFUL_COMMIT}"
-    if (env.GIT_PREVIOUS_SUCCESSFUL_COMMIT == null) {
-        commit_to_compare_with = "origin/develop"
-    }
-    scriptValue = "git diff --name-only " + commit_to_compare_with
-    scriptResult = sh (script: scriptValue, returnStdout: true).trim()
-    changed_files = scriptResult.tokenize('\n')
-    changed_files.remove("Jenkinsfile")
-    changed_files.remove("ci-build-support/Versions.rb")
-    echo "Updated files:" + changed_files
-    def components = []
-    changed_files.each {
-        pathComponents = it.split("/")
-        if (pathComponents.length > 1) {
-            components << pathComponents[1]
-        }
-    }
-    return components
-}
-
-
-def runTestsWith(Boolean isWorkspace, String testSchemeName, String frameworkName = " ", Boolean isApp = false, Boolean hasCucumberOutput = false) {
+def runTestsWith(Boolean isWorkspace, String testSchemeName, String frameworkName = " ", Boolean hasCucumberOutput = false) {
 
     // This is only used for code coverage and test result output/attachments
     def resultBundlePath = "results/" + testSchemeName
     def binaryPath = frameworkName  + "/"+ frameworkName + ".framework/" + frameworkName
-    if (isApp) {
-        binaryPath = frameworkName+ ".app"  + "/" + frameworkName
-    }
+
 
     def testScript = """
         #!/bin/bash -l
@@ -307,7 +266,7 @@ String getArtifactoryBasePath() {
             exit 0
         fi
 
-        echo "$ARTIFACTORY_URL/$ARTIFACTORY_REPO/com/philips/platform"
+        echo "$ARTIFACTORY_URL/$ARTIFACTORY_REPO/com/philips/innerSource"
     '''
 
     return sh(script: basePathShellScript, returnStdout: true).trim()
