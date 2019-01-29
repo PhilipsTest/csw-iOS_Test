@@ -1,6 +1,6 @@
 source 'https://github.com/CocoaPods/Specs.git'
-source 'ssh://tfsemea1.ta.philips.com:22/tfs/TPC_Region24/CDP2/_git/cocoapod-specs-develop'
-#source 'ssh://tfsemea1.ta.philips.com:22/tfs/TPC_Region14/UID/_git/mobile-dls-cocoapod-specs'
+#source 'ssh://tfsemea1.ta.philips.com:22/tfs/TPC_Region24/CDP2/_git/cocoapod-specs-develop'
+source 'ssh://tfs14.tfsemea1.ta.philips.com:22/tfs/TPC_Region14/UID/_git/mobile-dls-cocoapod-specs'
 source 'https://PhilipsAgile:d3khntuxv5dta2r7pl6gahfpvidja5gtqp7civmm2dzwunwl5ppa@dev.azure.com/PhilipsAgile/8%2E0%20DC%20Innovations%20%28IET%29/_git/mobile-ios-podspecs-develop'
 
 use_frameworks!
