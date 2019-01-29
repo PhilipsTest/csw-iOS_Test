@@ -245,7 +245,7 @@ def runTestsWith(Boolean isWorkspace, String testSchemeName, String frameworkNam
         killall Simulator || true
         xcrun simctl erase all || true
 
-        cd ${"Source"}
+        cd ${"Source/Library"}
 
         #Set XCPretty output format
         export LC_CTYPE=en_US.UTF-8
