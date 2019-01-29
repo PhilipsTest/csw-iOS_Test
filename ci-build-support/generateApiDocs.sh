@@ -157,15 +157,9 @@ main() {
 	rm -rf "${DOCS_OUTPUT_ROOT}"
 
 	cd Source
-	generateDocs AppInfra ail
-	generateDocs InAppPurchase iap
-	generateDocs PhilipsConsumerCare
-	generateDocs PhilipsPRXClient prx
-	generateDocs PhilipsProductRegistration prg
-	generateDocs PhilipsProductSelection
-	generateDocs PhilipsRegistration usr
-	generateDocs PlatformInterfaces	pif
-	generateDocs UAPPFramework ufw
+
+	generateDocs ConsentWidgets
+
 	cd -
 
 	createIndexHtml
