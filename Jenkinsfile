@@ -116,7 +116,7 @@ pipeline {
                     if (BranchName =~ /${releaseBranchPattern}/ || BranchName == developBranchPattern || params.RunAllTests) {
                         shouldForceUnitTests = true
                     }
-                    runTestsWith(true, "ConsentWidgetsTests", "CSW Test Report")
+                    runTestsWith(true, "ConsentWidgetsDev", "CSW Test Report")
                 }
             }
         }
