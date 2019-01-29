@@ -131,7 +131,7 @@ pipeline {
                         fi
 
                         export ZIPFOLDER="Zips"
-                        export ARTIFACTORY_URL="https://artifactory-ehv.ta.philips.com/artifactory/${ARTIFACTORY_REPO}/com/philips/innerSource/Zip_Sources"
+                        export ARTIFACTORY_URL="https://artifactory-ehv.ta.philips.com/artifactory/${ARTIFACTORY_REPO}/com/philips/platform/Zip_Sources"
                         cd Source
                         echo "Upload started"
                         cd ${ZIPFOLDER}
@@ -266,7 +266,7 @@ String getArtifactoryBasePath() {
             exit 0
         fi
 
-        echo "$ARTIFACTORY_URL/$ARTIFACTORY_REPO/com/philips/innerSource"
+        echo "$ARTIFACTORY_URL/$ARTIFACTORY_REPO/com/philips/platform"
     '''
 
     return sh(script: basePathShellScript, returnStdout: true).trim()
