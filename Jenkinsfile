@@ -261,11 +261,11 @@ def runTestsWith(Boolean isWorkspace, String testSchemeName, String frameworkNam
     echo testScript
     sh testScript
 
-    junit allowEmptyResults: false, testResults: "Source/build/reports/junit.xml"
-    publishHTML([allowMissing: false, alwaysLinkToLastBuild: false, keepAll: true, reportDir: "Source/build/reports", reportFiles: 'tests.html', reportName: frameworkName+' Test Report'])
+    junit allowEmptyResults: false, testResults: "Source/Library/build/reports/junit.xml"
+    publishHTML([allowMissing: false, alwaysLinkToLastBuild: false, keepAll: true, reportDir: "Source/Library/build/reports", reportFiles: 'tests.html', reportName: frameworkName+' Test Report'])
 
     if (hasCucumberOutput) {
-        def attachmentsFolder = 'Source/'+resultBundlePath+'/Attachments'
+        def attachmentsFolder = 'Source/Library'+resultBundlePath+'/Attachments'
         step([$class: 'CucumberReportPublisher', jsonReportDirectory: attachmentsFolder, fileIncludePattern: '*.json'])
         archiveArtifacts artifacts: attachmentsFolder+'/*.json', fingerprint: true, onlyIfSuccessful: true
     }
