@@ -41,7 +41,7 @@ pipeline {
         stage('Initialize') {
             steps {
                 script {
-                    if (params.RemoveWorkspace) {
+                    if (!params.RemoveWorkspace) {
                         echo "Removing Workspace per user choice"
                         deleteDir()
                         checkout scm
