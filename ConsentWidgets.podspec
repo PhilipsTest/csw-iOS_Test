@@ -28,7 +28,6 @@ Pod::Spec.new do |s|
   s.subspec 'Source' do |source|
     source.source_files = [ 'Source/Library/ConsentWidgets/**/*.{h,swift}',
                             'Source/Library/ConsentWidgets/*.{h,swift}' ,
-                            'Source/Library/ConsentWidgets/*.swift',
                         	'Source/Library/JustInTimeConsent/*.swift',
                           	'Source/Library/Helpers/*.swift',
                       		'Source/Library/Lingo/*.swift']
