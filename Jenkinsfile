@@ -67,7 +67,7 @@ pipeline {
                     def zipScript =
                     '''#!/bin/bash -xl
                         PODSPEC_PATH="ci-build-support/Versions.rb"
-                        VERSION_REGEX="VersionCDP2Platform[^'|\\"]*['|\\"]([^'|\\"]*)['|\\"]"
+                        VERSION_REGEX="VersionCSWPlatform[^'|\\"]*['|\\"]([^'|\\"]*)['|\\"]"
                         COMPONENT_VERSION=`cat $PODSPEC_PATH | egrep -o $VERSION_REGEX | sed -E "s/$VERSION_REGEX/\\1/"`
                         COMMIT_HASH=`git rev-parse HEAD`
 
@@ -121,7 +121,7 @@ pipeline {
                     def publishScript =
                     '''#!/bin/bash -l
                         PODSPEC_PATH="ci-build-support/Versions.rb"
-                        VERSION_REGEX="VersionCDP2Platform[^'|\\"]*['|\\"]([^'|\\"]*)['|\\"]"
+                        VERSION_REGEX="VersionCSWPlatform[^'|\\"]*['|\\"]([^'|\\"]*)['|\\"]"
                         COMPONENT_VERSION=`cat $PODSPEC_PATH | egrep -o $VERSION_REGEX | sed -E "s/$VERSION_REGEX/\\1/"`
                         if [ '''+ReleaseBranch+''' = true ]
                         then
@@ -159,7 +159,7 @@ pipeline {
             }
             steps {
                 script {
-                    publish("./ConsentWidgets", "./Source/Library/Podfile.lock")
+                    publish("./ConsentWidgets.podspec", "./Source/Library/Podfile.lock")
                 }
             }
         }
@@ -283,7 +283,7 @@ String getCDP2PlatformVersionNumber() {
             exit 1
         fi
 
-        VERSION_REGEX="VersionCDP2Platform[^'|\\"]*['|\\"]([^'|\\"]*)['|\\"]"
+        VERSION_REGEX="VersionCSWPlatform[^'|\\"]*['|\\"]([^'|\\"]*)['|\\"]"
         cat $VERSIONS_FILE_PATH | egrep -o $VERSION_REGEX | sed -E "s/$VERSION_REGEX/\\1/"
     '''
 
