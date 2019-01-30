@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
                     © Koninklijke Philips N.V., 2015. All rights reserved.
                     LICENSE
                     }
-  s.source  = { :http => 'http://artifactory-ehv.ta.philips.com:8082/artifactory/#artifactoryrepo#/com/philips/platform/Zip_Sources/#version_epoch#/csw_#commithash#.zip' }
+  s.source  = { :http => 'http://artifactory-ehv.ta.philips.com:8082/artifactory/#artifactoryrepo#/com/philips/platform/Zip_Sources/#version_epoch#/Library_#commithash#.zip' }
 
   s.dependency 'PhilipsUIKitDLS'
   s.dependency 'UAPPFramework'
