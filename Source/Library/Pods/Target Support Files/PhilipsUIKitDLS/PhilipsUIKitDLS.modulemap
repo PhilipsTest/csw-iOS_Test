@@ -1,0 +1,6 @@
+framework module PhilipsUIKitDLS {
+  umbrella header "PhilipsUIKitDLS-umbrella.h"
+
+  export *
+  module * { export * }
+}

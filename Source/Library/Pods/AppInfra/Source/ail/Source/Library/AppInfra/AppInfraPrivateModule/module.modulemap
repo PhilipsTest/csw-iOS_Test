@@ -1,0 +1,11 @@
+
+ module AppInfraPrivate {
+     header "../Utility/AIUtility.h"
+     header "../Utility/AIInternalTaggingUtility.h"
+     header "../Utility/AIInternalLogger.h"
+     header "../Logging/AILogMetaData.h"
+     header "../Logging/AICloudLogMetadata.h"
+     header "../Logging/AILogUtilities.h"
+     header "../Logging/AICloudLogger.h"
+     export *
+ }
