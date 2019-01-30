@@ -1,9 +1,8 @@
-require_relative './ci-build-support/Versions'
 Pod::Spec.new do |s|
   s.name         = 'ConsentWidgets'
   s.module_name  = 'ConsentWidgets'
   s.authors      = 'Koninklijke Philips N.V.'
-  s.version      = VersionCDP2Platform
+  s.version      = '1901.0.1548761615'
   s.license      = 'proprietary'
   s.homepage     = 'https://tfsemea1.ta.philips.com/tfs/TPC_Region02/Innersource/_git/csw-iOS'
   s.summary      = 'ConsentWidgets contains MicroApp that will allow the user to manage the consents.'
@@ -13,10 +12,10 @@ Pod::Spec.new do |s|
                     © Koninklijke Philips N.V., 2015. All rights reserved.
                     LICENSE
                     }
-  s.source  = { :http => 'http://artifactory-ehv.ta.philips.com:8082/artifactory/#artifactoryrepo#/com/philips/platform/Zip_Sources/#version_epoch#/csw_#commithash#.zip' }
+  s.source  = { :http => 'https://artifactory-ehv.ta.philips.com/artifactory/iet-mobile-ios-snapshot-local/com/philips/platform/Zip_Sources/1901.0.1548761615/Library.zip' }
 
-  s.dependency 'PhilipsUIKitDLS', PhilipsUIKitDLSVersion
-  s.dependency 'UAPPFramework', DependencyCDP2Platform
+  s.dependency 'PhilipsUIKitDLS', '2.0.1548672120'
+  s.dependency 'UAPPFramework', '1901.0.1548761615'
 
   s.requires_arc = true
   s.default_subspec = 'Source'
