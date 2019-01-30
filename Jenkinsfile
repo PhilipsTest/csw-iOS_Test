@@ -176,11 +176,26 @@ pipeline {
     }
     post {
         always{
-            step([$class: 'Mailer', notifyEveryUnstableBuild: true, recipients: MailRecipient, sendToIndividuals: true])
+          notifyBuild(currentBuild.result)
         }
     }
 }
 
+
+def notifyBuild(String buildStatus = 'STARTED') {
+    // build status of null means successful
+
+
+    buildStatus =  buildStatus ?: 'success' || 'failure' || 'fixed' || 'unstable'
+   // Default values
+   def subject = "${buildStatus}: Job '${env.JOB_NAME} [${env.BUILD_NUMBER}]'"
+   def details = "${buildStatus}: Job '${env.JOB_NAME} [${env.BUILD_NUMBER}]': Check console output at ${env.BUILD_URL}"
+    emailext (
+        subject: subject,
+        body: details,
+        to: "dl_iet_amaron@philips.com, dl_iet_exide@philips.com, rallapalli.prasad@philips.com"
+    )
+}
 
 def InitialiseBuild() {
     committerName = sh (script: "git show -s --format='%an' HEAD", returnStdout: true).trim()
