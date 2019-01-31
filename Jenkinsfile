@@ -123,12 +123,8 @@ pipeline {
                         PODSPEC_PATH="ci-build-support/Versions.rb"
                         VERSION_REGEX="VersionCSWPlatform[^'|\\"]*['|\\"]([^'|\\"]*)['|\\"]"
                         COMPONENT_VERSION=`cat $PODSPEC_PATH | egrep -o $VERSION_REGEX | sed -E "s/$VERSION_REGEX/\\1/"`
-                        if [ '''+ReleaseBranch+''' = true ]
-                        then
-                            ARTIFACTORY_REPO="iet-mobile-ios-release-local"
-                        else
-                            ARTIFACTORY_REPO="iet-mobile-ios-snapshot-local"
-                        fi
+
+                        ARTIFACTORY_REPO="iet-mobile-ios-release-local"
 
                         export ZIPFOLDER="Zips"
                         export ARTIFACTORY_URL="https://artifactory-ehv.ta.philips.com/artifactory/${ARTIFACTORY_REPO}/com/philips/platform/Zip_Sources"
@@ -269,16 +265,7 @@ String getArtifactoryBasePath() {
     def basePathShellScript = '''#!/bin/bash -l
         ARTIFACTORY_URL="https://artifactory-ehv.ta.philips.com/artifactory"
 
-        if [ '''+ReleaseBranch+''' = true ]
-        then
-            ARTIFACTORY_REPO="iet-mobile-ios-release-local"
-        elif [ '''+DevelopBranch+''' = true ]
-        then
-            ARTIFACTORY_REPO="iet-mobile-ios-snapshot-local"
-        else
-            echo ""
-            exit 0
-        fi
+        ARTIFACTORY_REPO="iet-mobile-ios-release-local"
 
         echo "$ARTIFACTORY_URL/$ARTIFACTORY_REPO/com/philips/platform"
     '''
