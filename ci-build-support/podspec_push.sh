@@ -30,16 +30,7 @@ usage() {
 }
 
 selectArtifactoryRepo() {
-	if [[ "$BRANCH" == develop* ]]
-	then
-		ARTIFACTORY_REPO="iet-mobile-ios-snapshot-local"
-	elif [[ "$BRANCH" == release/*  ||  "$BRANCH" == master* ]]
-	then
-		ARTIFACTORY_REPO="iet-mobile-ios-release-local"
-	else
-		echo "[fatal] please check your selected branch! Must be one of the following: develop, release or master!"
-		exit 1
-	fi
+	ARTIFACTORY_REPO="iet-mobile-ios-release-local"
 }
 selectPodspecRepo() {
 	if [[ "$BRANCH" == develop* ]]
