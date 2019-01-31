@@ -248,9 +248,8 @@ def runTestsWith(Boolean isWorkspace, String testSchemeName, String frameworkNam
 
 def publish(String podspecPath, String podfileLockPath) {
     sh """#!/bin/bash -l
-        chmod 755 ./ci-build-support/podspec_immutable_dependencies.sh
         chmod 755 ./ci-build-support/substitute_version.groovy
-        ci-build-support/podspec_immutable_dependencies.sh ${podspecPath} ${podfileLockPath} $BRANCH_NAME
+        ci-build-support/substitute_version.groovy ${podspecPath}
         ci-build-support/podspec_push.sh ${podspecPath} $BRANCH_NAME
     """
 }
