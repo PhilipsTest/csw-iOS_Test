@@ -26,13 +26,13 @@ Pod::Spec.new do |s|
   s.ios.deployment_target  = '11.0'
 
   s.subspec 'Source' do |source|
-    source.source_files = [ 'Library/ConsentWidgets/**/*.{h,swift}',
-                            'Library/ConsentWidgets/*.{h,swift}' ,
-                        	'Library/JustInTimeConsent/*.swift',
-                          	'Library/Helpers/*.swift',
-                      		'Library/Lingo/*.swift']
-    source.resources =    [ 'Library/ConsentWidgets/ConsentWidgets.storyboard',
-                            'Library/ConsentWidgets/**/*.{xcassets,lproj,png,ttf}' ]
+    source.source_files = [ 'Source/Library/ConsentWidgets/**/*.{h,swift}',
+                            'Source/Library/ConsentWidgets/*.{h,swift}' ,
+                        	'Source/Library/JustInTimeConsent/*.swift',
+                          	'Source/Library/Helpers/*.swift',
+                      		'Source/Library/Lingo/*.swift']
+    source.resources =    [ 'Source/Library/ConsentWidgets/ConsentWidgets.storyboard',
+                            'Source/Library/ConsentWidgets/**/*.{xcassets,lproj,png,ttf}' ]
   end
 
 end
