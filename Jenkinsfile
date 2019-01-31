@@ -164,26 +164,6 @@ pipeline {
             }
         }
 
-        stage('Generate API Documentation') {
-            when {
-                expression { return params.GenerateAPIDocs }
-            }
-            steps {
-                script {
-                    sh "ci-build-support/generateApiDocs.sh"
-                }
-
-                publishHTML target: [
-                    allowMissing: false,
-                    alwaysLinkToLastBuild: false,
-                    keepAll: true,
-                    reportDir: 'API_DOCS',
-                    reportFiles: 'index.html',
-                    reportName: 'API Documentation'
-                ]
-            }
-        }
-
         stage('Publish API Docs') {
             when {
                 expression { return params.GenerateAPIDocs }
