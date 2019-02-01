@@ -3,7 +3,7 @@ source 'ssh://tfsemea1.ta.philips.com:22/tfs/TPC_Region14/UID/_git/mobile-dls-co
 source 'https://PhilipsAgile:d3khntuxv5dta2r7pl6gahfpvidja5gtqp7civmm2dzwunwl5ppa@dev.azure.com/PhilipsAgile/8%2E0%20DC%20Innovations%20%28IET%29/_git/mobile-ios-podspecs-develop'
 
 use_frameworks!
-platform :ios, '11.0'
+platform :ios, '10.0'
 require_relative '../../ci-build-support/Versions'
 
 target 'ConsentWidgets' do
@@ -27,7 +27,7 @@ post_install do |installer|
             config.build_settings['CODE_SIGNING_ALLOWED'] = "NO"
             config.build_settings['ENABLE_BITCODE'] = "NO"
             config.build_settings['SWIFT_VERSION'] = "4.1"
-            config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = "11.0"
+            config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = "10.0"
         end
 
         if target.name != "FBSDKCoreKit" && target.name != "FBSDKLoginKit"
