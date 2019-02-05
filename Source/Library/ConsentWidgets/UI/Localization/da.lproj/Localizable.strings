@@ -19,9 +19,9 @@
 "csw_offline_title" = "Du er offline";
 "csw_ok" = "OK";
 "csw_privacy_notice" = "[da]Privacy Notice";
-"csw_privacy_notice_message" = "Styr dine personlige oplysninger. Læs_meddelelse om beskyttelse af personlige oplysninger.";
+"csw_privacy_notice_message" = "Styr dine personlige oplysninger. Læs {Beskyttelse af personlige oplysninger}.";
 "csw_privacy_settings" = "Fortrolighedsindstillinger";
-"csw_privacy_settings_desc" = "Styr dine personlige oplysninger. Læs_meddelelse om beskyttelse af personlige oplysninger.";
+"csw_privacy_settings_desc" = "Styr dine personlige oplysninger. Læs {Beskyttelse af personlige oplysninger}.";
 "csw_problem_occurred_error_message" = "Der opstod et problem (error %1$d). Prøv igen.";
 "csw_problem_occurred_error_title" = "Der opstod et problem";
 "csw_user_session_expired" = "Din session er ugyldig. Log af, og log på igen";
