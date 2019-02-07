@@ -113,7 +113,7 @@ public class ConsentWidgetsViewController: BaseViewController, ConsentsViewProto
     }
 
     private func configurePrivacyNoticeCell(inCell: ConsentWidgetsTableViewCell) {
-        let localisedPrivacyText = "mya_Privacy_Settings_Desc".localized
+        let localisedPrivacyText = "csw_privacy_notice_message".localized
         if let textToDisplay = ConsentWidgetViewControllerHelper.getCompletePrivacyStringToDisplay(fromString: localisedPrivacyText) {
             inCell.lblConsentMeaning.text = textToDisplay
             guard let rangeToHighlight = ConsentWidgetViewControllerHelper.getRangeOfHyperlinkedPartOfPrivacyString(fromString: localisedPrivacyText) else {
