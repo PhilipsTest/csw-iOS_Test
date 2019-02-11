@@ -5,7 +5,7 @@ import PlatformInterfaces
     @objc func userClickedOnPrivacyURL()
 }
 
-public class ConsentWidgetsLaunchInput: UAPPLaunchInput {
+@objcMembers public class ConsentWidgetsLaunchInput: UAPPLaunchInput {
     public var consentDefinitions: [ConsentDefinition]
     public weak var privacyDelegate: ConsentWidgetCenterPrivacyProtocol?
     

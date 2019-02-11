@@ -12,7 +12,7 @@ import UAPPFramework
 private var _interfaceSharedInstance: ConsentWidgetsInterfaceInput?
 private var setupOnceToken: Int = 0
 
-open class ConsentWidgetsInterfaceInput: NSObject {
+@objcMembers open class ConsentWidgetsInterfaceInput: NSObject {
     var appDependency: UAPPDependencies
     var appSettings: UAPPSettings!
 

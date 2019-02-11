@@ -8,6 +8,6 @@
 
 import UAPPFramework
 
-public class ConsentWidgetsDependencies: UAPPDependencies {
+@objcMembers public class ConsentWidgetsDependencies: UAPPDependencies {
     //Add ConsentWidgets uApp dependencies if required
 }

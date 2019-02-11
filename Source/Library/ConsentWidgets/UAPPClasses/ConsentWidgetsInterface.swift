@@ -1,7 +1,7 @@
 import UIKit
 import UAPPFramework
 
-public class ConsentWidgetsInterface: NSObject, UAPPProtocol {
+@objcMembers public class ConsentWidgetsInterface: NSObject, UAPPProtocol {
     
     var appInfra: AIAppInfra
     

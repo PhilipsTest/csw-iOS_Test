@@ -10,7 +10,7 @@ import UIKit
 import PlatformInterfaces
 import AppInfra
 
-public class JustInTimeUIConfig: NSObject {
+@objc public class JustInTimeUIConfig: NSObject {
     var title:String!
     var acceptButtonTitle:String!
     var cancelButtonTitle:String!
@@ -37,7 +37,7 @@ public class JustInTimeUIConfig: NSObject {
     func justInTimeConsentCancelled()
     @objc optional func justInTimeConsentDismissed()
 }
-public class JustInTimeConsentInterface: NSObject,JustInTimeViewControllerProtocol{
+@objc public class JustInTimeConsentInterface: NSObject,JustInTimeViewControllerProtocol{
     private(set) var consentDefinition: ConsentDefinition
     private(set) var justInTimeUIConfig: JustInTimeUIConfig
     private(set) var appInfra:AIAppInfra
