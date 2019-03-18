@@ -136,7 +136,7 @@ pipeline {
                         for i in *; do
                             export ARTIFACTORYUPLOADURL="${ARTIFACTORY_URL}/${COMPONENT_VERSION}/${i}"
                             echo "Uploading Zip for $i at path ${ARTIFACTORYUPLOADURL}"
-                            curl -L -u 320049003:#W3llc0m3 -X PUT "${ARTIFACTORYUPLOADURL}" -T $i
+                            curl -L -u 320049003:AP2gksEi925P3bnBaTep4qaR9fb -X PUT "${ARTIFACTORYUPLOADURL}" -T $i
                         done
                         echo "Upload ended"
                         cd -
@@ -310,7 +310,7 @@ def publishAPIDocs() {
 
         API_DOC_ZIP="API_DOCS_'''+versionNumber+'''.zip"
         zip -r $API_DOC_ZIP API_DOCS
-        curl -L -u 320049003:#W3llc0m3 -X PUT "'''+artifactoryBasePath+'''"/API_DOCS/ -T $API_DOC_ZIP
+        curl -L -u 320049003:AP2gksEi925P3bnBaTep4qaR9fb -X PUT "'''+artifactoryBasePath+'''"/API_DOCS/ -T $API_DOC_ZIP
     '''
     echo shellcommand
     sh shellcommand
