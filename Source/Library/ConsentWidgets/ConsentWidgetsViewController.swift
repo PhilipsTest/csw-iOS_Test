@@ -175,6 +175,7 @@ extension ConsentWidgetsViewController: ConsentWidgetsToggleProtocol {
                 self._revokeConsentAlertController = nil
             }
         } else {
+            viewModelThatWasUpdated.status = widget.isOn
             self.consentPresenter.postConsent(data: viewModelThatWasUpdated)
         }
     }
