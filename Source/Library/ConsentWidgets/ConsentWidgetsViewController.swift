@@ -163,11 +163,11 @@ public class ConsentWidgetsViewController: BaseViewController, ConsentsViewProto
 extension ConsentWidgetsViewController: ConsentWidgetsToggleProtocol {
     func handleToggleOfWidget(widget: UIDSwitch){
         let viewModelThatWasUpdated = consentsToDisplay[widget.tag]
-        viewModelThatWasUpdated.status = widget.isOn
         if hasToConfirmUser(widget, viewModelThatWasUpdated) {
             presentRevokeConsentAlert(withMessage: viewModelThatWasUpdated.consentDefinition.revokeMessage!) { accepted in
                 self.consentPresenter.revokeConsentDidFinishWith(action: accepted)
                 if accepted {
+                    viewModelThatWasUpdated.status = widget.isOn
                     self.consentPresenter.postConsent(data: viewModelThatWasUpdated)                    
                 } else {
                     widget.isOn = !widget.isOn
@@ -175,6 +175,7 @@ extension ConsentWidgetsViewController: ConsentWidgetsToggleProtocol {
                 self._revokeConsentAlertController = nil
             }
         } else {
+            viewModelThatWasUpdated.status = widget.isOn
             self.consentPresenter.postConsent(data: viewModelThatWasUpdated)
         }
     }
