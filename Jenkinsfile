@@ -9,7 +9,7 @@ pipeline {
 
     agent {
         node {
-            label 'xcode && 10.0'
+            label 'xcode && 11.0'
         }
     }
 
@@ -224,6 +224,7 @@ def runTestsWith(Boolean isWorkspace, String testSchemeName, String frameworkNam
                 -workspace ${"ConsentWidgets.xcworkspace"} \
                 -scheme ${testSchemeName} CLANG_WARN_DOCUMENTATION_COMMENTS='NO'\
                 -destination \'platform=iOS Simulator,name=iPhone 8,OS=latest\' \
+                -UseModernBuildSystem='NO'\
                 -resultBundlePath ${resultBundlePath} \
                 | xcpretty --report junit --report html
     """
