@@ -220,7 +220,7 @@ def runTestsWith(Boolean isWorkspace, String testSchemeName, String frameworkNam
         #Set XCPretty output format
         export LC_CTYPE=en_US.UTF-8
 
-        xcodebuild test \
+        xcodebuild clean test \
                 -workspace ${"ConsentWidgets.xcworkspace"} \
                 -scheme ${testSchemeName} CLANG_WARN_DOCUMENTATION_COMMENTS='NO'\
                 -destination \'platform=iOS Simulator,name=iPhone 8,OS=latest\' \
