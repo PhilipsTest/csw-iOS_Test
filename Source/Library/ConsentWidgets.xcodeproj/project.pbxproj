@@ -777,7 +777,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "./generateLocalization.sh\n";
+			shellScript = "#./generateLocalization.sh\n";
 		};
 		875287A296475866C20E95C0 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -808,7 +808,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "./generateLocalization.sh\n";
+			shellScript = "#./generateLocalization.sh\n";
 		};
 		B4E426639C98534A5E27BDD3 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
