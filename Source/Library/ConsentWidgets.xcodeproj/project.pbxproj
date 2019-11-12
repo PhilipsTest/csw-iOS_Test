@@ -10,15 +10,10 @@
 		065760A02109CAE7004E3D45 /* LanguageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0657609F2109CAE7004E3D45 /* LanguageLoader.swift */; };
 		065E7FD3208F7CF7002A0A0D /* ConsentWidgetFlowMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065E7FD2208F7CF7002A0A0D /* ConsentWidgetFlowMock.swift */; };
 		0686C0F62056AEAB00846910 /* UIDAlertControllerMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0686C0F52056AEAB00846910 /* UIDAlertControllerMock.swift */; };
-		068732122109CFE40046B778 /* ViewLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068732052109CFE40046B778 /* ViewLoader.swift */; };
 		068732132109CFE40046B778 /* UIView+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068732072109CFE40046B778 /* UIView+Helper.swift */; };
 		068732142109CFE40046B778 /* UILabel+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068732082109CFE40046B778 /* UILabel+Helper.swift */; };
 		068732152109CFE40046B778 /* LanguageStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0687320B2109CFE40046B778 /* LanguageStrings.swift */; };
-		068732162109CFE40046B778 /* StringTester.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0687320C2109CFE40046B778 /* StringTester.swift */; };
-		068732172109CFE40046B778 /* LocalizationTester.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0687320D2109CFE40046B778 /* LocalizationTester.swift */; };
-		068732182109CFE40046B778 /* LabelTester.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0687320F2109CFE40046B778 /* LabelTester.swift */; };
 		068732192109CFE40046B778 /* ScreenshotGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068732112109CFE40046B778 /* ScreenshotGenerator.swift */; };
-		069CD87120F3A3FF00694198 /* JustInTimeViewControllerLocalizationSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069CD87020F3A3FF00694198 /* JustInTimeViewControllerLocalizationSpec.swift */; };
 		06B078D520D90BB500BC4FBD /* CSWDesignStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B078A920D90BB500BC4FBD /* CSWDesignStyle.swift */; };
 		06B078D620D90BB500BC4FBD /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 06B078AB20D90BB500BC4FBD /* Localizable.strings */; };
 		11E82FAA1FF3D1C5001C86F4 /* ConsentLoaderInteractorMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E82FA91FF3D1C5001C86F4 /* ConsentLoaderInteractorMock.swift */; };
@@ -45,14 +40,12 @@
 		38CF1B6E209C6107000FACA5 /* String+ExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CF1B6D209C6107000FACA5 /* String+ExtensionsTests.swift */; };
 		38D736572029671500697751 /* JustInTimeInterfaceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D736562029671500697751 /* JustInTimeInterfaceTests.swift */; };
 		38D736592029785800697751 /* JustInTimeConsentConfigurationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D736582029785800697751 /* JustInTimeConsentConfigurationDelegate.swift */; };
-		4304F52E20F34CDB00E6CAD1 /* ConsentWidgetsViewControllerLocalizationSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4304F52D20F34CDB00E6CAD1 /* ConsentWidgetsViewControllerLocalizationSpec.swift */; };
 		4304F53120F352FC00E6CAD1 /* ConsentPresenterMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4304F53020F352FC00E6CAD1 /* ConsentPresenterMock.swift */; };
 		4304F53920F35A8200E6CAD1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4304F53820F35A8200E6CAD1 /* AppDelegate.swift */; };
 		4304F53B20F35A8200E6CAD1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4304F53A20F35A8200E6CAD1 /* ViewController.swift */; };
 		4304F53E20F35A8200E6CAD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4304F53C20F35A8200E6CAD1 /* Main.storyboard */; };
 		4304F54020F35A8500E6CAD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4304F53F20F35A8500E6CAD1 /* Assets.xcassets */; };
 		4304F54320F35A8500E6CAD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4304F54120F35A8500E6CAD1 /* LaunchScreen.storyboard */; };
-		4304F55620F3A40E00E6CAD1 /* HelpTextViewControllerLocalizationSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4304F55520F3A40E00E6CAD1 /* HelpTextViewControllerLocalizationSpec.swift */; };
 		5065ECD91FFE3B7800997F52 /* ConsentWidgetsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5065ECD81FFE3B7800997F52 /* ConsentWidgetsData.swift */; };
 		5069618C1FFF78B400CC9F91 /* NSBundle+Bundle.m in Sources */ = {isa = PBXBuildFile; fileRef = 506961871FFF78B300CC9F91 /* NSBundle+Bundle.m */; };
 		5069618D1FFF78B400CC9F91 /* AppConfig.json in Resources */ = {isa = PBXBuildFile; fileRef = 506961891FFF78B300CC9F91 /* AppConfig.json */; };
@@ -745,8 +738,6 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-ConsentWidgetsTests/Pods-ConsentWidgetsTests-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/KIF/KIF.framework",
-				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
-				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
 				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
 				"${BUILT_PRODUCTS_DIR}/AdobeMobileSDK/AdobeMobileSDK.framework",
 				"${BUILT_PRODUCTS_DIR}/AppInfra/AppInfra.framework",
@@ -754,15 +745,12 @@
 				"${BUILT_PRODUCTS_DIR}/PhilipsIconFontDLS/PhilipsIconFontDLS.framework",
 				"${BUILT_PRODUCTS_DIR}/PhilipsUIKitDLS/PhilipsUIKitDLS.framework",
 				"${BUILT_PRODUCTS_DIR}/PlatformInterfaces/PlatformInterfaces.framework",
-				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
 				"${BUILT_PRODUCTS_DIR}/TrueTime/TrueTime.framework",
 				"${BUILT_PRODUCTS_DIR}/UAPPFramework/UAPPFramework.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KIF.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AdobeMobileSDK.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AppInfra.framework",
@@ -770,7 +758,6 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PhilipsIconFontDLS.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PhilipsUIKitDLS.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PlatformInterfaces.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TrueTime.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UAPPFramework.framework",
 			);
@@ -821,7 +808,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = ./generateLocalization.sh;
+			shellScript = "./generateLocalization.sh\n";
 		};
 		B4E426639C98534A5E27BDD3 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -852,7 +839,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "${SRCROOT}/../../ci-build-support/check_xcode.sh\n${SRCROOT}/../../ci-build-support/check_cocoapods.sh\n";
+			shellScript = "#${SRCROOT}/../../ci-build-support/check_xcode.sh\n#${SRCROOT}/../../ci-build-support/check_cocoapods.sh\n";
 		};
 		C98A02B52084D617000C4833 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -865,7 +852,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "${SRCROOT}/../../ci-build-support/check_xcode.sh\n${SRCROOT}/../../ci-build-support/check_cocoapods.sh\n";
+			shellScript = "#${SRCROOT}/../../ci-build-support/check_xcode.sh\n#${SRCROOT}/../../ci-build-support/check_cocoapods.sh\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -920,22 +907,17 @@
 				1BC6EB471F9E3230004D2A25 /* ConsentWidgetsViewControllerTests.swift in Sources */,
 				11E82FAA1FF3D1C5001C86F4 /* ConsentLoaderInteractorMock.swift in Sources */,
 				1B1D251F1FEC6C7B001FAD70 /* TestHandlers.swift in Sources */,
-				069CD87120F3A3FF00694198 /* JustInTimeViewControllerLocalizationSpec.swift in Sources */,
-				068732122109CFE40046B778 /* ViewLoader.swift in Sources */,
 				727625CF1FB3260C00BF5BCC /* ConsentsViewMock.swift in Sources */,
 				38CF1B6E209C6107000FACA5 /* String+ExtensionsTests.swift in Sources */,
 				5069618C1FFF78B400CC9F91 /* NSBundle+Bundle.m in Sources */,
 				1BD21FDD2004D1720076D06B /* RESTClientMock.swift in Sources */,
-				4304F55620F3A40E00E6CAD1 /* HelpTextViewControllerLocalizationSpec.swift in Sources */,
 				9C793D931F99F1FB00737ED3 /* ConsentWidgetsInterfaceTests.swift in Sources */,
 				78BC7026207E13A1000CA127 /* JustInTimeViewControllerTests.swift in Sources */,
 				9C793D9A1F9A0A5F00737ED3 /* ConsentWidgetsDependencies.swift in Sources */,
 				9C793DA41F9A13BE00737ED3 /* ConsentWidgetsInterfaceInput.swift in Sources */,
-				4304F52E20F34CDB00E6CAD1 /* ConsentWidgetsViewControllerLocalizationSpec.swift in Sources */,
 				3898781A1FDFF8FD00B61ABB /* ConsentViewDataModelTests.swift in Sources */,
 				1B1D25191FEC6657001FAD70 /* ConsentsLoaderInteractorTests.swift in Sources */,
 				38BF60352018EF8C00348E20 /* ConsentWidgetVCHelperTest.swift in Sources */,
-				068732172109CFE40046B778 /* LocalizationTester.swift in Sources */,
 				78BC7029207E13CF000CA127 /* TaggingHelperTests.swift in Sources */,
 				9C793D991F9A01D200737ED3 /* ConsentWidgetsFakeSelectorClass.swift in Sources */,
 				38D736592029785800697751 /* JustInTimeConsentConfigurationDelegate.swift in Sources */,
@@ -944,14 +926,12 @@
 				068732142109CFE40046B778 /* UILabel+Helper.swift in Sources */,
 				068732152109CFE40046B778 /* LanguageStrings.swift in Sources */,
 				068732132109CFE40046B778 /* UIView+Helper.swift in Sources */,
-				068732162109CFE40046B778 /* StringTester.swift in Sources */,
 				1B3B50291FB25D54009158F5 /* ConsentPresenterTests.swift in Sources */,
 				78BC7022207E138E000CA127 /* ConsentManagerMock.swift in Sources */,
 				1BE041D91FE525EE0018B7A8 /* MockAppConfig.swift in Sources */,
 				0686C0F62056AEAB00846910 /* UIDAlertControllerMock.swift in Sources */,
 				78BC7024207E1398000CA127 /* MockAppTagging.swift in Sources */,
 				065E7FD3208F7CF7002A0A0D /* ConsentWidgetFlowMock.swift in Sources */,
-				068732182109CFE40046B778 /* LabelTester.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
