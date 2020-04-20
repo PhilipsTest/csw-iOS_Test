@@ -20,8 +20,8 @@ Pod::Spec.new do |s|
 
   s.requires_arc = true
   s.default_subspec = 'Source'
-  s.xcconfig = { 'SWIFT_VERSION' => '4.0' }
-  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.0' }
+  s.xcconfig = { 'SWIFT_VERSION' => '5.0' }
+  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '5.0' }
   s.xcconfig = { 'ENABLE_BITCODE' => 'NO' }
   s.ios.deployment_target  = '10.0'
 
