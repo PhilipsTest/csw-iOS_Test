@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.license      = 'proprietary'
   s.homepage     = 'https://tfsemea1.ta.philips.com/tfs/TPC_Region02/Innersource/_git/csw-iOS'
   s.summary      = 'ConsentWidgets contains MicroApp that will allow the user to manage the consents.'
-  s.platform     = :ios, "10.0"
+  s.platform     = :ios, "11.0"
   s.author       = 'Philips Connected Digital Propositions'
   s.license      = { :type => 'Philips', :text => <<-LICENSE
                     © Koninklijke Philips N.V., 2015. All rights reserved.
@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
   s.xcconfig = { 'SWIFT_VERSION' => '5.0' }
   s.pod_target_xcconfig = { 'SWIFT_VERSION' => '5.0' }
   s.xcconfig = { 'ENABLE_BITCODE' => 'NO' }
-  s.ios.deployment_target  = '10.0'
+  s.ios.deployment_target  = '11.0'
 
   s.subspec 'Source' do |source|
     source.source_files = [ 'Source/Library/ConsentWidgets/**/*.{h,swift}',
