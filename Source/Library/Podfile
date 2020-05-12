@@ -4,7 +4,7 @@ source 'ssh://tfsemea1.ta.philips.com:22/tfs/TPC_Region02/Innersource/_git/mobil
 
 
 use_frameworks!
-platform :ios, '10.0'
+platform :ios, '11.0'
 require_relative '../../ci-build-support/Versions'
 
 def shared_pods
