@@ -19,6 +19,8 @@ end
 target 'ConsentWidgetsTests' do
     shared_pods
     pod 'KIF', '3.7.4'
+    pod 'Quick', '2.2.0'
+    pod 'Nimble', '8.0.9'
     inherit! :search_paths
 end
 

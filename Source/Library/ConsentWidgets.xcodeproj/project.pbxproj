@@ -51,6 +51,13 @@
 		5069618C1FFF78B400CC9F91 /* NSBundle+Bundle.m in Sources */ = {isa = PBXBuildFile; fileRef = 506961871FFF78B300CC9F91 /* NSBundle+Bundle.m */; };
 		5069618D1FFF78B400CC9F91 /* AppConfig.json in Resources */ = {isa = PBXBuildFile; fileRef = 506961891FFF78B300CC9F91 /* AppConfig.json */; };
 		5069618E1FFF78B400CC9F91 /* ADBMobileConfig.json in Resources */ = {isa = PBXBuildFile; fileRef = 5069618A1FFF78B400CC9F91 /* ADBMobileConfig.json */; };
+		5DDB21472473E668002DE32D /* ViewLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068732052109CFE40046B778 /* ViewLoader.swift */; };
+		5DDB21482473E66B002DE32D /* StringTester.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0687320C2109CFE40046B778 /* StringTester.swift */; };
+		5DDB21492473E66D002DE32D /* LocalizationTester.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0687320D2109CFE40046B778 /* LocalizationTester.swift */; };
+		5DDB214A2473E670002DE32D /* LabelTester.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0687320F2109CFE40046B778 /* LabelTester.swift */; };
+		5DDB214B2473E673002DE32D /* ConsentWidgetsViewControllerLocalizationSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4304F52D20F34CDB00E6CAD1 /* ConsentWidgetsViewControllerLocalizationSpec.swift */; };
+		5DDB214C2473E676002DE32D /* HelpTextViewControllerLocalizationSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4304F55520F3A40E00E6CAD1 /* HelpTextViewControllerLocalizationSpec.swift */; };
+		5DDB214D2473E679002DE32D /* JustInTimeViewControllerLocalizationSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069CD87020F3A3FF00694198 /* JustInTimeViewControllerLocalizationSpec.swift */; };
 		727625CF1FB3260C00BF5BCC /* ConsentsViewMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727625CE1FB3260C00BF5BCC /* ConsentsViewMock.swift */; };
 		78BC7022207E138E000CA127 /* ConsentManagerMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BC7021207E138E000CA127 /* ConsentManagerMock.swift */; };
 		78BC7024207E1398000CA127 /* MockAppTagging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BC7023207E1398000CA127 /* MockAppTagging.swift */; };
@@ -768,6 +775,8 @@
 				"${BUILT_PRODUCTS_DIR}/TrueTime/TrueTime.framework",
 				"${BUILT_PRODUCTS_DIR}/UAPPFramework/UAPPFramework.framework",
 				"${BUILT_PRODUCTS_DIR}/KIF/KIF.framework",
+				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
+				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
@@ -781,6 +790,8 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TrueTime.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UAPPFramework.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KIF.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -927,10 +938,12 @@
 				068732192109CFE40046B778 /* ScreenshotGenerator.swift in Sources */,
 				1BC6EB471F9E3230004D2A25 /* ConsentWidgetsViewControllerTests.swift in Sources */,
 				11E82FAA1FF3D1C5001C86F4 /* ConsentLoaderInteractorMock.swift in Sources */,
+				5DDB21472473E668002DE32D /* ViewLoader.swift in Sources */,
 				1B1D251F1FEC6C7B001FAD70 /* TestHandlers.swift in Sources */,
 				727625CF1FB3260C00BF5BCC /* ConsentsViewMock.swift in Sources */,
 				38CF1B6E209C6107000FACA5 /* String+ExtensionsTests.swift in Sources */,
 				5069618C1FFF78B400CC9F91 /* NSBundle+Bundle.m in Sources */,
+				5DDB214D2473E679002DE32D /* JustInTimeViewControllerLocalizationSpec.swift in Sources */,
 				1BD21FDD2004D1720076D06B /* RESTClientMock.swift in Sources */,
 				9C793D931F99F1FB00737ED3 /* ConsentWidgetsInterfaceTests.swift in Sources */,
 				78BC7026207E13A1000CA127 /* JustInTimeViewControllerTests.swift in Sources */,
@@ -941,14 +954,19 @@
 				38BF60352018EF8C00348E20 /* ConsentWidgetVCHelperTest.swift in Sources */,
 				78BC7029207E13CF000CA127 /* TaggingHelperTests.swift in Sources */,
 				9C793D991F9A01D200737ED3 /* ConsentWidgetsFakeSelectorClass.swift in Sources */,
+				5DDB214A2473E670002DE32D /* LabelTester.swift in Sources */,
 				38D736592029785800697751 /* JustInTimeConsentConfigurationDelegate.swift in Sources */,
 				4304F53120F352FC00E6CAD1 /* ConsentPresenterMock.swift in Sources */,
+				5DDB21492473E66D002DE32D /* LocalizationTester.swift in Sources */,
 				38D736572029671500697751 /* JustInTimeInterfaceTests.swift in Sources */,
+				5DDB214C2473E676002DE32D /* HelpTextViewControllerLocalizationSpec.swift in Sources */,
 				068732142109CFE40046B778 /* UILabel+Helper.swift in Sources */,
 				068732152109CFE40046B778 /* LanguageStrings.swift in Sources */,
 				068732132109CFE40046B778 /* UIView+Helper.swift in Sources */,
 				1B3B50291FB25D54009158F5 /* ConsentPresenterTests.swift in Sources */,
 				78BC7022207E138E000CA127 /* ConsentManagerMock.swift in Sources */,
+				5DDB21482473E66B002DE32D /* StringTester.swift in Sources */,
+				5DDB214B2473E673002DE32D /* ConsentWidgetsViewControllerLocalizationSpec.swift in Sources */,
 				1BE041D91FE525EE0018B7A8 /* MockAppConfig.swift in Sources */,
 				0686C0F62056AEAB00846910 /* UIDAlertControllerMock.swift in Sources */,
 				78BC7024207E1398000CA127 /* MockAppTagging.swift in Sources */,
