@@ -25,17 +25,17 @@ class HelpTextViewController: BaseViewController {
     }
     
     private func setText() {
-        let titleAttributes: [NSAttributedStringKey : Any] = [
-            NSAttributedStringKey.font : UIFont.init(uidFont: UIDFont.bold, size: 20)!,
-            NSAttributedStringKey.foregroundColor : UIDThemeManager.sharedInstance.defaultTheme?.contentItemPrimaryText as Any]
+        let titleAttributes: [NSAttributedString.Key : Any] = [
+            NSAttributedString.Key.font : UIFont.init(uidFont: UIDFont.bold, size: 20)!,
+            NSAttributedString.Key.foregroundColor : UIDThemeManager.sharedInstance.defaultTheme?.contentItemPrimaryText as Any]
         
         let title = NSAttributedString(string: "csw_consent_help_label".localized, attributes: titleAttributes)
         helpTextTitle.attributedText = title
         
         guard let descriptionText = textToDisplay else { return }
-        let descriptionAttributes: [NSAttributedStringKey : Any] = [
-            NSAttributedStringKey.font : UIFont.init(uidFont: UIDFont.book, size: 16)!,
-            NSAttributedStringKey.foregroundColor : UIDThemeManager.sharedInstance.defaultTheme?.contentItemPrimaryText as Any]
+        let descriptionAttributes: [NSAttributedString.Key : Any] = [
+            NSAttributedString.Key.font : UIFont.init(uidFont: UIDFont.book, size: 16)!,
+            NSAttributedString.Key.foregroundColor : UIDThemeManager.sharedInstance.defaultTheme?.contentItemPrimaryText as Any]
         let description = NSAttributedString(string: descriptionText, attributes: descriptionAttributes)
         helpTextView.attributedText = description
     }

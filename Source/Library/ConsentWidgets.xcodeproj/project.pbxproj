@@ -10,15 +10,10 @@
 		065760A02109CAE7004E3D45 /* LanguageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0657609F2109CAE7004E3D45 /* LanguageLoader.swift */; };
 		065E7FD3208F7CF7002A0A0D /* ConsentWidgetFlowMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065E7FD2208F7CF7002A0A0D /* ConsentWidgetFlowMock.swift */; };
 		0686C0F62056AEAB00846910 /* UIDAlertControllerMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0686C0F52056AEAB00846910 /* UIDAlertControllerMock.swift */; };
-		068732122109CFE40046B778 /* ViewLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068732052109CFE40046B778 /* ViewLoader.swift */; };
 		068732132109CFE40046B778 /* UIView+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068732072109CFE40046B778 /* UIView+Helper.swift */; };
 		068732142109CFE40046B778 /* UILabel+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068732082109CFE40046B778 /* UILabel+Helper.swift */; };
 		068732152109CFE40046B778 /* LanguageStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0687320B2109CFE40046B778 /* LanguageStrings.swift */; };
-		068732162109CFE40046B778 /* StringTester.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0687320C2109CFE40046B778 /* StringTester.swift */; };
-		068732172109CFE40046B778 /* LocalizationTester.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0687320D2109CFE40046B778 /* LocalizationTester.swift */; };
-		068732182109CFE40046B778 /* LabelTester.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0687320F2109CFE40046B778 /* LabelTester.swift */; };
 		068732192109CFE40046B778 /* ScreenshotGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068732112109CFE40046B778 /* ScreenshotGenerator.swift */; };
-		069CD87120F3A3FF00694198 /* JustInTimeViewControllerLocalizationSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069CD87020F3A3FF00694198 /* JustInTimeViewControllerLocalizationSpec.swift */; };
 		06B078D520D90BB500BC4FBD /* CSWDesignStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B078A920D90BB500BC4FBD /* CSWDesignStyle.swift */; };
 		06B078D620D90BB500BC4FBD /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 06B078AB20D90BB500BC4FBD /* Localizable.strings */; };
 		11E82FAA1FF3D1C5001C86F4 /* ConsentLoaderInteractorMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E82FA91FF3D1C5001C86F4 /* ConsentLoaderInteractorMock.swift */; };
@@ -45,18 +40,24 @@
 		38CF1B6E209C6107000FACA5 /* String+ExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CF1B6D209C6107000FACA5 /* String+ExtensionsTests.swift */; };
 		38D736572029671500697751 /* JustInTimeInterfaceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D736562029671500697751 /* JustInTimeInterfaceTests.swift */; };
 		38D736592029785800697751 /* JustInTimeConsentConfigurationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D736582029785800697751 /* JustInTimeConsentConfigurationDelegate.swift */; };
-		4304F52E20F34CDB00E6CAD1 /* ConsentWidgetsViewControllerLocalizationSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4304F52D20F34CDB00E6CAD1 /* ConsentWidgetsViewControllerLocalizationSpec.swift */; };
 		4304F53120F352FC00E6CAD1 /* ConsentPresenterMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4304F53020F352FC00E6CAD1 /* ConsentPresenterMock.swift */; };
 		4304F53920F35A8200E6CAD1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4304F53820F35A8200E6CAD1 /* AppDelegate.swift */; };
 		4304F53B20F35A8200E6CAD1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4304F53A20F35A8200E6CAD1 /* ViewController.swift */; };
 		4304F53E20F35A8200E6CAD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4304F53C20F35A8200E6CAD1 /* Main.storyboard */; };
 		4304F54020F35A8500E6CAD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4304F53F20F35A8500E6CAD1 /* Assets.xcassets */; };
 		4304F54320F35A8500E6CAD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4304F54120F35A8500E6CAD1 /* LaunchScreen.storyboard */; };
-		4304F55620F3A40E00E6CAD1 /* HelpTextViewControllerLocalizationSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4304F55520F3A40E00E6CAD1 /* HelpTextViewControllerLocalizationSpec.swift */; };
+		505FD59B244D97D100B89FF1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 505FD59A244D97D100B89FF1 /* XCTest.framework */; };
 		5065ECD91FFE3B7800997F52 /* ConsentWidgetsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5065ECD81FFE3B7800997F52 /* ConsentWidgetsData.swift */; };
 		5069618C1FFF78B400CC9F91 /* NSBundle+Bundle.m in Sources */ = {isa = PBXBuildFile; fileRef = 506961871FFF78B300CC9F91 /* NSBundle+Bundle.m */; };
 		5069618D1FFF78B400CC9F91 /* AppConfig.json in Resources */ = {isa = PBXBuildFile; fileRef = 506961891FFF78B300CC9F91 /* AppConfig.json */; };
 		5069618E1FFF78B400CC9F91 /* ADBMobileConfig.json in Resources */ = {isa = PBXBuildFile; fileRef = 5069618A1FFF78B400CC9F91 /* ADBMobileConfig.json */; };
+		5DDB21472473E668002DE32D /* ViewLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068732052109CFE40046B778 /* ViewLoader.swift */; };
+		5DDB21482473E66B002DE32D /* StringTester.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0687320C2109CFE40046B778 /* StringTester.swift */; };
+		5DDB21492473E66D002DE32D /* LocalizationTester.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0687320D2109CFE40046B778 /* LocalizationTester.swift */; };
+		5DDB214A2473E670002DE32D /* LabelTester.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0687320F2109CFE40046B778 /* LabelTester.swift */; };
+		5DDB214B2473E673002DE32D /* ConsentWidgetsViewControllerLocalizationSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4304F52D20F34CDB00E6CAD1 /* ConsentWidgetsViewControllerLocalizationSpec.swift */; };
+		5DDB214C2473E676002DE32D /* HelpTextViewControllerLocalizationSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4304F55520F3A40E00E6CAD1 /* HelpTextViewControllerLocalizationSpec.swift */; };
+		5DDB214D2473E679002DE32D /* JustInTimeViewControllerLocalizationSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069CD87020F3A3FF00694198 /* JustInTimeViewControllerLocalizationSpec.swift */; };
 		727625CF1FB3260C00BF5BCC /* ConsentsViewMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727625CE1FB3260C00BF5BCC /* ConsentsViewMock.swift */; };
 		78BC7022207E138E000CA127 /* ConsentManagerMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BC7021207E138E000CA127 /* ConsentManagerMock.swift */; };
 		78BC7024207E1398000CA127 /* MockAppTagging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BC7023207E1398000CA127 /* MockAppTagging.swift */; };
@@ -100,6 +101,18 @@
 			remoteInfo = ConsentWidgets;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		505FD59E244D98ED00B89FF1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		025F03CC863C637CDFE5E15A /* Pods-ConsentWidgets.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConsentWidgets.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ConsentWidgets/Pods-ConsentWidgets.debug.xcconfig"; sourceTree = "<group>"; };
@@ -193,6 +206,8 @@
 		4304F54420F35A8500E6CAD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4304F55520F3A40E00E6CAD1 /* HelpTextViewControllerLocalizationSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpTextViewControllerLocalizationSpec.swift; sourceTree = "<group>"; };
 		4E8229A8F8251838CA2C238F /* Pods-ConsentWidgetsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConsentWidgetsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ConsentWidgetsTests/Pods-ConsentWidgetsTests.release.xcconfig"; sourceTree = "<group>"; };
+		505FD59A244D97D100B89FF1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		505FD59C244D981700B89FF1 /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5065ECD81FFE3B7800997F52 /* ConsentWidgetsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsentWidgetsData.swift; sourceTree = "<group>"; };
 		506961861FFF78B200CC9F91 /* ConsentWidgetsTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ConsentWidgetsTests-Bridging-Header.h"; sourceTree = "<group>"; };
 		506961871FFF78B300CC9F91 /* NSBundle+Bundle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+Bundle.m"; sourceTree = "<group>"; };
@@ -247,6 +262,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				505FD59B244D97D100B89FF1 /* XCTest.framework in Frameworks */,
 				F398C5591F87B30600EF8D3D /* ConsentWidgets.framework in Frameworks */,
 				16DACB26D348A0F68821D4F6 /* Pods_ConsentWidgetsTests.framework in Frameworks */,
 			);
@@ -448,6 +464,8 @@
 		E83C2D0641B6778E8EF81E6D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				505FD59C244D981700B89FF1 /* AFNetworking.framework */,
+				505FD59A244D97D100B89FF1 /* XCTest.framework */,
 				3E88BABAD60005CB61E3D34B /* Pods_ConsentWidgets.framework */,
 				7E3AAA6CA4276666A11223A7 /* Pods_ConsentWidgetsTests.framework */,
 			);
@@ -561,9 +579,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4304F54520F35A8500E6CAD1 /* Build configuration list for PBXNativeTarget "ConsentsWidgetAppDummy" */;
 			buildPhases = (
+				4304F53420F35A8200E6CAD1 /* Resources */,
 				4304F53220F35A8200E6CAD1 /* Sources */,
 				4304F53320F35A8200E6CAD1 /* Frameworks */,
-				4304F53420F35A8200E6CAD1 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -580,10 +598,10 @@
 			buildPhases = (
 				875287A296475866C20E95C0 /* [CP] Check Pods Manifest.lock */,
 				C98A02B42084D60E000C4833 /* ShellScript */,
+				F398C53B1F87B30600EF8D3D /* Resources */,
 				F398C5381F87B30600EF8D3D /* Sources */,
 				F398C5391F87B30600EF8D3D /* Frameworks */,
 				F398C53A1F87B30600EF8D3D /* Headers */,
-				F398C53B1F87B30600EF8D3D /* Resources */,
 				85833EBB1FAF04F500642035 /* ShellScript */,
 			);
 			buildRules = (
@@ -601,9 +619,10 @@
 			buildPhases = (
 				B4E426639C98534A5E27BDD3 /* [CP] Check Pods Manifest.lock */,
 				C98A02B52084D617000C4833 /* ShellScript */,
+				505FD59E244D98ED00B89FF1 /* CopyFiles */,
+				F398C5561F87B30600EF8D3D /* Resources */,
 				F398C5541F87B30600EF8D3D /* Sources */,
 				F398C5551F87B30600EF8D3D /* Frameworks */,
-				F398C5561F87B30600EF8D3D /* Resources */,
 				9CD752E61FADF55F0034EE5B /* ShellScript */,
 				277F1A9625CABF4424728EDF /* [CP] Embed Pods Frameworks */,
 			);
@@ -630,16 +649,18 @@
 				TargetAttributes = {
 					4304F53520F35A8200E6CAD1 = {
 						CreatedOnToolsVersion = 9.3.1;
+						LastSwiftMigration = 1110;
 						ProvisioningStyle = Automatic;
 					};
 					F398C53C1F87B30600EF8D3D = {
 						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 1110;
 						ProvisioningStyle = Manual;
 					};
 					F398C5571F87B30600EF8D3D = {
 						CreatedOnToolsVersion = 9.0;
-						LastSwiftMigration = 0900;
-						ProvisioningStyle = Automatic;
+						LastSwiftMigration = 1110;
+						ProvisioningStyle = Manual;
 						TestTargetID = 4304F53520F35A8200E6CAD1;
 					};
 				};
@@ -743,10 +764,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-ConsentWidgetsTests/Pods-ConsentWidgetsTests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/KIF/KIF.framework",
-				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
-				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-ConsentWidgetsTests/Pods-ConsentWidgetsTests-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
 				"${BUILT_PRODUCTS_DIR}/AdobeMobileSDK/AdobeMobileSDK.framework",
 				"${BUILT_PRODUCTS_DIR}/AppInfra/AppInfra.framework",
@@ -754,15 +772,14 @@
 				"${BUILT_PRODUCTS_DIR}/PhilipsIconFontDLS/PhilipsIconFontDLS.framework",
 				"${BUILT_PRODUCTS_DIR}/PhilipsUIKitDLS/PhilipsUIKitDLS.framework",
 				"${BUILT_PRODUCTS_DIR}/PlatformInterfaces/PlatformInterfaces.framework",
-				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
 				"${BUILT_PRODUCTS_DIR}/TrueTime/TrueTime.framework",
 				"${BUILT_PRODUCTS_DIR}/UAPPFramework/UAPPFramework.framework",
+				"${BUILT_PRODUCTS_DIR}/KIF/KIF.framework",
+				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
+				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KIF.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AdobeMobileSDK.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AppInfra.framework",
@@ -770,13 +787,15 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PhilipsIconFontDLS.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PhilipsUIKitDLS.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PlatformInterfaces.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TrueTime.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UAPPFramework.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KIF.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ConsentWidgetsTests/Pods-ConsentWidgetsTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ConsentWidgetsTests/Pods-ConsentWidgetsTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		85833EBB1FAF04F500642035 /* ShellScript */ = {
@@ -790,7 +809,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "./generateLocalization.sh\n";
+			shellScript = "#./generateLocalization.sh\n";
 		};
 		875287A296475866C20E95C0 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -821,7 +840,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = ./generateLocalization.sh;
+			shellScript = "#./generateLocalization.sh\n";
 		};
 		B4E426639C98534A5E27BDD3 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -852,7 +871,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "${SRCROOT}/../../ci-build-support/check_xcode.sh\n${SRCROOT}/../../ci-build-support/check_cocoapods.sh\n";
+			shellScript = "#${SRCROOT}/../../ci-build-support/check_xcode.sh\n#${SRCROOT}/../../ci-build-support/check_cocoapods.sh\n";
 		};
 		C98A02B52084D617000C4833 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -865,7 +884,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "${SRCROOT}/../../ci-build-support/check_xcode.sh\n${SRCROOT}/../../ci-build-support/check_cocoapods.sh\n";
+			shellScript = "#${SRCROOT}/../../ci-build-support/check_xcode.sh\n#${SRCROOT}/../../ci-build-support/check_cocoapods.sh\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -919,39 +938,39 @@
 				068732192109CFE40046B778 /* ScreenshotGenerator.swift in Sources */,
 				1BC6EB471F9E3230004D2A25 /* ConsentWidgetsViewControllerTests.swift in Sources */,
 				11E82FAA1FF3D1C5001C86F4 /* ConsentLoaderInteractorMock.swift in Sources */,
+				5DDB21472473E668002DE32D /* ViewLoader.swift in Sources */,
 				1B1D251F1FEC6C7B001FAD70 /* TestHandlers.swift in Sources */,
-				069CD87120F3A3FF00694198 /* JustInTimeViewControllerLocalizationSpec.swift in Sources */,
-				068732122109CFE40046B778 /* ViewLoader.swift in Sources */,
 				727625CF1FB3260C00BF5BCC /* ConsentsViewMock.swift in Sources */,
 				38CF1B6E209C6107000FACA5 /* String+ExtensionsTests.swift in Sources */,
 				5069618C1FFF78B400CC9F91 /* NSBundle+Bundle.m in Sources */,
+				5DDB214D2473E679002DE32D /* JustInTimeViewControllerLocalizationSpec.swift in Sources */,
 				1BD21FDD2004D1720076D06B /* RESTClientMock.swift in Sources */,
-				4304F55620F3A40E00E6CAD1 /* HelpTextViewControllerLocalizationSpec.swift in Sources */,
 				9C793D931F99F1FB00737ED3 /* ConsentWidgetsInterfaceTests.swift in Sources */,
 				78BC7026207E13A1000CA127 /* JustInTimeViewControllerTests.swift in Sources */,
 				9C793D9A1F9A0A5F00737ED3 /* ConsentWidgetsDependencies.swift in Sources */,
 				9C793DA41F9A13BE00737ED3 /* ConsentWidgetsInterfaceInput.swift in Sources */,
-				4304F52E20F34CDB00E6CAD1 /* ConsentWidgetsViewControllerLocalizationSpec.swift in Sources */,
 				3898781A1FDFF8FD00B61ABB /* ConsentViewDataModelTests.swift in Sources */,
 				1B1D25191FEC6657001FAD70 /* ConsentsLoaderInteractorTests.swift in Sources */,
 				38BF60352018EF8C00348E20 /* ConsentWidgetVCHelperTest.swift in Sources */,
-				068732172109CFE40046B778 /* LocalizationTester.swift in Sources */,
 				78BC7029207E13CF000CA127 /* TaggingHelperTests.swift in Sources */,
 				9C793D991F9A01D200737ED3 /* ConsentWidgetsFakeSelectorClass.swift in Sources */,
+				5DDB214A2473E670002DE32D /* LabelTester.swift in Sources */,
 				38D736592029785800697751 /* JustInTimeConsentConfigurationDelegate.swift in Sources */,
 				4304F53120F352FC00E6CAD1 /* ConsentPresenterMock.swift in Sources */,
+				5DDB21492473E66D002DE32D /* LocalizationTester.swift in Sources */,
 				38D736572029671500697751 /* JustInTimeInterfaceTests.swift in Sources */,
+				5DDB214C2473E676002DE32D /* HelpTextViewControllerLocalizationSpec.swift in Sources */,
 				068732142109CFE40046B778 /* UILabel+Helper.swift in Sources */,
 				068732152109CFE40046B778 /* LanguageStrings.swift in Sources */,
 				068732132109CFE40046B778 /* UIView+Helper.swift in Sources */,
-				068732162109CFE40046B778 /* StringTester.swift in Sources */,
 				1B3B50291FB25D54009158F5 /* ConsentPresenterTests.swift in Sources */,
 				78BC7022207E138E000CA127 /* ConsentManagerMock.swift in Sources */,
+				5DDB21482473E66B002DE32D /* StringTester.swift in Sources */,
+				5DDB214B2473E673002DE32D /* ConsentWidgetsViewControllerLocalizationSpec.swift in Sources */,
 				1BE041D91FE525EE0018B7A8 /* MockAppConfig.swift in Sources */,
 				0686C0F62056AEAB00846910 /* UIDAlertControllerMock.swift in Sources */,
 				78BC7024207E1398000CA127 /* MockAppTagging.swift in Sources */,
 				065E7FD3208F7CF7002A0A0D /* ConsentWidgetFlowMock.swift in Sources */,
-				068732182109CFE40046B778 /* LabelTester.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1047,11 +1066,11 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ConsentsWidgetAppDummy/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = philips.ConsentsWidgetAppDummy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -1065,11 +1084,11 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ConsentsWidgetAppDummy/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = philips.ConsentsWidgetAppDummy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -1126,12 +1145,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1184,10 +1204,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1217,7 +1238,7 @@
 				);
 				INFOPLIST_FILE = ConsentWidgets/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PODS_BUILD_DIR = "${BUILD_DIR}";
 				PODS_CONFIGURATION_BUILD_DIR = "${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
@@ -1227,7 +1248,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -1254,7 +1275,7 @@
 				);
 				INFOPLIST_FILE = ConsentWidgets/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PODS_BUILD_DIR = "${BUILD_DIR}";
 				PODS_CONFIGURATION_BUILD_DIR = "${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
@@ -1264,7 +1285,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -1275,8 +1296,8 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = C9C645VSQP;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/PlatformInterfaces\"",
@@ -1290,6 +1311,7 @@
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/KIF\"",
 				);
 				INFOPLIST_FILE = ConsentWidgetsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PODS_BUILD_DIR = "${BUILD_DIR}";
 				PODS_CONFIGURATION_BUILD_DIR = "${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
@@ -1297,9 +1319,11 @@
 				PODS_ROOT = "${SRCROOT}/Pods";
 				PRODUCT_BUNDLE_IDENTIFIER = philips.ConsentWidgetsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "ConsentWidgetsTests/Helper/ConsentWidgetsTests-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ConsentsWidgetAppDummy.app/ConsentsWidgetAppDummy";
 			};
@@ -1311,8 +1335,8 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = C9C645VSQP;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/PlatformInterfaces\"",
@@ -1326,6 +1350,7 @@
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/KIF\"",
 				);
 				INFOPLIST_FILE = ConsentWidgetsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PODS_BUILD_DIR = "${BUILD_DIR}";
 				PODS_CONFIGURATION_BUILD_DIR = "${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
@@ -1333,8 +1358,10 @@
 				PODS_ROOT = "${SRCROOT}/Pods";
 				PRODUCT_BUNDLE_IDENTIFIER = philips.ConsentWidgetsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "ConsentWidgetsTests/Helper/ConsentWidgetsTests-Bridging-Header.h";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ConsentsWidgetAppDummy.app/ConsentsWidgetAppDummy";
 			};

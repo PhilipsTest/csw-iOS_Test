@@ -11,17 +11,17 @@ class ViewLoader {
             fail("Window not loaded.")
             return
         }
-
+        
         window.rootViewController = controller
         _ = controller.view
-
+        
         let test = XCTestCase()
         let expectation = test.expectation(description: "View has appeared")
-
+        
         DispatchQueue.main.async {
             expectation.fulfill()
         }
-
+        
         test.wait(for:[expectation], timeout:0.3)
     }
 }

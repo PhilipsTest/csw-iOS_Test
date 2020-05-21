@@ -41,7 +41,7 @@ public class ConsentWidgetsViewController: BaseViewController, ConsentsViewProto
         self.consentPresenter.attachView(consentsView: self)
         self.consentPresenter.loadAllConsentStatus()
         self.concentWidgetsTableView?.estimatedRowHeight = 100
-        self.concentWidgetsTableView?.rowHeight = UITableViewAutomaticDimension
+        self.concentWidgetsTableView?.rowHeight = UITableView.automaticDimension
     }
     
     public override func viewWillAppear(_ animated: Bool) {
@@ -98,7 +98,7 @@ public class ConsentWidgetsViewController: BaseViewController, ConsentsViewProto
             return cell
             
         }
-        let cell:ConsentWidgetsTableViewCell = concentWidgetsTableView?.dequeueReusableCell(withIdentifier: "ConsentWidgetsPrivacyCell") as! ConsentWidgetsTableViewCell!
+        let cell:ConsentWidgetsTableViewCell = concentWidgetsTableView?.dequeueReusableCell(withIdentifier: "ConsentWidgetsPrivacyCell") as! ConsentWidgetsTableViewCell
         self.configurePrivacyNoticeCell(inCell: cell)
         cell.contentView.backgroundColor = UIDThemeManager.sharedInstance.defaultTheme?.contentPrimary
         return cell
