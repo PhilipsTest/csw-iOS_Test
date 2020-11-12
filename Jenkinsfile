@@ -9,7 +9,7 @@ pipeline {
 
     agent {
         node {
-            label 'xcode && 11.0'
+            label 'xcode && 12.0'
         }
     }
 
