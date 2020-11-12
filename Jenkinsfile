@@ -211,6 +211,7 @@ def runTestsWith(Boolean isWorkspace, String testSchemeName, String frameworkNam
 
     def testScript = """
         #!/bin/bash -l
+        export PATH=/.rbenv/shims:/usr/local/bin/xcpretty/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
 
         killall Simulator || true
         xcrun simctl erase all || true
