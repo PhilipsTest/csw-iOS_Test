@@ -67,7 +67,7 @@ jobs:
         env:
           testSchemeName: ${{ 'ConsentWidgetsDev' }}
           frameworkName: ${{ 'CSW Test Report' }}
-          resultBundlePath: ${{ 'results'/$testSchemeName }}
+          resultBundlePath: ${{ 'results/$testSchemeName' }}
         run: |
              export PATH=/.rbenv/shims:/usr/local/bin/xcpretty/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
 
