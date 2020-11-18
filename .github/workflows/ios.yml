@@ -19,7 +19,7 @@ jobs:
           fetch-depth: 0
           clean: true
           submodules: true
-          lfs: true
+          lfs: false
       
       - name: Initialize
         run: |
