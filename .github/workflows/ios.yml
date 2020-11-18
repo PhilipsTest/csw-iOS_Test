@@ -22,6 +22,7 @@ jobs:
           lfs: false
       
       - name: Initialize
+        shell: bash
         run: |
              pwd
              rm -rf Source/results/*
