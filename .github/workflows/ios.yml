@@ -42,7 +42,7 @@ jobs:
       #  id: extract_branch
       
       - name: Zip Components
-        #if: startsWith(github.ref, 'refs/heads/develop') || startsWith(github.ref, 'refs/heads/release/platform_')
+        if: startsWith(github.ref, 'refs/heads/develop') || startsWith(github.ref, 'refs/heads/release/platform_')
         shell: bash
         run: |
              PODSPEC_PATH="ci-build-support/Versions.rb"
