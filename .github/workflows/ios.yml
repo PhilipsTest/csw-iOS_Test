@@ -114,11 +114,11 @@ jobs:
           podspecPath: ${{ './ConsentWidgets.podspec' }}
           podfileLockPath: ${{ './Source/Library/Podfile.lock' }}
         run: |
+             chmod -R 755 .
              artifactoryBasePath=$(./ci-build-support/getArtifactoryBasePath.sh)
              versionNumber=$(ci-build-support/getCDP2PlatformVersionNumber.sh)
              
-             cat $artifactoryBasePath
-             cat $versionNumber
+             echo $artifactoryBasePath
              echo $versionNumber
              
              set -e
