@@ -114,6 +114,8 @@ jobs:
           podspecPath: ${{ './ConsentWidgets.podspec' }}
           podfileLockPath: ${{ './Source/Library/Podfile.lock' }}
         run: |
+             VERSIONS_FILE_PATH="ci-build-support/Versions.rb"
+             cat $VERSIONS_FILE_PATH
              artifactoryBasePath="ci-build-support/getArtifactoryBasePath.sh"
              versionNumber="ci-build-support/getCDP2PlatformVersionNumber.sh"
              set -e
