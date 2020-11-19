@@ -91,7 +91,7 @@ jobs:
         if: startsWith(github.ref, 'refs/heads/develop') || startsWith(github.ref, 'refs/heads/release/platform_')
         shell: bash
         run: |
-             ./publish_zips.sh
+             ./ci-build-support/publish_zips.sh
              
       - name: Publish Podspecs
         if: startsWith(github.ref, 'refs/heads/develop') || startsWith(github.ref, 'refs/heads/release/platform_')
