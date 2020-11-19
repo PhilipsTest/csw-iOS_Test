@@ -121,6 +121,7 @@ jobs:
           podfileLockPath: ${{ './Source/Library/Podfile.lock' }}
         run: |
              echo "${{ github.ref }}"
+             echo "${GITHUB_REF#refs/heads/}"
              chmod 755 ./ci-build-support/substitute_version.groovy
              ci-build-support/substitute_version.groovy ${podspecPath}
              ci-build-support/podspec_push.sh ${podspecPath} ${{ github.ref }}
