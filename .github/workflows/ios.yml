@@ -87,12 +87,12 @@ jobs:
                      -resultBundlePath ${resultBundlePath} \
                      | xcpretty --report junit --report html
       
-      - name: Publish Zips
-        if: startsWith(github.ref, 'refs/heads/develop') || startsWith(github.ref, 'refs/heads/release/platform_')
-        shell: bash
-        run: |
-             chmod -R 755 .
-             ./ci-build-support/publish_zips.sh
+      #- name: Publish Zips
+       # if: startsWith(github.ref, 'refs/heads/develop') || startsWith(github.ref, 'refs/heads/release/platform_')
+        #shell: bash
+        #run: |
+         #    chmod -R 755 .
+          #   ./ci-build-support/publish_zips.sh
              
       - name: Publish Podspecs
         if: startsWith(github.ref, 'refs/heads/develop') || startsWith(github.ref, 'refs/heads/release/platform_')
@@ -107,3 +107,22 @@ jobs:
              chmod 755 ./ci-build-support/substitute_version.groovy
              ci-build-support/substitute_version.groovy ${podspecPath}
              ci-build-support/podspec_push.sh ${podspecPath} ${GITHUB_REF#refs/heads/}
+      
+      - name: Publish API Docs
+        if: startsWith(github.ref, 'refs/heads/develop') || startsWith(github.ref, 'refs/heads/release/platform_')  
+        env:
+          podspecPath: ${{ './ConsentWidgets.podspec' }}
+          podfileLockPath: ${{ './Source/Library/Podfile.lock' }}
+        run: |
+             artifactoryBasePath="ci-build-support/getArtifactoryBasePath.sh"
+             versionNumber="ci-build-support/getCDP2PlatformVersionNumber.sh"
+             set -e
+             if [ -z "$artifactoryBasePath" ]
+             then
+                 echo "Not published as build is not on a develop or release branch" . ${GITHUB_REF#refs/heads/}
+                 exit 0
+             fi
+             
+             API_DOC_ZIP="API_DOCS_$versionNumber.zip"
+             zip -r $API_DOC_ZIP API_DOCS
+             curl -L -u 320049003:AP4ZB7JSmiC4pZmeKfKTGLsFvV9 -X PUT "$artifactoryBasePath"/API_DOCS/ -T $API_DOC_ZIP
