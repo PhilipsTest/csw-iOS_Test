@@ -53,8 +53,8 @@ jobs:
 
              export ZIPFOLDER="Zips"
              cd Source
-             mkdir -p "${ZIPFOLDER}"
-             mkdir -p "${ZIPFOLDER}/Source"
+             mkdir -p ${ZIPFOLDER}
+             mkdir -p ${ZIPFOLDER}/Source
              echo "Zipping started"
 
              for i in */; do
@@ -63,7 +63,7 @@ jobs:
                      echo "Creating zip for Component ${i} in path ${ZIPPATH}"
                      cp -R "${i}" "${ZIPFOLDER}/Source/${i}"
                      cd ${ZIPFOLDER}
-                     zip -r ../${ZIPPATH} Source/${i}
+                     zip -r "../${ZIPPATH}" "Source/${i}"
                      rm -rf Source/*
                      cd -
                  fi
