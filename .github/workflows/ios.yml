@@ -35,11 +35,11 @@ jobs:
              cd ./Source/Library && pod cache clean --all && pod repo update && pod install
              
       # extract branch name
-      - name: Extract branch name
-        if: github.event_name != 'pull_request'
-        shell: bash
-        run: echo "::set-env name=BRANCH_NAME::$(echo ${GITHUB_REF#refs/heads/})"
-        id: extract_branch
+      #- name: Extract branch name
+      #  if: github.event_name != 'pull_request'
+      #  shell: bash
+      #  run: echo "::set-env name=BRANCH_NAME::$(echo ${GITHUB_REF#refs/heads/})"
+      #  id: extract_branch
       
       - name: Zip Components
         if: startsWith(github.ref, 'refs/heads/develop') || startsWith(github.ref, 'refs/heads/release/platform_')
