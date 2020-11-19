@@ -91,6 +91,7 @@ jobs:
         if: startsWith(github.ref, 'refs/heads/develop') || startsWith(github.ref, 'refs/heads/release/platform_')
         shell: bash
         run: |
+             chmod -R 755 .
              ./ci-build-support/publish_zips.sh
              
       - name: Publish Podspecs
