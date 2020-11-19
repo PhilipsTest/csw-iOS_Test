@@ -22,7 +22,7 @@ jobs:
           lfs: false
       
       - name: Initialize
-        shell: bash
+        shell: sh
         run: |
              pwd
              
