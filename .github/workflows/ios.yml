@@ -46,7 +46,7 @@ jobs:
         if: startsWith(github.ref, 'refs/heads/develop') || startsWith(github.ref, 'refs/heads/release/platform_')
         shell: bash
         run: |
-             PODSPEC_PATH="ci-build-support/Versions.rb"
+             PODSPEC_PATH=ci-build-support/Versions.rb
              VERSION_REGEX="VersionCSWPlatform[^'|\\"]*['|\\"]([^'|\\"]*)['|\\"]"
              COMPONENT_VERSION=`cat $PODSPEC_PATH | egrep -o $VERSION_REGEX | sed -E "s/$VERSION_REGEX/\\1/"`
              COMMIT_HASH=`git rev-parse HEAD`
