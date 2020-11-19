@@ -42,7 +42,7 @@ jobs:
       #  id: extract_branch
       
       - name: Zip Components
-        if: startsWith(github.ref, 'refs/heads/develop') || startsWith(github.ref, 'refs/heads/release/platform_')
+        #if: startsWith(github.ref, 'refs/heads/develop') || startsWith(github.ref, 'refs/heads/release/platform_')
         shell: bash
         run: |
              PODSPEC_PATH="ci-build-support/Versions.rb"
@@ -80,7 +80,7 @@ jobs:
              killall Simulator || true
              xcrun simctl erase all || true
 
-             cd ${"Source/Library"}
+             cd Source/Library
              
              export LC_CTYPE=en_US.UTF-8
 
