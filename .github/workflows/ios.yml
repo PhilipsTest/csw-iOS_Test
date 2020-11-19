@@ -122,4 +122,4 @@ jobs:
         run: |
              chmod 755 ./ci-build-support/substitute_version.groovy
              ci-build-support/substitute_version.groovy ${podspecPath}
-             ci-build-support/podspec_push.sh ${podspecPath} $BRANCH_NAME
+             ci-build-support/podspec_push.sh ${podspecPath} ${{ github.ref }}
