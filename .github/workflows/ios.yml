@@ -59,11 +59,11 @@ jobs:
 
              for i in */; do
                  if [ "$i" == "Library/" ] ; then
-                     export ZIPPATH=${ZIPFOLDER}/${i%/}_${COMMIT_HASH}.zip
+                     export ZIPPATH="${ZIPFOLDER}/${i%/}_${COMMIT_HASH}.zip"
                      echo "Creating zip for Component ${i} in path ${ZIPPATH}"
                      cp -R "${i}" "${ZIPFOLDER}/Source/${i}"
                      cd ${ZIPFOLDER}
-                     zip -r "../${ZIPPATH}" "Source/${i}"
+                     zip -r ../${ZIPPATH} Source/${i}
                      rm -rf Source/*
                      cd -
                  fi
