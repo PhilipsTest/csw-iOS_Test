@@ -3,7 +3,8 @@ name: iOS starter workflow
 on:
   workflow_dispatch:
   push:
-    branches: [ feature/GitHub_Actions ]
+    branches:
+      - '**'
   pull_request:
     branches: [ feature/GitHub_Actions ]
 
