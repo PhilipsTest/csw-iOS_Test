@@ -3,7 +3,8 @@ name: iOS starter workflow
 on:
   workflow_dispatch:
   push:
-    branches: [ feature/GitHub_Actions ]
+    branches:
+      - '**'
   pull_request:
     branches: [ feature/GitHub_Actions ]
 
@@ -21,18 +22,18 @@ jobs:
           submodules: true
           lfs: false
       
-      - name: Initialize
-        shell: sh
-        run: |
-             pwd
-             rm -rf Source/results/*
-             rm -rf Source/build/*.ipa
-             rm -rf ~/Library/Developer/Xcode/DerivedData
-             rm -rf Source/DerivedData
-             ./ci-build-support/update_version.sh
-             rm -rf ./Source/Library/Podfile.lock
-             echo "Running pod install for ${podfilePath}"
-             cd ./Source/Library && pod cache clean --all && pod repo update && pod install
+      #- name: Initialize
+       # shell: sh
+        #run: |
+         #    pwd
+          #   rm -rf Source/results/*
+           #  rm -rf Source/build/*.ipa
+            # rm -rf ~/Library/Developer/Xcode/DerivedData
+             #rm -rf Source/DerivedData
+             #./ci-build-support/update_version.sh
+             #rm -rf ./Source/Library/Podfile.lock
+             #echo "Running pod install for ${podfilePath}"
+             #cd ./Source/Library && pod cache clean --all && pod repo update && pod install
              
       # extract branch name
       #- name: Extract branch name
@@ -46,16 +47,13 @@ jobs:
         shell: bash
         run: |
              PODSPEC_PATH="ci-build-support/Versions.rb"
-             VERSION_REGEX="VersionCSWPlatform[^'|\\"]*['|\\"]([^'|\\"]*)['|\\"]"
-             COMPONENT_VERSION=`cat $PODSPEC_PATH | egrep -o $VERSION_REGEX | sed -E "s/$VERSION_REGEX/\\1/"`
              COMMIT_HASH=`git rev-parse HEAD`
-
+             
              export ZIPFOLDER="Zips"
              cd Source
              mkdir -p "${ZIPFOLDER}"
              mkdir -p "${ZIPFOLDER}/Source"
              echo "Zipping started"
-
              for i in */; do
                  if [ "$i" == "Library/" ] ; then
                      export ZIPPATH="${ZIPFOLDER}/${i%/}_${COMMIT_HASH}.zip"
@@ -76,14 +74,11 @@ jobs:
           resultBundlePath: ${{ 'results/$testSchemeName' }}
         run: |
              export PATH=/.rbenv/shims:/usr/local/bin/xcpretty/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
-
              killall Simulator || true
              xcrun simctl erase all || true
-
              cd Source/Library
              
              export LC_CTYPE=en_US.UTF-8
-
              xcodebuild clean test \
                      -workspace "ConsentWidgets.xcworkspace" \
                      -scheme ${testSchemeName} CLANG_WARN_DOCUMENTATION_COMMENTS='NO'\
@@ -94,14 +89,12 @@ jobs:
       
       - name: Publish Zips
         if: startsWith(github.ref, 'refs/heads/develop') || startsWith(github.ref, 'refs/heads/release/platform_')
+        #VERSION_REGEX="VersionCSWPlatform[^'|\\"]*['|\\"]([^'|\\"]*)['|\\"]"
+        #COMPONENT_VERSION=`cat $PODSPEC_PATH | egrep -o $VERSION_REGEX | sed -E "s/$VERSION_REGEX/\\1/"`
         shell: bash
         run: |
              PODSPEC_PATH="ci-build-support/Versions.rb"
-             VERSION_REGEX="VersionCSWPlatform[^'|\\"]*['|\\"]([^'|\\"]*)['|\\"]"
-             COMPONENT_VERSION=`cat $PODSPEC_PATH | egrep -o $VERSION_REGEX | sed -E "s/$VERSION_REGEX/\\1/"`
-
              ARTIFACTORY_REPO="iet-mobile-ios-release-local"
-
              export ZIPFOLDER="Zips"
              export ARTIFACTORY_URL="https://artifactory-ehv.ta.philips.com/artifactory/${ARTIFACTORY_REPO}/com/philips/platform/Zip_Sources"
              cd Source
@@ -127,7 +120,8 @@ jobs:
           podspecPath: ${{ './ConsentWidgets.podspec' }}
           podfileLockPath: ${{ './Source/Library/Podfile.lock' }}
         run: |
+             echo "${{ github.ref }}"
+             echo "${GITHUB_REF#refs/heads/}"
              chmod 755 ./ci-build-support/substitute_version.groovy
              ci-build-support/substitute_version.groovy ${podspecPath}
-             ci-build-support/podspec_push.sh ${podspecPath} $BRANCH_NAME
-             
+             ci-build-support/podspec_push.sh ${podspecPath} ${GITHUB_REF#refs/heads/}
