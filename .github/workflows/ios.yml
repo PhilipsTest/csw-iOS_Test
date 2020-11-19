@@ -89,11 +89,11 @@ jobs:
       
       - name: Publish Zips
         if: startsWith(github.ref, 'refs/heads/develop') || startsWith(github.ref, 'refs/heads/release/platform_')
+        #VERSION_REGEX="VersionCSWPlatform[^'|\\"]*['|\\"]([^'|\\"]*)['|\\"]"
+        #COMPONENT_VERSION=`cat $PODSPEC_PATH | egrep -o $VERSION_REGEX | sed -E "s/$VERSION_REGEX/\\1/"`
         shell: bash
         run: |
              PODSPEC_PATH="ci-build-support/Versions.rb"
-             VERSION_REGEX="VersionCSWPlatform[^'|\\"]*['|\\"]([^'|\\"]*)['|\\"]"
-             COMPONENT_VERSION=`cat $PODSPEC_PATH | egrep -o $VERSION_REGEX | sed -E "s/$VERSION_REGEX/\\1/"`
              ARTIFACTORY_REPO="iet-mobile-ios-release-local"
              export ZIPFOLDER="Zips"
              export ARTIFACTORY_URL="https://artifactory-ehv.ta.philips.com/artifactory/${ARTIFACTORY_REPO}/com/philips/platform/Zip_Sources"
