@@ -8,6 +8,6 @@ then
     exit 1
 fi
 
-VERSION_REGEX="VersionCSWPlatform[^'|\\"]*['|\\"]([^'|\\"]*)['|\\"]"
+VERSION_REGEX=`"VersionCSWPlatform[^'|\\"]*['|\\"]([^'|\\"]*)['|\\"]"`
 
 cat $VERSIONS_FILE_PATH | egrep -o $VERSION_REGEX | sed -E "s/$VERSION_REGEX/\\1/"
