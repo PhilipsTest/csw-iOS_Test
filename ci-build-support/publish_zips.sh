@@ -1,6 +1,6 @@
 #!/bin/bash -l
 PODSPEC_PATH="ci-build-support/Versions.rb"
-VERSION_REGEX=`"VersionCSWPlatform[^\'|\"]*[\'|\"]([^\'|\"]*)[\'|\"]"`
+VERSION_REGEX="VersionCSWPlatform[^\'|\"]*[\'|\"]([^\'|\"]*)[\'|\"]"
 COMPONENT_VERSION=`cat $PODSPEC_PATH | egrep -o $VERSION_REGEX | sed -E "s/$VERSION_REGEX/\\1/"`
 
 ARTIFACTORY_REPO="iet-mobile-ios-release-local"
