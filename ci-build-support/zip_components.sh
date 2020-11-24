@@ -1,6 +1,6 @@
 #!/bin/bash -xl
 PODSPEC_PATH="ci-build-support/Versions.rb"
-VERSION_REGEX="VersionCSWPlatform[^'|\\"]*['|\\"]([^'|\\"]*)['|\\"]"
+VERSION_REGEX="VersionCSWPlatform[^\'|\"]*[\'|\"]([^\'|\"]*)[\'|\"]"
 COMPONENT_VERSION=`cat $PODSPEC_PATH | egrep -o $VERSION_REGEX | sed -E "s/$VERSION_REGEX/\\1/"`
 COMMIT_HASH=`git rev-parse HEAD`
 
