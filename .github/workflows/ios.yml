@@ -23,7 +23,7 @@ jobs:
           lfs: false
       
       - name: Initialize
-        shell: sh
+        shell: bash
         run: |
              pwd
              rm -rf Source/results/*
@@ -46,28 +46,7 @@ jobs:
         if: startsWith(github.ref, 'refs/heads/develop') || startsWith(github.ref, 'refs/heads/release/platform_')
         shell: bash
         run: |
-             PODSPEC_PATH="ci-build-support/Versions.rb"
-             VERSION_REGEX="VersionCSWPlatform[^\'|\"]*[\'|\"]([^\'|\"]*)[\'|\"]"
-             COMPONENT_VERSION=`cat $PODSPEC_PATH | egrep -o $VERSION_REGEX | sed -E "s/$VERSION_REGEX/\\1/"`
-             COMMIT_HASH=`git rev-parse HEAD`
-             
-             export ZIPFOLDER="Zips"
-             cd Source
-             mkdir -p "${ZIPFOLDER}"
-             mkdir -p "${ZIPFOLDER}/Source"
-             echo "Zipping started"
-             for i in */; do
-                 if [ "$i" == "Library/" ] ; then
-                     export ZIPPATH="${ZIPFOLDER}/${i%/}_${COMMIT_HASH}.zip"
-                     echo "Creating zip for Component ${i} in path ${ZIPPATH}"
-                     cp -R "${i}" "${ZIPFOLDER}/Source/${i}"
-                     cd ${ZIPFOLDER}
-                     zip -r "../${ZIPPATH}" "Source/${i}"
-                     rm -rf Source/*
-                     cd -
-                 fi
-             done
-             echo "Zipping ended"
+             ./ci-build-support/zip_components.sh 
       
       - name: Run Unit Tests
         env:
@@ -112,9 +91,7 @@ jobs:
       
       - name: Publish API Docs
         if: startsWith(github.ref, 'refs/heads/develop') || startsWith(github.ref, 'refs/heads/release/platform_')  
-        env:
-          podspecPath: ${{ './ConsentWidgets.podspec' }}
-          podfileLockPath: ${{ './Source/Library/Podfile.lock' }}
+        shell: bash
         run: |
              chmod -R 755 .
              artifactoryBasePath=$(./ci-build-support/getArtifactoryBasePath.sh)
