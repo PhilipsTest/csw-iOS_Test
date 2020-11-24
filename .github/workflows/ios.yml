@@ -131,5 +131,5 @@ jobs:
              fi
              
              API_DOC_ZIP="API_DOCS_${versionNumber}.zip"
-             zip -r "$API_DOC_ZIP" "API_DOCS"
+             zip -r $API_DOC_ZIP API_DOCS
              curl -L -u 320049003:AP4ZB7JSmiC4pZmeKfKTGLsFvV9 -X PUT "$artifactoryBasePath"/API_DOCS/ -T $API_DOC_ZIP
