@@ -1,5 +1,5 @@
 source 'https://github.com/CocoaPods/Specs.git'
-source 'https://a11b42ca4f5b48a4039542439b6d0fa800416189@github.com/PhilipsTest/mobile-dls-cocoapod-specs.git'
+source 'https://ec045b3cca645ae2e380fb3164569c9bd64b139a@github.com/PhilipsTest/mobile-dls-cocoapod-specs.git'
 source 'ssh://tfsemea1.ta.philips.com:22/tfs/TPC_Region02/Innersource/_git/mobile-ios-podspecs-release'
 
 
